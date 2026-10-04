@@ -29,7 +29,7 @@ This is a screening recommendation for a hypothetical supplier. Permits measure 
 - [Methodology](docs/methodology.md): observation levels, formulas, source handling, and limitations.
 - [Validation report](docs/validation.md): completed checks and source comparisons.
 - [SQL queries](sql/): readable calculations used by the analysis pipeline.
-- [Project notes](docs/project-notes.md): development decisions and assistance disclosure.
+- [Project notes](docs/project-notes.md): workflow and development decisions.
 
 ## Data
 
@@ -65,7 +65,7 @@ The preparation step rebuilds the cleaned CSVs from preserved source files. The 
 
 Permit valuations are nominal dollar amounts. Estimated totals already include reported values and Census imputation. Census changed its permit-office coverage approach in 2023, so the 2022–2023 comparison needs that qualification. The project does not estimate supplier sales or forecast future construction. [Full limitations and source links](docs/methodology.md#interpretation-limits).
 
-## Project ownership and assistance
+## Project owner
 
-Project owner: **Ethan Hall**. This is an independent portfolio case study with a hypothetical business scenario. AI assistance was used for source preparation, analysis implementation, validation, workbook formatting, charts, and documentation. Initial Excel validation work was completed with guided assistance. The repository includes the code, sources, and checks for inspection and reproduction.
+**Ethan Hall**. Developed with AI assistance.
 
