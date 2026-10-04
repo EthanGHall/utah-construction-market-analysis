@@ -1,0 +1,16 @@
+check,status,detail,comparisons
+Preserved sources match download checksums,PASS,All 21 downloaded raw and documentation files checked against the original manifest,21
+Original preparation checks pass,PASS,19/19 original checks; details in data/validation_results.csv,19
+Complete county-year panel,PASS,29-county lookup roster matches the 2025 raw source; all six years contain exactly that roster,174
+Complete county-year-structure panel,PASS,174 county-year keys x 4 types,696
+All county structure source measures match,PASS,174 raw county rows x 4 structure categories x 6 measures; all values exact,4176
+All derived county annual measures match,PASS,174 rows x 13 measures independently recomputed from raw lines,2262
+All state control measures match,PASS,24 state-category rows x 8 measures including USD conversions,192
+Row-level provenance matches raw physical lines,PASS,"County names, codes and source references, plus state source references",5268
+Independent raw county-to-state reconciliation,PASS,Counts exact; nominal dollars within $500 per rounded state category,144
+SQL measures and ranks match independent Python,PASS,"All annual, county, statewide and sensitivity numeric results; relative/absolute tolerance 1e-12",4347
+Zero growth baseline yields NULL percentage,PASS,Actual SQL fixture: zero to twelve units retains +12 and returns NULL percent,1
+Database rejects duplicate county-year input,PASS,Actual primary-key constraint tested using a disposable in-memory database,1
+Annual market shares reconcile,PASS,County unit shares sum to 100% in each year,6
+2020 kept outside analysis averages,PASS,145 analysis records plus 29 baseline records; averages independently verified,174
+Source files unchanged after full rebuild,PASS,Before/after SHA-256 comparison of every preserved source,21

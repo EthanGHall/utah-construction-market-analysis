@@ -1,0 +1,175 @@
+year,county_fips5,county_name,source_file,source_line,structure_measure_comparisons,annual_measure_comparisons,status
+2020,49001,Beaver County,raw/county/co2020a.txt,2675,24,13,PASS
+2020,49003,Box Elder County,raw/county/co2020a.txt,2676,24,13,PASS
+2020,49005,Cache County,raw/county/co2020a.txt,2677,24,13,PASS
+2020,49007,Carbon County,raw/county/co2020a.txt,2678,24,13,PASS
+2020,49009,Daggett County,raw/county/co2020a.txt,2679,24,13,PASS
+2020,49011,Davis County,raw/county/co2020a.txt,2680,24,13,PASS
+2020,49013,Duchesne County,raw/county/co2020a.txt,2681,24,13,PASS
+2020,49015,Emery County,raw/county/co2020a.txt,2682,24,13,PASS
+2020,49017,Garfield County,raw/county/co2020a.txt,2683,24,13,PASS
+2020,49019,Grand County,raw/county/co2020a.txt,2684,24,13,PASS
+2020,49021,Iron County,raw/county/co2020a.txt,2685,24,13,PASS
+2020,49023,Juab County,raw/county/co2020a.txt,2686,24,13,PASS
+2020,49025,Kane County,raw/county/co2020a.txt,2687,24,13,PASS
+2020,49027,Millard County,raw/county/co2020a.txt,2688,24,13,PASS
+2020,49029,Morgan County,raw/county/co2020a.txt,2689,24,13,PASS
+2020,49031,Piute County,raw/county/co2020a.txt,2690,24,13,PASS
+2020,49033,Rich County,raw/county/co2020a.txt,2691,24,13,PASS
+2020,49035,Salt Lake County,raw/county/co2020a.txt,2692,24,13,PASS
+2020,49037,San Juan County,raw/county/co2020a.txt,2693,24,13,PASS
+2020,49039,Sanpete County,raw/county/co2020a.txt,2694,24,13,PASS
+2020,49041,Sevier County,raw/county/co2020a.txt,2695,24,13,PASS
+2020,49043,Summit County,raw/county/co2020a.txt,2696,24,13,PASS
+2020,49045,Tooele County,raw/county/co2020a.txt,2697,24,13,PASS
+2020,49047,Uintah County,raw/county/co2020a.txt,2698,24,13,PASS
+2020,49049,Utah County,raw/county/co2020a.txt,2699,24,13,PASS
+2020,49051,Wasatch County,raw/county/co2020a.txt,2700,24,13,PASS
+2020,49053,Washington County,raw/county/co2020a.txt,2701,24,13,PASS
+2020,49055,Wayne County,raw/county/co2020a.txt,2702,24,13,PASS
+2020,49057,Weber County,raw/county/co2020a.txt,2703,24,13,PASS
+2021,49001,Beaver County,raw/county/co2021a.txt,2675,24,13,PASS
+2021,49003,Box Elder County,raw/county/co2021a.txt,2676,24,13,PASS
+2021,49005,Cache County,raw/county/co2021a.txt,2677,24,13,PASS
+2021,49007,Carbon County,raw/county/co2021a.txt,2678,24,13,PASS
+2021,49009,Daggett County,raw/county/co2021a.txt,2679,24,13,PASS
+2021,49011,Davis County,raw/county/co2021a.txt,2680,24,13,PASS
+2021,49013,Duchesne County,raw/county/co2021a.txt,2681,24,13,PASS
+2021,49015,Emery County,raw/county/co2021a.txt,2682,24,13,PASS
+2021,49017,Garfield County,raw/county/co2021a.txt,2683,24,13,PASS
+2021,49019,Grand County,raw/county/co2021a.txt,2684,24,13,PASS
+2021,49021,Iron County,raw/county/co2021a.txt,2685,24,13,PASS
+2021,49023,Juab County,raw/county/co2021a.txt,2686,24,13,PASS
+2021,49025,Kane County,raw/county/co2021a.txt,2687,24,13,PASS
+2021,49027,Millard County,raw/county/co2021a.txt,2688,24,13,PASS
+2021,49029,Morgan County,raw/county/co2021a.txt,2689,24,13,PASS
+2021,49031,Piute County,raw/county/co2021a.txt,2690,24,13,PASS
+2021,49033,Rich County,raw/county/co2021a.txt,2691,24,13,PASS
+2021,49035,Salt Lake County,raw/county/co2021a.txt,2692,24,13,PASS
+2021,49037,San Juan County,raw/county/co2021a.txt,2693,24,13,PASS
+2021,49039,Sanpete County,raw/county/co2021a.txt,2694,24,13,PASS
+2021,49041,Sevier County,raw/county/co2021a.txt,2695,24,13,PASS
+2021,49043,Summit County,raw/county/co2021a.txt,2696,24,13,PASS
+2021,49045,Tooele County,raw/county/co2021a.txt,2697,24,13,PASS
+2021,49047,Uintah County,raw/county/co2021a.txt,2698,24,13,PASS
+2021,49049,Utah County,raw/county/co2021a.txt,2699,24,13,PASS
+2021,49051,Wasatch County,raw/county/co2021a.txt,2700,24,13,PASS
+2021,49053,Washington County,raw/county/co2021a.txt,2701,24,13,PASS
+2021,49055,Wayne County,raw/county/co2021a.txt,2702,24,13,PASS
+2021,49057,Weber County,raw/county/co2021a.txt,2703,24,13,PASS
+2022,49001,Beaver County,raw/county/co2022a.txt,2674,24,13,PASS
+2022,49003,Box Elder County,raw/county/co2022a.txt,2675,24,13,PASS
+2022,49005,Cache County,raw/county/co2022a.txt,2676,24,13,PASS
+2022,49007,Carbon County,raw/county/co2022a.txt,2677,24,13,PASS
+2022,49009,Daggett County,raw/county/co2022a.txt,2678,24,13,PASS
+2022,49011,Davis County,raw/county/co2022a.txt,2679,24,13,PASS
+2022,49013,Duchesne County,raw/county/co2022a.txt,2680,24,13,PASS
+2022,49015,Emery County,raw/county/co2022a.txt,2681,24,13,PASS
+2022,49017,Garfield County,raw/county/co2022a.txt,2682,24,13,PASS
+2022,49019,Grand County,raw/county/co2022a.txt,2683,24,13,PASS
+2022,49021,Iron County,raw/county/co2022a.txt,2684,24,13,PASS
+2022,49023,Juab County,raw/county/co2022a.txt,2685,24,13,PASS
+2022,49025,Kane County,raw/county/co2022a.txt,2686,24,13,PASS
+2022,49027,Millard County,raw/county/co2022a.txt,2687,24,13,PASS
+2022,49029,Morgan County,raw/county/co2022a.txt,2688,24,13,PASS
+2022,49031,Piute County,raw/county/co2022a.txt,2689,24,13,PASS
+2022,49033,Rich County,raw/county/co2022a.txt,2690,24,13,PASS
+2022,49035,Salt Lake County,raw/county/co2022a.txt,2691,24,13,PASS
+2022,49037,San Juan County,raw/county/co2022a.txt,2692,24,13,PASS
+2022,49039,Sanpete County,raw/county/co2022a.txt,2693,24,13,PASS
+2022,49041,Sevier County,raw/county/co2022a.txt,2694,24,13,PASS
+2022,49043,Summit County,raw/county/co2022a.txt,2695,24,13,PASS
+2022,49045,Tooele County,raw/county/co2022a.txt,2696,24,13,PASS
+2022,49047,Uintah County,raw/county/co2022a.txt,2697,24,13,PASS
+2022,49049,Utah County,raw/county/co2022a.txt,2698,24,13,PASS
+2022,49051,Wasatch County,raw/county/co2022a.txt,2699,24,13,PASS
+2022,49053,Washington County,raw/county/co2022a.txt,2700,24,13,PASS
+2022,49055,Wayne County,raw/county/co2022a.txt,2701,24,13,PASS
+2022,49057,Weber County,raw/county/co2022a.txt,2702,24,13,PASS
+2023,49001,Beaver County,raw/county/co2023a.txt,2670,24,13,PASS
+2023,49003,Box Elder County,raw/county/co2023a.txt,2671,24,13,PASS
+2023,49005,Cache County,raw/county/co2023a.txt,2672,24,13,PASS
+2023,49007,Carbon County,raw/county/co2023a.txt,2673,24,13,PASS
+2023,49009,Daggett County,raw/county/co2023a.txt,2674,24,13,PASS
+2023,49011,Davis County,raw/county/co2023a.txt,2675,24,13,PASS
+2023,49013,Duchesne County,raw/county/co2023a.txt,2676,24,13,PASS
+2023,49015,Emery County,raw/county/co2023a.txt,2677,24,13,PASS
+2023,49017,Garfield County,raw/county/co2023a.txt,2678,24,13,PASS
+2023,49019,Grand County,raw/county/co2023a.txt,2679,24,13,PASS
+2023,49021,Iron County,raw/county/co2023a.txt,2680,24,13,PASS
+2023,49023,Juab County,raw/county/co2023a.txt,2681,24,13,PASS
+2023,49025,Kane County,raw/county/co2023a.txt,2682,24,13,PASS
+2023,49027,Millard County,raw/county/co2023a.txt,2683,24,13,PASS
+2023,49029,Morgan County,raw/county/co2023a.txt,2684,24,13,PASS
+2023,49031,Piute County,raw/county/co2023a.txt,2685,24,13,PASS
+2023,49033,Rich County,raw/county/co2023a.txt,2686,24,13,PASS
+2023,49035,Salt Lake County,raw/county/co2023a.txt,2687,24,13,PASS
+2023,49037,San Juan County,raw/county/co2023a.txt,2688,24,13,PASS
+2023,49039,Sanpete County,raw/county/co2023a.txt,2689,24,13,PASS
+2023,49041,Sevier County,raw/county/co2023a.txt,2690,24,13,PASS
+2023,49043,Summit County,raw/county/co2023a.txt,2691,24,13,PASS
+2023,49045,Tooele County,raw/county/co2023a.txt,2692,24,13,PASS
+2023,49047,Uintah County,raw/county/co2023a.txt,2693,24,13,PASS
+2023,49049,Utah County,raw/county/co2023a.txt,2694,24,13,PASS
+2023,49051,Wasatch County,raw/county/co2023a.txt,2695,24,13,PASS
+2023,49053,Washington County,raw/county/co2023a.txt,2696,24,13,PASS
+2023,49055,Wayne County,raw/county/co2023a.txt,2697,24,13,PASS
+2023,49057,Weber County,raw/county/co2023a.txt,2698,24,13,PASS
+2024,49001,Beaver County,raw/county/co2024a.txt,2669,24,13,PASS
+2024,49003,Box Elder County,raw/county/co2024a.txt,2670,24,13,PASS
+2024,49005,Cache County,raw/county/co2024a.txt,2671,24,13,PASS
+2024,49007,Carbon County,raw/county/co2024a.txt,2672,24,13,PASS
+2024,49009,Daggett County,raw/county/co2024a.txt,2673,24,13,PASS
+2024,49011,Davis County,raw/county/co2024a.txt,2674,24,13,PASS
+2024,49013,Duchesne County,raw/county/co2024a.txt,2675,24,13,PASS
+2024,49015,Emery County,raw/county/co2024a.txt,2676,24,13,PASS
+2024,49017,Garfield County,raw/county/co2024a.txt,2677,24,13,PASS
+2024,49019,Grand County,raw/county/co2024a.txt,2678,24,13,PASS
+2024,49021,Iron County,raw/county/co2024a.txt,2679,24,13,PASS
+2024,49023,Juab County,raw/county/co2024a.txt,2680,24,13,PASS
+2024,49025,Kane County,raw/county/co2024a.txt,2681,24,13,PASS
+2024,49027,Millard County,raw/county/co2024a.txt,2682,24,13,PASS
+2024,49029,Morgan County,raw/county/co2024a.txt,2683,24,13,PASS
+2024,49031,Piute County,raw/county/co2024a.txt,2684,24,13,PASS
+2024,49033,Rich County,raw/county/co2024a.txt,2685,24,13,PASS
+2024,49035,Salt Lake County,raw/county/co2024a.txt,2686,24,13,PASS
+2024,49037,San Juan County,raw/county/co2024a.txt,2687,24,13,PASS
+2024,49039,Sanpete County,raw/county/co2024a.txt,2688,24,13,PASS
+2024,49041,Sevier County,raw/county/co2024a.txt,2689,24,13,PASS
+2024,49043,Summit County,raw/county/co2024a.txt,2690,24,13,PASS
+2024,49045,Tooele County,raw/county/co2024a.txt,2691,24,13,PASS
+2024,49047,Uintah County,raw/county/co2024a.txt,2692,24,13,PASS
+2024,49049,Utah County,raw/county/co2024a.txt,2693,24,13,PASS
+2024,49051,Wasatch County,raw/county/co2024a.txt,2694,24,13,PASS
+2024,49053,Washington County,raw/county/co2024a.txt,2695,24,13,PASS
+2024,49055,Wayne County,raw/county/co2024a.txt,2696,24,13,PASS
+2024,49057,Weber County,raw/county/co2024a.txt,2697,24,13,PASS
+2025,49001,Beaver County,raw/county/co2025a.txt,2670,24,13,PASS
+2025,49003,Box Elder County,raw/county/co2025a.txt,2671,24,13,PASS
+2025,49005,Cache County,raw/county/co2025a.txt,2672,24,13,PASS
+2025,49007,Carbon County,raw/county/co2025a.txt,2673,24,13,PASS
+2025,49009,Daggett County,raw/county/co2025a.txt,2674,24,13,PASS
+2025,49011,Davis County,raw/county/co2025a.txt,2675,24,13,PASS
+2025,49013,Duchesne County,raw/county/co2025a.txt,2676,24,13,PASS
+2025,49015,Emery County,raw/county/co2025a.txt,2677,24,13,PASS
+2025,49017,Garfield County,raw/county/co2025a.txt,2678,24,13,PASS
+2025,49019,Grand County,raw/county/co2025a.txt,2679,24,13,PASS
+2025,49021,Iron County,raw/county/co2025a.txt,2680,24,13,PASS
+2025,49023,Juab County,raw/county/co2025a.txt,2681,24,13,PASS
+2025,49025,Kane County,raw/county/co2025a.txt,2682,24,13,PASS
+2025,49027,Millard County,raw/county/co2025a.txt,2683,24,13,PASS
+2025,49029,Morgan County,raw/county/co2025a.txt,2684,24,13,PASS
+2025,49031,Piute County,raw/county/co2025a.txt,2685,24,13,PASS
+2025,49033,Rich County,raw/county/co2025a.txt,2686,24,13,PASS
+2025,49035,Salt Lake County,raw/county/co2025a.txt,2687,24,13,PASS
+2025,49037,San Juan County,raw/county/co2025a.txt,2688,24,13,PASS
+2025,49039,Sanpete County,raw/county/co2025a.txt,2689,24,13,PASS
+2025,49041,Sevier County,raw/county/co2025a.txt,2690,24,13,PASS
+2025,49043,Summit County,raw/county/co2025a.txt,2691,24,13,PASS
+2025,49045,Tooele County,raw/county/co2025a.txt,2692,24,13,PASS
+2025,49047,Uintah County,raw/county/co2025a.txt,2693,24,13,PASS
+2025,49049,Utah County,raw/county/co2025a.txt,2694,24,13,PASS
+2025,49051,Wasatch County,raw/county/co2025a.txt,2695,24,13,PASS
+2025,49053,Washington County,raw/county/co2025a.txt,2696,24,13,PASS
+2025,49055,Wayne County,raw/county/co2025a.txt,2697,24,13,PASS
+2025,49057,Weber County,raw/county/co2025a.txt,2698,24,13,PASS

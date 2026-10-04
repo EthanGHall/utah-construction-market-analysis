@@ -1,0 +1,525 @@
+{
+  "schema_version": "1.0",
+  "analysis_date": "2026-10-04",
+  "scope": {
+    "analysis_years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "baseline_year": 2020,
+    "counties": 29,
+    "county_year_rows": 174,
+    "structure_rows": 696,
+    "snapshot_retrieval_date": "2026-10-01",
+    "source": "U.S. Census Bureau Building Permits Survey",
+    "scenario": "Hypothetical residential construction supplier screening county sales markets for further investigation",
+    "selection_rule": "Top three counties by 2025 estimated authorized housing units; compare alternative objectives separately",
+    "percent_storage": "All percentages are fractions: 0.10 means 10%"
+  },
+  "statewide": [
+    {
+      "year": 2020,
+      "total_units": 31775,
+      "total_buildings": 23092,
+      "single_family_units": 22301,
+      "multifamily_units": 9474,
+      "valuation_usd": 7287440800,
+      "reported_units": 29035,
+      "imputed_units": 2740,
+      "prior_year_units": null,
+      "yoy_units_change": null,
+      "yoy_pct_change": null,
+      "single_family_share": 0.7018410700236034,
+      "multifamily_share": 0.29815892997639654,
+      "imputed_share": 0.08623131392604248,
+      "yoy_crosses_2023_coverage_change": 0
+    },
+    {
+      "year": 2021,
+      "total_units": 39058,
+      "total_buildings": 25487,
+      "single_family_units": 24423,
+      "multifamily_units": 14635,
+      "valuation_usd": 9188026272,
+      "reported_units": 33562,
+      "imputed_units": 5496,
+      "prior_year_units": 31775,
+      "yoy_units_change": 7283,
+      "yoy_pct_change": 0.22920535011801732,
+      "single_family_share": 0.6253008346561524,
+      "multifamily_share": 0.3746991653438476,
+      "imputed_share": 0.1407138102309386,
+      "yoy_crosses_2023_coverage_change": 0
+    },
+    {
+      "year": 2022,
+      "total_units": 31749,
+      "total_buildings": 19881,
+      "single_family_units": 19132,
+      "multifamily_units": 12617,
+      "valuation_usd": 7992545509,
+      "reported_units": 27097,
+      "imputed_units": 4652,
+      "prior_year_units": 39058,
+      "yoy_units_change": -7309,
+      "yoy_pct_change": -0.18713195760151569,
+      "single_family_share": 0.6026016567450944,
+      "multifamily_share": 0.39739834325490564,
+      "imputed_share": 0.14652429997795205,
+      "yoy_crosses_2023_coverage_change": 0
+    },
+    {
+      "year": 2023,
+      "total_units": 25361,
+      "total_buildings": 15631,
+      "single_family_units": 14913,
+      "multifamily_units": 10448,
+      "valuation_usd": 6987140658,
+      "reported_units": 21143,
+      "imputed_units": 4218,
+      "prior_year_units": 31749,
+      "yoy_units_change": -6388,
+      "yoy_pct_change": -0.20120318750196856,
+      "single_family_share": 0.5880288632151729,
+      "multifamily_share": 0.4119711367848271,
+      "imputed_share": 0.166318362840582,
+      "yoy_crosses_2023_coverage_change": 1
+    },
+    {
+      "year": 2024,
+      "total_units": 23902,
+      "total_buildings": 18240,
+      "single_family_units": 17674,
+      "multifamily_units": 6228,
+      "valuation_usd": 7421013877,
+      "reported_units": 22676,
+      "imputed_units": 1226,
+      "prior_year_units": 25361,
+      "yoy_units_change": -1459,
+      "yoy_pct_change": -0.05752927723670202,
+      "single_family_share": 0.7394360304577022,
+      "multifamily_share": 0.2605639695422977,
+      "imputed_share": 0.05129277884695841,
+      "yoy_crosses_2023_coverage_change": 0
+    },
+    {
+      "year": 2025,
+      "total_units": 26775,
+      "total_buildings": 17427,
+      "single_family_units": 16774,
+      "multifamily_units": 10001,
+      "valuation_usd": 8309461558,
+      "reported_units": 25795,
+      "imputed_units": 980,
+      "prior_year_units": 23902,
+      "yoy_units_change": 2873,
+      "yoy_pct_change": 0.12019914651493599,
+      "single_family_share": 0.6264799253034548,
+      "multifamily_share": 0.3735200746965453,
+      "imputed_share": 0.036601307189542485,
+      "yoy_crosses_2023_coverage_change": 0
+    }
+  ],
+  "headlines": {
+    "units_2025": 26775,
+    "yoy_units_change": 2873,
+    "yoy_pct_change": 0.12019914651493599,
+    "pct_change_2020_2025": -0.15735641227380015,
+    "shortlist_units_2025": 17238,
+    "shortlist_state_share_2025": 0.6438095238095238,
+    "imputed_share_2025": 0.036601307189542485
+  },
+  "shortlist": [
+    {
+      "county_fips5": "49049",
+      "county_name": "Utah County",
+      "units_2020": 7859,
+      "units_2021": 11040,
+      "units_2022": 8165,
+      "units_2023": 6036,
+      "units_2024": 6321,
+      "units_2025": 7202,
+      "avg_units_2023_2025": 6519.666666666667,
+      "avg_units_2021_2025": 7752.8,
+      "min_units_2021_2025": 6036,
+      "max_units_2021_2025": 11040,
+      "absolute_change_2024_2025": 881,
+      "pct_change_2024_2025": 0.1393766809049201,
+      "absolute_change_2023_2025": 1166,
+      "pct_change_2023_2025": 0.1931742876076872,
+      "absolute_change_2020_2025": -657,
+      "pct_change_2020_2025": -0.08359842219111846,
+      "state_share_2025": 0.2689822595704949,
+      "single_family_units_2025": 5324,
+      "multifamily_units_2025": 1878,
+      "single_family_share_2025": 0.7392391002499306,
+      "multifamily_share_2025": 0.26076089975006944,
+      "imputed_units_2025": 30,
+      "imputed_share_2025": 0.004165509580672035,
+      "reported_units_2025": 7172,
+      "valuation_usd_2025": 2102511859,
+      "rank_units_2025": 1,
+      "rank_avg_units_2023_2025": 2,
+      "rank_avg_units_2021_2025": 2,
+      "rank_single_family_2025": 1,
+      "rank_multifamily_2025": 2,
+      "rank_reported_units_2025": 1,
+      "rank_absolute_growth_2024_2025": 2,
+      "rank_pct_growth_2024_2025": 9,
+      "rationale": "Largest 2025 unit market and strongest single-family unit volume in this dataset.",
+      "caution": "2025 volume remains below 2020; investigate builders, competition and service costs before committing."
+    },
+    {
+      "county_fips5": "49035",
+      "county_name": "Salt Lake County",
+      "units_2020": 10101,
+      "units_2021": 10649,
+      "units_2022": 9375,
+      "units_2023": 8315,
+      "units_2024": 4550,
+      "units_2025": 7179,
+      "avg_units_2023_2025": 6681.333333333333,
+      "avg_units_2021_2025": 8013.6,
+      "min_units_2021_2025": 4550,
+      "max_units_2021_2025": 10649,
+      "absolute_change_2024_2025": 2629,
+      "pct_change_2024_2025": 0.5778021978021978,
+      "absolute_change_2023_2025": -1136,
+      "pct_change_2023_2025": -0.13662056524353577,
+      "absolute_change_2020_2025": -2922,
+      "pct_change_2020_2025": -0.2892782892782893,
+      "state_share_2025": 0.26812324929971987,
+      "single_family_units_2025": 2576,
+      "multifamily_units_2025": 4603,
+      "single_family_share_2025": 0.35882434879509684,
+      "multifamily_share_2025": 0.6411756512049032,
+      "imputed_units_2025": 24,
+      "imputed_share_2025": 0.003343083994985374,
+      "reported_units_2025": 7155,
+      "valuation_usd_2025": 1987390933,
+      "rank_units_2025": 2,
+      "rank_avg_units_2023_2025": 1,
+      "rank_avg_units_2021_2025": 1,
+      "rank_single_family_2025": 2,
+      "rank_multifamily_2025": 1,
+      "rank_reported_units_2025": 2,
+      "rank_absolute_growth_2024_2025": 1,
+      "rank_pct_growth_2024_2025": 3,
+      "rationale": "Second-largest 2025 unit market; highest multifamily unit volume supports a multifamily-focused sales investigation.",
+      "caution": "Multifamily-heavy activity can be concentrated in large projects; permits do not measure realized purchases."
+    },
+    {
+      "county_fips5": "49053",
+      "county_name": "Washington County",
+      "units_2020": 3314,
+      "units_2021": 3484,
+      "units_2022": 3196,
+      "units_2023": 2820,
+      "units_2024": 3152,
+      "units_2025": 2857,
+      "avg_units_2023_2025": 2943.0,
+      "avg_units_2021_2025": 3101.8,
+      "min_units_2021_2025": 2820,
+      "max_units_2021_2025": 3484,
+      "absolute_change_2024_2025": -295,
+      "pct_change_2024_2025": -0.09359137055837563,
+      "absolute_change_2023_2025": 37,
+      "pct_change_2023_2025": 0.013120567375886525,
+      "absolute_change_2020_2025": -457,
+      "pct_change_2020_2025": -0.13789981894990946,
+      "state_share_2025": 0.10670401493930906,
+      "single_family_units_2025": 2497,
+      "multifamily_units_2025": 360,
+      "single_family_share_2025": 0.8739936996849843,
+      "multifamily_share_2025": 0.12600630031501575,
+      "imputed_units_2025": 22,
+      "imputed_share_2025": 0.0077003850192509625,
+      "reported_units_2025": 2835,
+      "valuation_usd_2025": 656018061,
+      "rank_units_2025": 3,
+      "rank_avg_units_2023_2025": 3,
+      "rank_avg_units_2021_2025": 3,
+      "rank_single_family_2025": 3,
+      "rank_multifamily_2025": 5,
+      "rank_reported_units_2025": 3,
+      "rank_absolute_growth_2024_2025": 27,
+      "rank_pct_growth_2024_2025": 18,
+      "rationale": "Third-largest 2025 unit market; single-family-heavy mix offers a different customer focus.",
+      "caution": "2025 units fell from 2024; this is a scale-based candidate rather than a growth leader."
+    }
+  ],
+  "sensitivity": [
+    {
+      "scenario": "absolute_growth_2024_2025",
+      "top_three": [
+        {
+          "scenario": "absolute_growth_2024_2025",
+          "county_fips5": "49035",
+          "county_name": "Salt Lake County",
+          "metric_value": 2629,
+          "metric_rank": 1,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "absolute_growth_2024_2025",
+          "county_fips5": "49049",
+          "county_name": "Utah County",
+          "metric_value": 881,
+          "metric_rank": 2,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "absolute_growth_2024_2025",
+          "county_fips5": "49011",
+          "county_name": "Davis County",
+          "metric_value": 449,
+          "metric_rank": 3,
+          "top_three_in_scenario": 1
+        }
+      ],
+      "same_counties_as_primary_shortlist": false
+    },
+    {
+      "scenario": "five_year_average_units",
+      "top_three": [
+        {
+          "scenario": "five_year_average_units",
+          "county_fips5": "49035",
+          "county_name": "Salt Lake County",
+          "metric_value": 8013.6,
+          "metric_rank": 1,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "five_year_average_units",
+          "county_fips5": "49049",
+          "county_name": "Utah County",
+          "metric_value": 7752.8,
+          "metric_rank": 2,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "five_year_average_units",
+          "county_fips5": "49053",
+          "county_name": "Washington County",
+          "metric_value": 3101.8,
+          "metric_rank": 3,
+          "top_three_in_scenario": 1
+        }
+      ],
+      "same_counties_as_primary_shortlist": true
+    },
+    {
+      "scenario": "latest_total_units",
+      "top_three": [
+        {
+          "scenario": "latest_total_units",
+          "county_fips5": "49049",
+          "county_name": "Utah County",
+          "metric_value": 7202,
+          "metric_rank": 1,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "latest_total_units",
+          "county_fips5": "49035",
+          "county_name": "Salt Lake County",
+          "metric_value": 7179,
+          "metric_rank": 2,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "latest_total_units",
+          "county_fips5": "49053",
+          "county_name": "Washington County",
+          "metric_value": 2857,
+          "metric_rank": 3,
+          "top_three_in_scenario": 1
+        }
+      ],
+      "same_counties_as_primary_shortlist": true
+    },
+    {
+      "scenario": "multifamily_units",
+      "top_three": [
+        {
+          "scenario": "multifamily_units",
+          "county_fips5": "49035",
+          "county_name": "Salt Lake County",
+          "metric_value": 4603,
+          "metric_rank": 1,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "multifamily_units",
+          "county_fips5": "49049",
+          "county_name": "Utah County",
+          "metric_value": 1878,
+          "metric_rank": 2,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "multifamily_units",
+          "county_fips5": "49011",
+          "county_name": "Davis County",
+          "metric_value": 1076,
+          "metric_rank": 3,
+          "top_three_in_scenario": 1
+        }
+      ],
+      "same_counties_as_primary_shortlist": false
+    },
+    {
+      "scenario": "percent_growth_2024_2025",
+      "top_three": [
+        {
+          "scenario": "percent_growth_2024_2025",
+          "county_fips5": "49047",
+          "county_name": "Uintah County",
+          "metric_value": 0.9767441860465116,
+          "metric_rank": 1,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "percent_growth_2024_2025",
+          "county_fips5": "49009",
+          "county_name": "Daggett County",
+          "metric_value": 0.7,
+          "metric_rank": 2,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "percent_growth_2024_2025",
+          "county_fips5": "49035",
+          "county_name": "Salt Lake County",
+          "metric_value": 0.5778021978021978,
+          "metric_rank": 3,
+          "top_three_in_scenario": 1
+        }
+      ],
+      "same_counties_as_primary_shortlist": false
+    },
+    {
+      "scenario": "recent_average_units",
+      "top_three": [
+        {
+          "scenario": "recent_average_units",
+          "county_fips5": "49035",
+          "county_name": "Salt Lake County",
+          "metric_value": 6681.333333333333,
+          "metric_rank": 1,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "recent_average_units",
+          "county_fips5": "49049",
+          "county_name": "Utah County",
+          "metric_value": 6519.666666666667,
+          "metric_rank": 2,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "recent_average_units",
+          "county_fips5": "49053",
+          "county_name": "Washington County",
+          "metric_value": 2943.0,
+          "metric_rank": 3,
+          "top_three_in_scenario": 1
+        }
+      ],
+      "same_counties_as_primary_shortlist": true
+    },
+    {
+      "scenario": "reported_only_units",
+      "top_three": [
+        {
+          "scenario": "reported_only_units",
+          "county_fips5": "49049",
+          "county_name": "Utah County",
+          "metric_value": 7172,
+          "metric_rank": 1,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "reported_only_units",
+          "county_fips5": "49035",
+          "county_name": "Salt Lake County",
+          "metric_value": 7155,
+          "metric_rank": 2,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "reported_only_units",
+          "county_fips5": "49053",
+          "county_name": "Washington County",
+          "metric_value": 2835,
+          "metric_rank": 3,
+          "top_three_in_scenario": 1
+        }
+      ],
+      "same_counties_as_primary_shortlist": true
+    },
+    {
+      "scenario": "single_family_units",
+      "top_three": [
+        {
+          "scenario": "single_family_units",
+          "county_fips5": "49049",
+          "county_name": "Utah County",
+          "metric_value": 5324,
+          "metric_rank": 1,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "single_family_units",
+          "county_fips5": "49035",
+          "county_name": "Salt Lake County",
+          "metric_value": 2576,
+          "metric_rank": 2,
+          "top_three_in_scenario": 1
+        },
+        {
+          "scenario": "single_family_units",
+          "county_fips5": "49053",
+          "county_name": "Washington County",
+          "metric_value": 2497,
+          "metric_rank": 3,
+          "top_three_in_scenario": 1
+        }
+      ],
+      "same_counties_as_primary_shortlist": true
+    }
+  ],
+  "quality": {
+    "structure_measures_compared": 4176,
+    "annual_measures_compared": 2262,
+    "state_control_measures_compared": 192,
+    "provenance_fields_compared": 5268,
+    "raw_county_rows_checked": 174,
+    "source_spot_check_measures": 144,
+    "independent_state_comparisons": 144,
+    "sql_python_numeric_comparisons": 4347,
+    "downloaded_source_files": 21,
+    "original_preparation_checks_passed": 19,
+    "original_preparation_checks_total": 19,
+    "analysis_checks_passed": 15,
+    "analysis_checks_total": 15,
+    "performed_by": "Assistant-generated automated checks; no independent learner assessment implied"
+  },
+  "limitations": [
+    "Permits authorize construction; they are not completed homes, supplier sales, revenue or profit.",
+    "The survey changed from a fixed 2014 permit-office universe to annual updates starting in 2023. Changes crossing that break combine market and coverage effects; even later comparisons are not a constant-office panel.",
+    "County totals include Census imputation. Imputed-unit share is not a response rate, confidence interval or error estimate.",
+    "Permit valuations are nominal dollars and reflect housing mix and estimated costs; they are not inflation-adjusted market growth.",
+    "The hypothetical supplier's products, customers, locations, competition and costs are unspecified. The shortlist screens sales markets and does not justify a branch opening or estimate ROI.",
+    "Only six annual observations are available. Growth is descriptive and small baselines can create large percentage changes; no causal model or forecast is fitted."
+  ],
+  "figures": [
+    "reports/figures/market_size.png",
+    "reports/figures/shortlist_trends.png",
+    "reports/figures/housing_mix.png"
+  ]
+}

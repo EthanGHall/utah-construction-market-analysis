@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "quality": {
+    "structure_measures_compared": 4176,
+    "annual_measures_compared": 2262,
+    "state_control_measures_compared": 192,
+    "provenance_fields_compared": 5268,
+    "raw_county_rows_checked": 174,
+    "source_spot_check_measures": 144,
+    "independent_state_comparisons": 144,
+    "sql_python_numeric_comparisons": 4347,
+    "downloaded_source_files": 21,
+    "original_preparation_checks_passed": 19,
+    "original_preparation_checks_total": 19,
+    "analysis_checks_passed": 15,
+    "analysis_checks_total": 15,
+    "performed_by": "Assistant-generated automated checks; no independent learner assessment implied"
+  },
+  "checks": [
+    {
+      "check": "Preserved sources match download checksums",
+      "status": "PASS",
+      "detail": "All 21 downloaded raw and documentation files checked against the original manifest",
+      "comparisons": 21
+    },
+    {
+      "check": "Original preparation checks pass",
+      "status": "PASS",
+      "detail": "19/19 original checks; details in data/validation_results.csv",
+      "comparisons": 19
+    },
+    {
+      "check": "Complete county-year panel",
+      "status": "PASS",
+      "detail": "29-county lookup roster matches the 2025 raw source; all six years contain exactly that roster",
+      "comparisons": 174
+    },
+    {
+      "check": "Complete county-year-structure panel",
+      "status": "PASS",
+      "detail": "174 county-year keys x 4 types",
+      "comparisons": 696
+    },
+    {
+      "check": "All county structure source measures match",
+      "status": "PASS",
+      "detail": "174 raw county rows x 4 structure categories x 6 measures; all values exact",
+      "comparisons": 4176
+    },
+    {
+      "check": "All derived county annual measures match",
+      "status": "PASS",
+      "detail": "174 rows x 13 measures independently recomputed from raw lines",
+      "comparisons": 2262
+    },
+    {
+      "check": "All state control measures match",
+      "status": "PASS",
+      "detail": "24 state-category rows x 8 measures including USD conversions",
+      "comparisons": 192
+    },
+    {
+      "check": "Row-level provenance matches raw physical lines",
+      "status": "PASS",
+      "detail": "County names, codes and source references, plus state source references",
+      "comparisons": 5268
+    },
+    {
+      "check": "Independent raw county-to-state reconciliation",
+      "status": "PASS",
+      "detail": "Counts exact; nominal dollars within $500 per rounded state category",
+      "comparisons": 144
+    },
+    {
+      "check": "SQL measures and ranks match independent Python",
+      "status": "PASS",
+      "detail": "All annual, county, statewide and sensitivity numeric results; relative/absolute tolerance 1e-12",
+      "comparisons": 4347
+    },
+    {
+      "check": "Zero growth baseline yields NULL percentage",
+      "status": "PASS",
+      "detail": "Actual SQL fixture: zero to twelve units retains +12 and returns NULL percent",
+      "comparisons": 1
+    },
+    {
+      "check": "Database rejects duplicate county-year input",
+      "status": "PASS",
+      "detail": "Actual primary-key constraint tested using a disposable in-memory database",
+      "comparisons": 1
+    },
+    {
+      "check": "Annual market shares reconcile",
+      "status": "PASS",
+      "detail": "County unit shares sum to 100% in each year",
+      "comparisons": 6
+    },
+    {
+      "check": "2020 kept outside analysis averages",
+      "status": "PASS",
+      "detail": "145 analysis records plus 29 baseline records; averages independently verified",
+      "comparisons": 174
+    },
+    {
+      "check": "Source files unchanged after full rebuild",
+      "status": "PASS",
+      "detail": "Before/after SHA-256 comparison of every preserved source",
+      "comparisons": 21
+    }
+  ]
+}
