@@ -1,0 +1,1363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>BPS - How the Data are Collected</title>	
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="keywords" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noodp, noydir" />
+        <meta name="author" content="US Census Bureau"  />
+        <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"  /><![endif]-->
+        <!--[if gte IE 9]><meta http-equiv="X-UA-Compatible" content="IE=edge"> <![endif]-->
+        <link rel="stylesheet" href="econ_assets/page/local/bootstrap.css" type="text/css"/>
+        <link rel="stylesheet" href="econ_assets/page/local/jquery.css" type="text/css"/>
+        <link rel="stylesheet" href="econ_assets/page/local/clientlibs.css" type="text/css"/>
+        <link rel="stylesheet" href="econ_assets/page/local/clientlibs2.css" type="text/css"/>
+        <link rel="icon" sizes="192x192" href="econ_assets/page/local/android-chrome-192x192.png" />
+        <link rel="icon" sizes="256x256" href="econ_assets/page/local/android-chrome-256x256.png" />
+        <link rel="shortcut icon" sizes="32x32" href="econ_assets/page/local/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="econ_assets/page/local/apple-touch-icon-180x180.png" />     
+        <meta name="msapplication-square150x150logo" content="econ_assets/page/local/mstile-150x150.png" />
+        <link href="econ_assets/page/local/print.css" rel="stylesheet" type="text/css" media="print"/>   
+        <meta name="DC.title" property="og:title" content="BPS - How the Data are Collected" />
+        <meta name="DC.creator" content="US Census Bureau" />
+        <meta name="DC.date.created" property="article:published_time" scheme="ISO8601" content="" />
+        <meta name="DC.date.reviewed" property="article:modified_time" scheme="ISO8601" content="2019-04-15T15:38:26.310-04:00" />
+        <meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US" />
+        <meta name="DC.title" property="og:title" content="BPS - How the Data are Collected" />
+        <meta http-equiv="description" property="og:description" content="" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+        <!-- context hub -->
+        <!-- DTM-->
+        <script type="text/javascript">
+            var digitalData = digitalData || {};
+            digitalData = {
+                "page": {
+                    "pageInfo": {
+                        "pageName": "BPS - How the Data are Collected",
+                        "legacyPageName": "en>programsRSUY>BPS - How the Data are Collected",
+                        "pageURL": window.location.href,
+                        "language": "en",
+                        "pageTemplate": "LPL",
+                        "tool": "aem",
+                        "siteSection": "programs-surveys",
+                        "subSectionOne": ""
+                    },
+                    "pageTag": {
+                        "program": "Program Survey Landing Page",
+                        "topic": "Econ"
+                    }
+                },
+                "event": {
+                    "eventName": {},
+                    "eventInfo": {
+                        "share": {},
+                        "download": {},
+                        "search": {},
+                        "expandCollapseList": {},
+                        "language": {},
+                        "landingPageTab": {},
+                        "faceted": {}
+                    }
+                }
+            };
+
+            if (typeof (Storage) !== "undefined") {
+                if (localStorage.getItem("pageLanguage") != null) {
+                    digitalData.event.eventInfo.language.pageLanguage = localStorage.getItem("pageLanguage");
+                }
+                if (localStorage.getItem("langEventName") != null) {
+                    digitalData.event.eventName = localStorage.getItem("langEventName");
+                }
+                if (localStorage.getItem("clickValue") != null) {
+                    digitalData.event.eventInfo.search.clickValue = localStorage.getItem("clickValue");
+                }
+                if (localStorage.getItem("searchEventName") != null) {
+                    digitalData.event.eventName = localStorage.getItem("searchEventName");
+                }
+                /*if ( localStorage.getItem("landingPageTabClickValue") != null ) {
+                 digitalData.event.eventInfo.landingPageTab.clickValue = localStorage.getItem("landingPageTabClickValue");
+                 }*/
+                if (localStorage.getItem("tabEventName") != null) {
+                    digitalData.event.eventName = localStorage.getItem("tabEventName");
+                }
+                if (localStorage.getItem("pageName") != null) {
+                    digitalData.page.pageInfo.pageName = localStorage.getItem("pageName");
+                }
+                //After assigning the value to digitalData, clear the localStorage variable's content
+                localStorage.removeItem("pageLanguage");
+                localStorage.removeItem("langEventName");
+                localStorage.removeItem("clickValue");
+                localStorage.removeItem("searchEventName");
+                localStorage.removeItem("landingPageTabClickValue");
+                localStorage.removeItem("tabEventName");
+                localStorage.removeItem("pageName");
+            } else {
+                if (getCookie("pageLanguage") != "") {
+                    digitalData.event.eventInfo.language.pageLanguage = getCookie("pageLanguage");
+                }
+                if (getCookie("langEventName") != "") {
+                    digitalData.event.eventName = getCookie("langEventName");
+                }
+                if (getCookie("clickValue") != "") {
+                    digitalData.event.eventInfo.search.clickValue = getCookie("clickValue");
+                }
+                if (getCookie("searchEventName") != "") {
+                    digitalData.event.eventName = getCookie("searchEventName");
+                }
+                if (getCookie("landingPageTabClickValue") != "") {
+                    digitalData.event.eventInfo.landingPageTab.clickValue = getCookie("landingPageTabClickValue");
+                }
+                if (getCookie("tabEventName") != "") {
+                    digitalData.event.eventName = getCookie("tabEventName");
+                }
+                if (getCookie("pageName") != "") {
+                    digitalData.page.pageInfo.pageName = getCookie("pageName");
+                }
+                //After assigning the value to digitalData, clear the localStorage variable's content
+                setCookie("pageLanguage", "");
+                setCookie("langEventName", "");
+                setCookie("clickValue", "");
+                setCookie("searchEventName", "");
+                setCookie("landingPageTabClickValue", "");
+                setCookie("pageName", "");
+            }
+
+            function setCookie(cname, cvalue, exdays) {
+                var d = new Date();
+                d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+                var expires = "expires=" + d.toUTCString();
+                document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+            }
+
+            function getCookie(cname) {
+                var name = cname + "=";
+                var ca = document.cookie.split(';');
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) == ' ') {
+                        c = c.substring(1);
+                    }
+                    if (c.indexOf(name) == 0) {
+                        return c.substring(name.length, c.length);
+                    }
+                }
+                return "";
+            }
+        </script>
+        <script type="text/javascript" src="econ_assets/page/local/jsapi.js"></script>
+        <link rel="stylesheet" href="econ_assets/page/local/censusfonts.css" type="text/css"/>
+        <link rel="stylesheet" href="econ_assets/page/local/orionicons.css" type="text/css"/>		
+    </head>	  
+    <body id="innerPage" class="   ">
+        <div>
+            <div class="clientcontext parbase">
+                <script type="text/javascript" src="econ_assets/page/local/jquery.js"></script>
+                <script type="text/javascript" src="econ_assets/page/local/jquery-ui.js"></script>
+                <script type="text/javascript" src="econ_assets/page/local/utils.js"></script>
+                <script type="text/javascript" src="econ_assets/page/local/granite.js"></script>
+                <script type="text/javascript" src="econ_assets/page/local/jquery2.js"></script>
+                <script type="text/javascript" src="econ_assets/page/local/shared.js"></script>
+                <script type="text/javascript" src="econ_assets/page/local/kernel.js"></script>
+            </div>
+        </div>
+        <a name="skipfooter" class="skip"></a>
+        <div class="uscb-main-container">
+            <div class="censusheader universalheader">
+                <header id="data-uscb-main-header" class="uscb-header uscb-print-hide">
+                    <!-- GOV BANNER AND SIMPLE HEADER LAST UPDATED 11/17/2021 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <script src="https://www.census.gov/main/uswds/uswds-2.12.0/js/uswds-init.min.js"></script>
+    <script async
+        src="https://assets.adobedtm.com/7d6e749d4118/1f2b049df95b/launch-ENdc1ca6bab15e46a5b880a2c3f9d462ab.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://www.census.gov/main/uswds/uswds-2.12.0/css/uswds.min.css" /> -->
+    <!--  <link rel="stylesheet" href="https://www.census.gov/main/.in/css/all_header_styles.css" /> -->
+    <link rel="stylesheet" href="https://www.census.gov/main/css/all_header_styles.css" />
+
+
+</head>
+
+<body>
+    <script src="https://www.census.gov/main/uswds/uswds-2.12.0/js/uswds.min.js"></script>
+    <section class="usa-banner" aria-label="Official government website">
+        <div class="usa-accordion">
+            <header class="usa-banner__header">
+                <div class="usa-banner__inner">
+                    <div class="grid-col-auto">
+                        <img class="usa-banner__header-flag"
+                            src="https://www.census.gov/main/uswds/uswds-2.12.0/img/us_flag_small.png"
+                            alt="U.S. flag" />
+                    </div>
+                    <div class="grid-col-fill tablet:grid-col-auto">
+                        <p class="usa-banner__header-text">
+                            An official website of the United States government
+                        </p>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+    
+
+    <style id="antiClickjack">
+        body {
+            display: none !important
+        }
+    </style>
+    <script type="text/javascript" src="https://www.census.gov/main/javascript/clickjack.js"></script>
+    <script src="econ_assets/js/jquery.min.js"
+        class="cb-main-support global-file"></script>
+    <script src="https://www.census.gov/main/responsive-header/jquery/jquery-ui.js"
+        class="cb-main-support global-file"></script>
+
+    <!-- Check for jquery conflict -->
+    <script type="text/javascript">
+
+        // REMOTE SERVERS include adobe-launch in <head>
+        // 	$.ajax({
+        // 		type : 'get',
+        // 		url : '/main/app-config/header/adobe-launch.txt',	
+        // 		dataType: 'text',            	
+        // 		success : function(data){		 		
+        // 	                var adobeLaunchScript = document.createElement("script");
+        // 	                adobeLaunchScript.setAttribute("src",data);
+        // 	                document.head.appendChild(adobeLaunchScript);
+        // 	            },
+        // 	    error : function(xhr, errorText, errorMessage){
+        // 	                console.log('adobe-launch URL recognition failed: ' + errorText);
+        // 	            }
+        // 	});
+
+        $acn = jQuery.noConflict();
+        if (typeof jQuery === 'undefined' || typeof $ === 'undefined') {
+            jQuery = $acn;
+            $ = $acn;
+        }
+        $(function () {
+            $('.cb-header-skip-nav').click(function () {
+                $('#cb-after-header-anchor').focus();
+            });
+        });
+    </script>
+
+    <script src="https://www.census.gov/main/responsive-header/bootstrap-custom/js/bootstrap.js"
+        class="cb-main-support global-file"></script>
+    <script src="https://www.census.gov/main/responsive-header/js/typeahead.js"
+        class="cb-main-support global-file"></script>
+
+
+    <style type="text/css">
+        header.hdr-primary,
+        header.hdr-primary>nav {
+            display: flex !important;
+            align-items: center !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            height: 64px !important;
+            background-color: #ffffff !important;
+            /* border-color: #112e51 !important;*/
+        }
+
+        header.hdr-primary>nav>div {
+            box-sizing: border-box !important;
+            height: 36.62px !important;
+            font-size: 20px !important;
+            font-weight: 500 !important;
+            letter-spacing: 0.02em !important;
+            line-height: 30px !important;
+            white-space: nowrap !important;
+            vertical-align: baseline !important;
+            padding: 0 0 0 16px !important;
+            margin: 0 !important;
+            min-width: 150px !important;
+        }
+
+        header.hdr-primary>nav>div>a,
+        header.hdr-primary>nav>div>a>img {
+            padding: 0 !important;
+            margin: 0 !important;
+            border-style: none !important;
+            background: transparent !important;
+            text-decoration: none !important;
+        }
+
+        header.hdr-primary>nav>div>a {
+            box-sizing: border-box !important;
+            cursor: pointer !important;
+            text-decoration: none !important;
+        }
+
+        header.hdr-primary>nav>div>a>img {
+            width: 86px !important;
+            height: 33.62px !important;
+            margin-left: 15px !important;
+        }
+
+        hr.blue-line {
+            /* border-top-width: 2px;*/
+            /* border-color: #d0dce1;*/
+            margin: 0px;
+            border-bottom: #d0dce1 1px solid;
+
+        }
+
+        body {
+            opacity: 1 !important;
+        }
+
+        .uscb-header {
+            background-color: #ffffff;
+        }
+
+        .uscb-footer {
+            height: 0px;
+        }
+    </style>
+    <button class="cb-header-skip-nav sr-only sr-only-focusable">Skip to main content</button>
+    <header class="hdr-primary">
+        <nav>
+            <!--  <div><a href="https://www.census.gov" id="census-home-link"><img src="https://data.census.gov/cedsci/img/census-logo-white.25c8cb29.svg" alt="United States Census Bureau" title="U.S. Census Bureau"></a></div> 
+          <div><a href="https://www.census.gov" id="census-home-link"><img src="https://www.census.gov/main/.in/USCENSUS_IDENTITY_SOLO_White_2in_TM.svg" alt="United States Census Bureau" title="U.S. Census Bureau"></a></div>
+    -->
+            <div><a href="https://www.census.gov" id="census-home-link"><img
+                        src="https://www.census.gov/main/img/USCENSUS_IDENTITY_SOLO_BLACK_1.5in_R_no_padding.svg"
+                        alt="United States Census Bureau" title="U.S. Census Bureau"></a></div>
+        </nav>
+    </header>
+    <hr class="blue-line">
+    <a class="sr-only" tabindex="-1" id="cb-after-header-anchor">end of header</a>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"fe24c215287e4a71aa7361e0073d97fe","spa":2}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a43e147b1b83f579',t:'MTc5MDg4NTEwMw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>
+                </header>
+                <script type="text/javascript">
+                    document.addEventListener("DOMContentLoaded", function (event) {
+                        CensusUniversalHeader.initHeader();
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="topBg">
+            </div>
+            <div class="wrapper wrapperMarginTop">
+                <a name="skip"> </a>
+                <div id="sectionTitleRow" class="belowHeader row no-gutter">
+                    <div class="col-xs-12 uscb-margin-T-5">
+                        <div class="hidden-xs hidden-sm hidden-md col-lg-2" style="width: calc(200% / 16.3 + 5%)"></div>
+                        <div id="breadContainer" class="belowHeader hidden-xs visible-lg uscb-print-hide">
+                            
+                            <ul class="uscb-layout-row uscb-top-pagination uscb-layout-align-start-center">
+                                <li>
+                                    <a tabindex="0" href="/en.html" class="uscb-top-pagination-links" onclick="CQ_Analytics.record({event: 'followBreadcrumb', values: {breadcrumbPath: '/content/census/en.html'}, collect: false, options: {obj: this}})">
+                                        Census.gov
+                                    </a>
+                                    <span>></span>
+                                </li>                                
+                                <li>    <a tabindex="0" href="https://www.census.gov/programs-surveys.html" class="uscb-top-pagination-links" onclick="CQ_Analytics.record({event: 'followBreadcrumb', values: {breadcrumbPath: 'https://www.census.gov/programs-surveys.html'}, collect: false, options: {obj: this}})">Our Surveys & Programs</a>    <span>></span></li><li>    <a tabindex="0" href="/construction/bps/index.html" class="uscb-top-pagination-links" onclick="CQ_Analytics.record({event: 'followBreadcrumb', values: {breadcrumbPath: '/construction/bps/index.html'}, collect: false, options: {obj: this}})">Building Permits Survey (BPS)</a>    <span>></span></li><li><span class="uscb-top-pagination-links">How the Data are Collected</span></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div id="infoBannerSection" class="col-xs-12 uscb-padding-LR-0">
+                        <script type="text/javascript">
+                            function getBanners() {
+                                var urlVal = "https://www.census.gov/content/census/en/programs-surveys/.infobanners.html";
+                                $.ajax({
+                                    url: urlVal,
+                                    dataType: "html",
+                                    success: function (result) {
+                                        $('infoBannerSection').html(result);
+                                    },
+                                    error: function (err) {
+                                        console.log(err);
+                                    }
+                                });
+                                return false;
+                            }
+                            $(document).ready(function () {
+                                getBanners();
+                                $('.info-banner-clickable-div').click(function (e) {
+                                    var href = $(this).attr('id');
+                                    if (typeof (href) !== 'undefined' && !$(e.target).hasClass('data-uscb-exit-btn') && !$(e.target).hasClass('data-uscb-banner-dismiss-btn')) {
+                                        window.location = href;
+                                    }
+                                    return false;
+                                });
+                                $('.uscb-banner-pointer-div').hover(
+                                        function (e) {
+                                            $hoverTargets = $(this).find(".data-uscb-banner-hover-target");
+                                            $hoverTargets.addClass("uscb-text-decoration-underline");
+                                            $hoverTargets.removeClass("uscb-text-decoration-none");
+                                        },
+                                        function (e) {
+                                            $hoverTargets = $(this).find(".data-uscb-banner-hover-target");
+                                            $hoverTargets.removeClass("uscb-text-decoration-underline");
+                                            $hoverTargets.addClass("uscb-text-decoration-none");
+                                        }
+                                );
+                                $('.data-uscb-banner-dismiss-btn').click(function (e) {
+                                    if ($(e.target).hasClass('data-uscb-banner-dismiss-btn')) {
+                                        var dismissedBannerClass = $(this).attr('id');
+                                        var randStr = $(this).attr('id');
+                                        var existingCookieValue = getCookie('dismissedBannersClasses');
+                                        var newValue = (typeof (existingCookieValue) != 'undefined' && existingCookieValue != '') ? existingCookieValue + '|' + dismissedBannerClass : dismissedBannerClass;
+
+                                        setCookie('dismissedBannersClasses', newValue, 7);
+                                        $('.info-banner-section_' + randStr).remove();
+                                    }
+                                });
+                            });
+                        </script>
+                    </div>
+                    <div class="hidden-xs hidden-sm hidden-md col-lg-2" style="width: calc(200% / 17.3 + 5%)"></div>
+                    <div class="col-xs-12 col-lg-8">
+                        <span>
+                           <h1 class="uscb-h1 uscb-medium"></h1>
+                        </span> 
+                    </div>
+                    <div class="hidden-xs hidden-sm hidden-md col-lg-4 uscb-padding-R-0">
+                        <div id="desktopLanguageSelectorContainer" class="pull-right">
+                        </div>
+                    </div>	
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            $(document).click(function (event) {
+                                if ($(event.target).is('#mobileFacetSelection')) {
+                                    closeMobileFacetSelection();
+                                } else {
+                                    //span('clicked inside...');
+                                }
+                            });
+                        });//end document.ready function
+
+                        function toggleMobileLeftNavigation() {
+                            if ($('.leftNavigation').hasClass('no-show')) {
+                                $('.leftNavigation').removeClass('no-show');
+                                $('.belowHeader:not(#sectionTitleRow, #listPageContent)').hide();
+                                $('#infoBannerSection').hide();
+                            } else {
+                                $('.leftNavigation').addClass('no-show');
+                                $('.belowHeader:not(#sectionTitleRow, #listPageContent)').show();
+                                $('#infoBannerSection').show();
+                            }
+                            $('#sectionTitleRow .leftNavButton').toggleClass('open');
+                            $('#mobileTitleRow').toggleClass('menuHeader');
+                            $('#sectionTitleRow').toggleClass('menuHeader');
+                            var sectionTitleRowHeight = $('#sectionTitleRow').height();
+                            var leftNavPaddingOffset = 150;
+                            if (sectionTitleRowHeight)
+                                leftNavPaddingOffset = sectionTitleRowHeight + 65;
+
+                            $('#mobileLeftNavigation .menuContent').css('padding-top', sectionTitleRowHeight + 65 + 'px');
+                        }
+
+                        function toggleFacetSelection() {
+                            if (!$('body').hasClass('menu-slider')) {
+                                $('body').addClass('menu-slider');
+                                $('body').addClass('in');
+                            } else {
+                                $('body').removeClass('menu-slider');
+                                $('body').removeClass('in');
+                            }
+                        }
+
+                        function openMobileFacetSelection() {
+                            $('#mobileFacetSelection').css('width', '100%');
+                        }
+
+                        function closeMobileFacetSelection() {
+                            $('#mobileFacetSelection').css('width', '0%');
+                        }
+                    </script>
+                </div>
+                <link rel="stylesheet" href="econ_assets/page/local/legacy.css" type="text/css" />
+<div class="row no-gutter col-lg-12">
+    
+<div id="leftColumn" class="col-lg-2">
+    <div class="grid_navInnerLandingHolder">
+        <a href="#skipsideNav" class="offscreen">Skip to looking for section</a>
+        <div class="grid_navInnerLandingLinks">
+            <!-- begin Navigation items -->
+            <div class="leftnav">
+                <div>
+                    <ul class="uscb-margin-L--10 uscb-print-hide visible-lg uscb-print-hide">	  
+                        	<li class="uscb-filter-parent">
+			    <span>
+				<a href="https://www.census.gov/construction/bps/index.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+				    <span>Main</span>
+				</a>
+			    </span>
+			</li>	<li class="uscb-filter-parent">
+			    <span>
+				<a href="https://www.census.gov/construction/bps/about.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+				    <span>About</span>
+				</a>
+			    </span>
+			</li>	<li class="uscb-filter-parent">
+			    <span>
+				<a href="https://www.census.gov/construction/bps/forms.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+				    <span>Information for Respondents</span>
+				</a>
+			    </span>
+			</li>	<li class="uscb-filter-parent">
+			    <span>
+				<a href="https://www.census.gov/construction/bps/current.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+				    <span>Data</span>
+				</a>
+			    </span>
+			</li>	<li class="uscb-filter-parent">
+			    <span>
+				<a href="https://www.census.gov/construction/bps/methodology.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+				    <span>Technical Documentation</span>
+				</a>
+			    </span>
+			</li>	<li class="uscb-filter-parent">
+			    <span>
+				<a href="https://www.census.gov/construction/bps/schedule.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+				    <span>Release Schedule</span>
+				</a>
+			    </span>
+			</li>	<li class="uscb-filter-parent">
+			    <span>
+				<a href="https://www.census.gov/construction/bps/definitions.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+				    <span>Definitions</span>
+				</a>
+			    </span>
+			</li>	<li class="uscb-filter-parent">
+			    <span>
+				<a href="https://www.census.gov/construction/bps/faqs.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+				    <span>FAQs</span>
+				</a>
+			    </span>
+			</li>	<li class="uscb-filter-parent">
+			    <span>
+				<a href="https://www.census.gov/construction/bps/contact.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+				    <span>Contact Us</span>
+				</a>
+			    </span>
+			</li>
+                    </ul>
+                    <div class="visible-lg uscb-margin-B-10 uscb-print-hide">
+                        <div class="uscb-layout-row uscb-margin-T-10">
+                            <i class="o-angle-left-1 uscb-color-accent uscb-font-2x uscb-margin-R-10 uscb-position-relative" style="top: -8px"></i>
+                            <a href="https://www.census.gov/programs-surveys.html" class="uscb-color-primary uscb-medium uscb-underline-hover">
+                                <span>Back to Our Surveys &amp; Programs</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hidden-lg uscb-margin-B-8 uscb-print-hide">
+                        <div class="ui-widget uscb-input-wrapper" id="data-uscb-input-wrapper-mobile-nav">
+                            <div class="uscb-dropdown-container uscb-layout-row">
+                                  <input class="tags uscb-flex-row-gt-sm-90 uscb-flex-row-sm-8" placeholder="Sections" style="height: 34px;"/>
+                                  <div class="uscb-form-dropdown-button-chevron uscb-icon-button">
+                                      <i class="o-angle-down-1 uscb-font-2x uscb-color-accent" alt="Local nav dropdown chevron"></i>
+                                  </div>
+                            </div>
+                            <ul class="uscb-filter-list" style="display: none;">	
+                                	<li class="uscb-filter-parent uscb-border-0 uscb-padding-0">
+				    <span>
+					<a href="https://www.census.gov/construction/bps/index.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+					    <span>Main</span>
+					</a>
+				    </span>
+				</li>	<li class="uscb-filter-parent uscb-border-0 uscb-padding-0">
+				    <span>
+					<a href="https://www.census.gov/construction/bps/about.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+					    <span>About</span>
+					</a>
+				    </span>
+				</li>	<li class="uscb-filter-parent uscb-border-0 uscb-padding-0">
+				    <span>
+					<a href="https://www.census.gov/construction/bps/forms.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+					    <span>Information for Respondents</span>
+					</a>
+				    </span>
+				</li>	<li class="uscb-filter-parent uscb-border-0 uscb-padding-0">
+				    <span>
+					<a href="https://www.census.gov/construction/bps/current.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+					    <span>Data</span>
+					</a>
+				    </span>
+				</li>	<li class="uscb-filter-parent uscb-border-0 uscb-padding-0">
+				    <span>
+					<a href="https://www.census.gov/construction/bps/methodology.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+					    <span>Technical Documentation</span>
+					</a>
+				    </span>
+				</li>	<li class="uscb-filter-parent uscb-border-0 uscb-padding-0">
+				    <span>
+					<a href="https://www.census.gov/construction/bps/schedule.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+					    <span>Release Schedule</span>
+					</a>
+				    </span>
+				</li>	<li class="uscb-filter-parent uscb-border-0 uscb-padding-0">
+				    <span>
+					<a href="https://www.census.gov/construction/bps/definitions.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+					    <span>Definitions</span>
+					</a>
+				    </span>
+				</li>	<li class="uscb-filter-parent uscb-border-0 uscb-padding-0">
+				    <span>
+					<a href="https://www.census.gov/construction/bps/faqs.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+					    <span>FAQs</span>
+					</a>
+				    </span>
+				</li>	<li class="uscb-filter-parent uscb-border-0 uscb-padding-0">
+				    <span>
+					<a href="https://www.census.gov/construction/bps/contact.html" tabindex="0" class="uscb-color-primary" style="font-size: 1rem;">
+					    <span>Contact Us</span>
+					</a>
+				    </span>
+				</li>
+                                <div class="uscb-layout-row uscb-margin-T-10 uscb-margin-L-15 uscb-underline-hover">
+                                    <i class="o-angle-left-1 uscb-color-accent uscb-font-2x uscb-margin-R-10 uscb-position-relative" style="top: -10px"></i>
+                                    <a href="https://www.census.gov/programs-surveys.html" class="uscb-color-primary uscb-bold">
+                                        <span>Back to Our Surveys &amp; Programs</span>
+                                    </a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div><!-- end mobile -->
+                    <div class="uscb-layout-row uscb-layout-align-flex-end hidden-lg uscb-print-hide"></div>
+                    <noscript class="hidden-lg uscb-print-hide">                                        
+                        <ul class="uscb-filter-list">
+                            <li class="uscb-margin-0">
+				    <a tabindex="0">Main</a>
+				</li><li class="uscb-margin-0">
+				    <a tabindex="0">About</a>
+				</li><li class="uscb-margin-0">
+				    <a tabindex="0">Information for Respondents</a>
+				</li><li class="uscb-margin-0">
+				    <a tabindex="0">Data</a>
+				</li><li class="uscb-margin-0">
+				    <a tabindex="0">Technical Documentation</a>
+				</li><li class="uscb-margin-0">
+				    <a tabindex="0">Release Schedule</a>
+				</li><li class="uscb-margin-0">
+				    <a tabindex="0">Definitions</a>
+				</li><li class="uscb-margin-0">
+				    <a tabindex="0">FAQs</a>
+				</li><li class="uscb-margin-0">
+				    <a tabindex="0">Contact Us</a>
+				</li>
+                        </ul>
+                    </noscript>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<a name="skipNav-CMSContent" id="skipNav-CMSContent"></a>
+    <!--  Content -->
+    <div id="detailMiddleColumn" class="belowHeader col-xs-12  col-lg-10 detailPageMiddleColumn">
+        
+        <div id="stdTemplate" class="form-group">
+            <div class="border richtext"><h1><strong>Building Permits Survey Methodology</strong></h1>
+</div><br><br><div class="border richtext"><h2><strong>Survey Design</strong></h2>
+
+<h3><strong>Target population:</strong></h3>
+
+<p>All places issuing building permits for privately-owned residential structures. Over 99 percent of all privately-owned residential buildings constructed are in permit-issuing places.</p>
+
+<h3><strong>Sampling frame:</strong></h3>
+
+<p>The Building Permits Survey covers all "permit-issuing places," which are jurisdictions that issue building or zoning permits. Zoning permits are used only for areas that do not require building permits but require zoning permits. Areas for which no authorization is required to construct a new privately-owned housing unit are not included in the survey.</p>
+
+<p>Periodically, we use <a href="https://www.census.gov/construction/bps/forms.html" style="color:blue; text-decoration:underline">Form C-411</a> "Survey of Residential Building or Zoning Permit Systems" to canvass active governments in the United States. An <a href="http://www.census.gov/construction/bps/pdf/c411l.pdf" style="color:blue; text-decoration:underline">introductory letter</a> explains the survey. The Building Permits sampling frame or "universe" is updated by adding all places that reported the establishment of a new permit system since the last canvass. The universe is defined as all unique permit offices at the time the sample is selected. Unique permit offices are those jurisdictions that would not result in double reporting. For example, if a city issues zoning permits and its county issues building permits (including permits for buildings in the city), only the county office is included in the universe. The numbers associated with the various universes are:</p>
+
+<ul>
+	<li style="margin-bottom:5px">
+	<p>1959 Universe included approximately 10,000 permit-issuing places and was used from January 1959 to December 1962</p>
+	</li>
+	<li style="margin-bottom:5px">
+	<p>1963 Universe included approximately 12,000 permit-issuing places and was used from January 1963 to December 1966</p>
+	</li>
+	<li style="margin-bottom:5px">
+	<p>1967 Universe included approximately 13,000 permit-issuing places and was used from January 1967 to December 1971</p>
+	</li>
+	<li style="margin-bottom:5px">
+	<p>1972 Universe included approximately 14,000 permit-issuing places and was used from January 1972 to December 1977</p>
+	</li>
+	<li style="margin-bottom:5px">
+	<p>1978 Universe included approximately 16,000 permit-issuing places and was used from January 1978 to December 1983</p>
+	</li>
+	<li style="margin-bottom:5px">
+	<p>1984 Universe included approximately 17,000 permit-issuing places and was used from January 1984 to December 1993</p>
+	</li>
+	<li style="margin-bottom:5px">
+	<p>1994 Universe included approximately 19,000 permit-issuing places and was used from January 1994 to December 2003</p>
+	</li>
+	<li style="margin-bottom:5px">
+	<p>2004 Universe included approximately 19,300 permit-issuing places and was used from January 2004 to December 2013</p>
+	</li>
+	<li style="margin-bottom:5px">
+	<p>2014 Universe includes approximately 20,100 permit-issuing places and is used from January 2014 to December 2022</p>
+	</li>
+	<li aria-setsize="-1" data-aria-level="1" data-aria-posinset="5" data-font="Symbol" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}" data-listid="1" role="listitem">
+	<p paraeid="{0a9c68cc-8cb9-47e3-bf10-43845f2daf97}{199}" paraid="1612840660">Beginning in January 2023, the Building Permits Survey universe methodology changed to an annually updated universe where jurisdictions are added and deleted from the target universe each year. As of January 2023, the universe included approximately 19,900 permit-issuing places..</p>
+	</li>
+</ul>
+
+<p>The historical impact of updating the universe of permit-issuing places through the 2014 universe update is shown in the <a href="http://www.census.gov/construction/bps/xls/universeoverlap.xls" style="color:blue; text-decoration:underline">Building Permits Universe Overlap table</a>. It shows the number of housing units authorized by building permits for both the new and the old universe in the year that the universe was updated, going back to 1963.</p>
+
+<p>The list of jurisdictions from which permits data are collected is updated monthly to reflect ongoing changes in permit coverage reported to the Census Bureau by local governments. These updates are reflected in the data for individual permit-issuing places, but all other estimates include only areas that had permit coverage at the time the current universe was last updated. Beginning with January 2023, the universe will be updated annually with the January survey month.. This provides data that can be compared over time without the need to account for changes in permit coverage.</p>
+
+<h3><strong>Sampling unit:</strong></h3>
+
+<p>Permit-issuing places in the United States</p>
+
+<h3><strong>Sample design:</strong></h3>
+
+<p>Slightly less than half of the permit-issuing places in the United States are surveyed monthly. The remainder of places are surveyed annually.</p>
+
+<p>The design of the monthly sample that has been used since January 2022 is as follows: The places surveyed monthly include those places in the current (2014) universe that were identified as issuing an average of 6 or more permits in the most recent 3 years (initially 2018-2020). The remaining places in the universe represent about 1% of total permit activity and will only be surveyed annually.</p>
+
+<p>The monthly estimates shown for the United States, Census Regions, Census Divisions, States, Counties, and each jurisdiction are based on received reports for places in the monthly survey and imputed activity for non-reporters and those not surveyed monthly.</p>
+
+<p>For information on the monthly sample design that was used prior to January 2022, see the Historical Methodology section below.</p>
+
+<h3><strong>Frequency of sample redesign:</strong></h3>
+
+<p>Beginning with January 2023, the Building Permits Survey target universe will be updated each year with the January survey month.</p>
+
+<h3><strong>Sample maintenance:</strong></h3>
+
+<p>Permit-issuing places are subject to three events: (1) splits, (2) mergers, and (3) discontinuance. If a permit-issuing place splits both the parent place and new place remain in the survey. If a place merges with another place, the combined successor place remains in the survey and the predecessor that has discontinued issuing permits will be removed. Places that discontinue issuing permits remain in the monthly estimates and have monthly activity imputed until the next annual universe update when they will be removed.</p>
+</div><br><br><div class="border richtext"><h2><strong>Data Collection</strong></h2>
+
+<h3><strong>Data Items requested and reference period covered:</strong></h3>
+
+<p>The survey forms and letters can be found <a href="https://www.census.gov/construction/bps/forms.html" style="color:blue; text-decoration:underline">here</a>.</p>
+
+<p>The reference period for the monthly sample is for permits authorized in the prior month.</p>
+
+<h3><strong>Key data items:</strong></h3>
+
+<p>Number of units authorized by structure type, number of buildings, and total valuation.</p>
+
+<h3><strong>Type of request:</strong></h3>
+
+<p>Voluntary</p>
+
+<h3><strong>Frequency and mode of contact:</strong></h3>
+
+<p>Permit offices receive a request to complete the survey at the beginning of each month. Building permit officials can respond by mail, fax, telephone or online.</p>
+
+<h3><strong>Data collection unit:</strong></h3>
+
+<p>Data is collected monthly from about 8,400 permit-issuing places.</p>
+
+<h3><strong>Special procedures:</strong></h3>
+
+<p>In addition to survey data received from a respondent, the following additional data sources may be used:</p>
+
+<p>Electronic Files – Permit data may be received directly from the respondent in the form of electronic files. Analysts use the electronic files to determine the values of the required data items each month.</p>
+
+<p>Survey of Construction – Permit data may be received through the Survey of Construction (SOC), which is used to collect information on housing starts, sales and completions. Data from the SOC are available for about 900 places for which Census Bureau field representatives list permits issued for new residential construction as part of the SOC sampling operation. (Please go to the <a href="https://www.census.gov/construction/soc/methodology.html" style="color:blue; text-decoration:underline">Survey of Construction Methodology</a> for more information.)</p>
+
+<p>Third-Party Data – Permit data may be received through data purchased from Construction Monitor LLC. Third-party permit data are processed to ensure alignment with BPS classifications and standards prior to aggregation and inclusion in estimates.</p>
+</div><br><br><div class="border richtext"><h2><strong>Compilation of Data</strong></h2>
+
+<h3><strong>Editing:</strong></h3>
+
+<p>Edits are performed to review respondent data; checks include high or low numbers of units, units per building, cost per unit, and cost per building. Limits were determined at the region level for both metro and non-metro areas.</p>
+
+<h3><strong>Nonresponse:</strong></h3>
+
+<p>Nonresponse is defined as the inability to obtain requested data from an eligible survey unit. Two types of nonresponse are often distinguished. Unit nonresponse is the inability to obtain any of the substantive measurements about a unit. In most cases of unit nonresponse, the Census Bureau was unable to obtain any information from the survey unit after several attempts to elicit a response. Item nonresponse occurs either when a question is unanswered or unusable.</p>
+
+<h3><strong>Nonresponse adjustment and imputation:</strong></h3>
+
+<p>If a respondent provides at least two of the required items (units, buildings, or valuation) for a structure type (1 unit, 2 units, 3-4 units, or 5+ units), the missing item is imputed using data relationships (units per building, cost per unit, cost per building) that are updated annually. The relationships are obtained for each region and metro status(met/non-met). For example, the number of 2-unit permits can be determined from the units per building ratio if the number of 2-unit buildings is reported. Some permit offices are able to report the number of housing units authorized, but not the valuation of construction for those units. Valuations for these offices are imputed based on the average cost per unit for the same type of structure and Census Region.</p>
+
+<p>When a report is not received, missing housing unit data are either (1) obtained from another source (e.g. Survey of Construction (SOC), third-party data), or (2) imputed. If data are not reported and are not available from other sources, estimates are imputed based on the following methodology:</p>
+
+<p><u>Monthly Imputation Methodology</u></p>
+
+<p>Beginning in January 2025, residential permit data are imputed by factors calculated at a mix of division and large individual states. The three individual states are Florida, Texas, and California. Permit data from these states are only used to determine imputation factors for non-reporting places within each state and are excluded from the calculation of imputation factors for their respective Census divisions. Single-unit construction is imputed at 24 aggregated levels: 12 geographic areas (9 Census divisions, 3 states), by inside core-based statistical area (CBSA)/outside CBSA. Multi-unit construction is imputed at 36 aggregated levels: 12 geographic areas by item type (2-4 units, 5+ units, buildings with 5+ units).</p>
+
+<p>Prior to January 2025, residential permit data were imputed by factors calculated at the region level. Single-unit construction was imputed at 8 aggregated levels: 4 regions by inside CBSA/outside CBSA. Multi-unit construction was imputed at 12 aggregated levels: 4 regions by item type (2-4 units, 5+ units, buildings with 5+ units).</p>
+
+<p>At each of these aggregated levels, an imputation factor is calculated by summing all data for that item for places reporting in the current time period and dividing this number by the most recent annual data for these same places. January through March use the annual data from two years prior, and April through December use the annual data from the prior year. For example, in January- March 2023, the annual data are from 2021, but in April-December 2023, the annual data are from 2022.</p>
+
+<p>Imputation cells (beginning in Jan 2025)<br>
+<br>
+<img alt="" src="https://www.census.gov/construction/bps/img/method_Oct2024.png" style="width: 600px; height: 322px;"></p>
+
+<p>Imputation cells for single units (used prior to Jan 2025)</p>
+
+<table class="MsoTableGrid" style="border-collapse:collapse; border:none">
+	<tbody>
+		<tr>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black" valign="top"></td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:1px solid black; border-right:1px solid black; border-left:none" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">Northeast</span></span></span></td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:1px solid black; border-right:1px solid black; border-left:none" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">Midwest</span></span></span></td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:1px solid black; border-right:1px solid black; border-left:none" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">South</span></span></span></td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:1px solid black; border-right:1px solid black; border-left:none" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">West</span></span></span></td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="top">Inside CBSA</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAAQVJREFUSEvllbERwjAMRR1mAQqOCcwEHA0VI9gte6QJa1DREG+QCTiKRLsYywlYdnLJGafhUONGftHXl5VMa83mi8V8KCT9GA7URe6yNqSKboWxgkQpDECUjdZNwXlhzrhgNN0gEBZH8LKpFep+rRjfrKIVkgst3NZF4gudlkPEpkvVmohtnslSyRhD/WD8dFimdM7hAH3YrtNoDteXCsrM88Qkhznv3qFUVxyYlyHz26MaUT6cQwYlnA60emqog5yuOis11YfPgvKlJnhrq7OuiuM+gdNdRZzKz0M0wA6wGryPKOmZ3cvBjcTtSiIRPGHnEen8YI63oCY3U1mI8R2Y/dOf7AVclhZV4xuiNQAAAABJRU5ErkJggg==" style="width:21px; height:20px"></div>
+			</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAAT1JREFUSEvlVTGOwjAQdO4tBwXiBc4L0DVUtHROeR+gTJcmKbmOlooG+wXkBYiC+C++9do5b4yQMKFBt00iZ3e0M7PeZMYY9rr4eB2URXozOK2aIs9cFCpZCrCChBQAIGRnTFdzXsMzLRhNBwgLloYwyKZWqOO+ZXw2SWZIChw49kXiCZ6IQ8iOp2oMIdtdRlMlY6yvZ8ZXX59jlAtw2vown45DC3C3VLWCeb4/yRq/u8j7tF47SzU0p+FmFNXh3N5nrqpJOdvYOe+kaH/KRmMuGZR4OqzVjwy1zfO1vjuk+qQPoDqrd9+ouoMbUk3xFgRcXzYnB+bh0FWxXKTgYBdNvj4sT1tSCNr5NRLffJAYFkK0VeCsl1MK/qesFO6V2Y0Ex8NVFF3h4FFwB3sg4eGStpGs426j8uw//cl+AUoyV+kIdhqNAAAAAElFTkSuQmCC" style="width:21px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAAUlJREFUSEvllTF2wjAMhu2ehXToywmcE0AXpqxs9tgcgBtkCWO7dWXqUvsGnCCvA/ZdXMl2GoXCa0JYeNUSBul7/vVLgnvv2e3i4XYoJN0ZzpmdKngMZSa3AqwgoSUApLbe20aIBr7TgtF0QCBsGmGQTa0wn/sDE0/ZZIWkIMLDu0hcoTNwiNj5Ur0nYu3XbKlkjN2xZaJ8XszpXI9z6EP+OI/W435LdQbm+fIkOxj3NO+F2rkoqusdSu0fh6mq/mgPl5WDmrbc4pxbnb9VmwQkg3I6HWj1mKHGvFSbXhekXuUD7Hi9z/X7S+h6xA2ljvbWKM6zVQVt6iLggqtyvRzNSYnL17BR27JdZdEzxJm6Okdz2AF2TJ4lAjwoFsKPIrZ/QZccL5IIJ4nEyQr3HhF3bCO7PReyO2WDA/XnZdLNT+H5XP6f/sm+ATtxMOmC7GxJAAAAAElFTkSuQmCC" style="width:21px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAAShJREFUSEvllTsSgjAQhoNnUQvHE+AJHHtbOnIJSzsbKL0ClY3kBpyAoTC5S9wNCJswAxND47gNM2H5sv++iLTWbDlbLYdC0o/hlMj5IWqNC+9UQCmIlSkA0lJqLbM4zuDpZ4y6AwJhfgTLm5ZCPIuKxbuNt0LyQQs3cRH7QqfhELHhUrUmYmUTLJW0sXrVLD6f1iGZG3AK67DfhtEG3FiqEtDPs52scmj63uuTO5Q6BKdgMvjtUVdzylWeFIw2BWkUtzuw1JNNDQ4wQdSri85I9ayD4ElzuR8tAS3Oljqn0LwX/MoIDNKTKzjuZ2Isa0KsO0UAMqlCXLdG3MmXeJ46WwXOnHutSxluJEyoBXMuH2o0Clh2rt0d1oKa3Uxl5kbrfBL905/sDZZegcwe4nFXAAAAAElFTkSuQmCC" style="width:21px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="top">Outside CBSA</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAATxJREFUSEvlVTESgjAQDL5FLRxfEF7g2FjZ2oXSD1ja2UCpna2VjckL4AWOheQv8RIQNg6jIjaO1zBDjp3bvc0SGGPY96r3PSiL9GNwWiVRGBQVqdZS0CqgpCAAIXNj8pjzmJ7timE7QViwdgheN65CnQ4Z46NBa4bwQQHu5oL6gKfDAbLdqRoDZPNLZ6pgY309Mz6f9rsoV8Npu4fxsBtaDedR1VpVXg6fmdn1QcNdO0u1Gk5tBuvRyno4lyLbrRPdoICm2xNtjufMOwOjNLnDrvuZa+w5GL+czlFt2AMpyuL98m1FCziPajU8CbO4rNL3wcq8c1sVswmqoJNwcZylW+/laxORdmWM+MnCK0WkAHGoFzOCVkWhUScPs4lEn3pR5PChagBQ/uGaF/vyAuplMskYJmnqDv7pT3YDCldX6csUox4AAAAASUVORK5CYII=" style="width:21px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAAQhJREFUSEvllcERwiAQRYm1qAfHCkgJ3i2BtINteBc6sALHg9ALskBkUSIiuTjuJZPJ54XP/mw6YwyZrxbzoYD0YzgtD0Pf+Rpk9VHYVqASzAKYUMYoTim317oiWG4RAKsjJGrcCnk6ngndrKodogUe7vaF6gufjoPMtls1BplV12arKMb6diF0v1u2nFzEaejDdt1Gi7jEqtbykeV+Isx5TYhN0gcbZsohy0ZBrrNtzmtCZx0ttwwelFKDNAE3tYlPPjWs8bh85KxTWvrknjQOl6PBO4usFw3gwhhJJ0tkCYawVjve4b2PGgITyS5NRpHjo4o48OHv8ppkQBUnk+Ds/Qzs/ulPdgeuDjC6KSfWgQAAAABJRU5ErkJggg==" style="width:21px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAATdJREFUSEvVVbERwjAMtJkFKDgmcDaAnpbOKWEAhkjWoCeeACbgKLB3MZJtYhkIISQFfJPLRf7z618Kt9ay4TAajgqZ/ozOqDLPuEeuOrcCrCCoJBDISlurCyEKeHYDo+VAgWTdGJJqaoU67E9MzCadFZIDntzdi+ALnY6HiO0v1VoiVl96SyUxNtczE6vluE/nIp1BH+bTfmyRLpFqjKqznDWE2UDcQ96zvDRBVIhN4gOEWRSYZasx1y9tdjF/qgnOOrZXx/BDW2pITaBrukT7qOmqkMKNJcIHBV199gEauL7sjptGe1TO+WSxhbM16pl4mFW812fjC/erRx3FhjWSbpbIVUlCC7X+zdnlJRIbGW6kqN1TOn6CSIcnw5uGnoUaIe+rLFlQrZsJ2v5+B3JcA8Pht389NxtW938jv06GAAAAAElFTkSuQmCC" style="width:21px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAAUtJREFUSEvllTtywjAQhuWcBafw5ATmBJ70tOnkkgtQuktjlaSjpY90AjgBQxHpLsqurEi7BJNxTJPJNsyI1af99+XCey/uZw/3QyHpj+GcUe2yGKw1k1MBpSCmJQCktt7bvq57+J1mgroDAmHTCMyblsK874+irsrJCsmFAR7iIvYLnYFDxM6X6j0Ra8+zpZI2dh8nUa+eF3Myl3EO6/D0OI+WcUyqcyb18vJ2MzsFTZ9cvnKHUlNw5rXsqg32sNXy+NYpN5YBp172gjRFxAWpqeWarT+sG9S9KCveQYwLsPNmtyJnERekXqkDPCP63fpqRk0LsG3DHhhwTGr6HxIIFw5jsE4QmFNtSEmaiYtZxRUwPr6XUwSgMEiIi2uEb5bM0pJgwff7u/lI4EaCq2wVBT6xDMCoGM7GOOMhW1A/bibdy9s7sPhPX7JPyWNc1JoKgVsAAAAASUVORK5CYII=" style="width:21px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br>
+Imputation cell for multi-units (used prior to Jan 2025)</p>
+
+<table class="MsoTableGrid" style="border-collapse:collapse; border:none">
+	<tbody>
+		<tr>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black" valign="top"></td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:1px solid black; border-right:1px solid black; border-left:none" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">Northeast</span></span></span></td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:1px solid black; border-right:1px solid black; border-left:none" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">Midwest</span></span></span></td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:1px solid black; border-right:1px solid black; border-left:none" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">South</span></span></span></td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:1px solid black; border-right:1px solid black; border-left:none" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">West</span></span></span></td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">2 – 4 units</span></span></span></td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAAUZJREFUSEvllTF2wjAMhu2ehXToywmcE0CXTlnZ7JEcgBtkCSNsXZm61L4BJ8hjwL6LK9nQyEBb3LD0VUuG2F/0S78U7r1n94uH+6GQ9MdwzqxUxWMok10KaAUJLQEgtfXedkJ08MwLRo8DAmF5hOQ0bYV53+6YeCqyFZILER7yIvELnYFDxI6X6j0Ra/ejpRIbu0PPRP08GVO5AeewD+XjONqAS6Q6sPLRy5Vaua8TdgY8T9x+qh1K/UwOMu3rJXrY6nLTzK8C8ZOqfet3yceIUa65A9v9nWvwPTH+Mbsg9aIPML/tttSvi5srGnGJ1Ji8UZwXswZKkBMBF7oqX6b04nQdpmVZ97Pi9s2CONM2KQ0yq2L5J+cDDK8o3GGV2GHoPW4kEVYSCdvJ0wwLSdcUqfzZmMd+JQvqx82kuwR+eZ7/pz/ZB/huMOmeY4S1AAAAAElFTkSuQmCC" style="width:21px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAATRJREFUSEvVVbERwjAMtJkFKDgmcDaAnpbOKWEAhghr0GNPABNwFNi7GMl2EgV84UxSgJrkYutPr38p3DnHxovJeFCI9GdwVh/LgocodXYrQAoSSgKAVMY5UwlRwTMvGL0OEAiWh9C5TaXQ59OVicUsmyFJCOC+LhJf8PQ4hOxwqs4RsuY+mCqxsX3cmNisp0M618JZ1GE5H4bWwnWoWrBy9HJRHm2yYGt14/eiMXy0TUcHb2H0sjPo66TMcJC4E5X1aKk0PPjkGnInwqWLMKqSwo9cX9BxDEZBVV900CXns9UevvcGNHB7P1x2tYTNTCRnFerrGWOsq5uGZOMaaQn5NgeKr6MCRzWAwkbEJCXDK8ON9NYfAz2LHIWkawrRQ6KvgUSEy9pGIE3/DuRY4Xjx27+eJ9B393+WzHi4AAAAAElFTkSuQmCC" style="width:21px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAASJJREFUSEvlVbERwjAMtJklUHBM4EwANFSM4LTsQRPWoCfegAk4CuxdjGT7iAwKuRAaDjW5iz9vSf9SpPdefC8m36NCph+jc+ZQlTJGZQa3AqQg0Wgg0I313tZK1fAcFoLCgQLJhjFkaCqFOR3PQs2ngyskH0TykBeJD+oMPKTY8aV6T4q119GlEhu720Wo7boY07mWzqEOi9k4tpYuK9WBlZOXy+rg2IR5TLJNpkOwMHrZW/Q1KzOPScoGNu4zPOhzDcEkOj4J29RahZHrjhwTjYKqPulgKimnqx287w4G85gJdlbh7t4xphjMzux3Z6E3y0cacGsZ9SyeBxiO4trqwOBGeumPhZ4lcqXpmsKupzJYTLagejcTSPN+B8p/+pPdAfx+yfXdBiXTAAAAAElFTkSuQmCC" style="width:21px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAAVhJREFUSEvllTtygzAQhqWcBVJ4OIF8Aic9rTtU4gO4TOcGSqdzSx/pBM4JPC4i3UVZCSFWGNuDcZPJNsyI5dP++4IaY8jz7OV5KEv6Yzgta76krXE5ORVQCmSiAEAhlDGqYqyC5zQj2B0QFjaNEHnjUsiv5puwRTpZIfqghbu4kD2g03GQ2PlSjUFi1Xm2VNTG+udEWP6ezMlcj9O2DtnrPFqPi6RqaGXfy0te61sB6xocQ793ubNSQ3AQ6Snf2h5WIvvcrK8Ddb1uCGoKj3NSQ8sl5fFYrqzuJF3EHRQFCrDz9pCjM49zUi/qAPO7azJxKEczKjnA9qvoghYXSW3fS05p+raBFIyb5B8EwSDbLiVhJkZnVYnxMR5OEYDcIFmcXyP9LMNBN2XDUYFXg3utRzgidiMxt5KQqaroKsAKvKaib50wH6cHRgvq7mYSVQS/9Kf/6U/2Cye+XElfkv7OAAAAAElFTkSuQmCC" style="width:21px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">5+ units</span></span></span></td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAIAAABLixI0AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAASZJREFUSEvlVbsRwjAMdZgFKDgmMBNw9LTp4iUo6WjikhVS0RBvkAlyKbB3MXK+ss/JYZKGQ00KS+/0np6USGtNForVQjgG5mewlODsEDXBRJgCoD2KPIHqJJday5TSFL4BQXAu1BukgHIrFWsvnllB6G4TRgxlN8h1RyhC6dUgiONMhlojjrKaxxB5Vb1KQs+n9ddqDVjKCL/fzoAasHwMFQfXjhtWCXA1eu70MgydthSPM2KPt+evYDnY7VEWliLIE5YRYKrgf7DKhHed57avmiESXrC4utyPYXNosByGgl0JQgJCXH0C27u+5+LuAKCMrIHD0fi+PQ6elXaSIRGrJ01hMhwTYo6MUdmH1HbY1SNkp/emb+vmTB+bPEU9+FKjP/gPvQG8Tmbn+4+3MwAAAABJRU5ErkJggg==" style="width:20px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAIAAABLixI0AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAAUxJREFUSEvllTFuwzAMReWeJe5g9ATOCYzuWbtJYy6Q0VsXa0y2rNkrnSA5QZCh0l1UUrJs2hDSqs5SlEsQg3ri/ybpwjnHHhRPD+Ig5s+wrJZiXYQQOs8B8J6E4nCaK+Oc6eq6g9+MYDQXziMp4/gklXqvP04XVldlnjCSHci+IhK58jyEaFyo0Dmi0dyWKSS9aj+vrN68rn7t1siyaPzL8wLUyEoptBK6Ntmw1uqho9cxI/qFCmdlWfl2YtPXG/Xr97KtdtjJRvHLoZWWzLZXOGktIN12x03avWbvztsG/ViV1XBdX5dXSIzXAkj75vv3AEWw7rj1NgfWTKEWLSMkK0UQMQ8wDa48BxLE0PXDHM5nAJJSY4DDP51dZPXLITHSiCX5kBj/KT6CFA9PGS4ZeJzaLqavMJ4fyf52Ej3r5wtGdfz+Qiv+wXfoC5/+ROyypurgAAAAAElFTkSuQmCC" style="width:20px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAIAAABLixI0AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAAVZJREFUSEvllT1ywjAQhaWcxU7B+ATiBCS9WzqrNAegpKOxy6SjdR/pBHAChiLSXZTVn712nGQU02SyDTCz+qz3/Hahxhhyp3q4E8di/gxLy5avqS8u0xwA71GJCk5XQhmjGsYa+EwognvhvCUlHB+1Yu/lW3chbJWnCUPdnuxuhCpVnoMgjQsVGoM0qtsyhSir+v1KWPmc/dqtgaWt8cXjAtTAmlOoW0jtbGA1BDokes1b7bVEv6zCybV0u+3I+PVG/SDiWu5tkpUoXndbTwssp3AULSDd9qdy3r2sPp/rjfUjy1f94wLLKUTGSw6kl81P7wGG99gV4lQ7mz1rolDyA0EkMCdaguCSU5o/7cCavvrU93M4nQFo/XoMlBhm2OY+LIeZkbZYNOvQ6H/Bl4hH00LskmFuy3wqFW4YaYismipazqq4mkY75/tlI5r+1Hwj/Qf/Qx8r7ERhT2q+rAAAAABJRU5ErkJggg==" style="width:20px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAIAAABLixI0AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAARtJREFUSEvllb0RwjAMhR1mAQqOCcwEHH1aungJSgaIS0ra9MQbMAGXgngXIzt/kvNzZ5KGQw3N03d+L5KIjDFsoVotxLGYn2FpJcUhqkqosAQge1R5At1JXhpTppyn8BtQDGuh35IC2okUZ68e2ZPx3SbMGFJXZPciVKH2HAR5nOnQGOSxLOY5RLOq3y/G49P667Q6lrbB77czUB1ryKGWMLVTA0sFTV7WofcsLc8Zo5+X+vcFNcs5JKMFwuJyj8fT6wtqlnOIglcCSLfjOGlIULE8h0pcGSJpKaQm2BFBO/XtHvo7ABS6BmMCO/f1cRhYaduFdh2E3uYTAbNHhrsr06uyfkDT75Fhi6mA3JzpY5OnyfRBi/7gf+gDUn0154JtnU0AAAAASUVORK5CYII=" style="width:20px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">5+ unit buildings</span></span></span></td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAATtJREFUSEvllbF1gzAQhkVmwS7yMoGYwHaTihFEiZtM4QZKPIIrN0ET4Al4KSztIuuEiE+CZyNDk5drKJA+7r/774iUUmS5eFsOBaQ/hpO8zJKoi4wHl0K3AkXNNIDVQilRUFroZ1gQfFwjABZGcE7jVvDv04XQ91WwQnShg5u8ULyg03CQ2PlSlUJixc9sqcjG8toSmu7iOZW74yT04WM9j3bH+VJl2ZsZDJ2UcjRrybXnkdv72oFUPznkwCYfpC319GSHc3vB37E4IzXMcnFeNVX1lToOszgj1e/DcWtnN5k8vB1uRGqcN3Z8REGO24lAgzNS2edm3CPxTgtqr+O98K4Ajh/2A5pubN9Nx0I8c9aWhCoR9CnYSNSsJCdEzX5rjF7DINqGe2PeTbmzoJ5uprpgj3dg9J/+ZDf39ffubpPlIgAAAABJRU5ErkJggg==" style="width:21px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAAShJREFUSEvVVcsRgjAQDdYCHhgrCBUw3i0hHm0Fjrbg3VCBVuB4kPSy7iYBFnTiRDjoXpjJ5+17uy9LAgBiuVgtB0VIfwZnmnpfJC72TXQpsBUstEIApVuAtpKywm9cCH4cIQgsDmF0mreiOZ+uQuZZtEJ2wYFbXiy+0GlxmNj5UgGY2PY+WyqzsXnchNxt0zmVG+AM9WGznoc2wE2lmrozMxm6qM2UtTFN7/eiN7y3zUsfcCHoQDS8rMjv0JL3vRV8K6zUKMuVR7gcSqpNmuWDyxw7loDT9QLDPPlzdL4LWi68qRVPZuE+GJi23z4T4jUuMMH5MTJ6y0zBKBme7QA4L63cqqCJhCmmowjb1deXbRO0u2g5sPBwUdNIVyo8AxNiuFz89q/nCcwd8Vo28Gz8AAAAAElFTkSuQmCC" style="width:21px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAATZJREFUSEvlVUESgjAMLL4FPDi+AF7AePHkE+CI//AC3/AufYG+wPFg+5ealFACjnUqXhxzgSFlyWY3ITLGiO/F4ntQiPRjcFo2ZRZ1UcrgVoAULNoCAIpWGaPqNK3hGhaCHwcIBAtDGJ3mUsjT8SLSVRLMkL3Qgdu6WHzA0+IwsvOpGsPIqttsqszG+n4V6W4Tz+ncAKdRh/VyHtoAN6Wqm97MaOis0dOqNdidjmSlS5NtnnSAB14HWpuj341C75MVSApLNchycXU+Vzn2Jk5Wg8u66tgHeLlE0FenausC8jSOne+8lnudtBMORCdwbwyMac+YQH1u1LF38rC/iGKbc+1A2F7NkYVkSWsLbuhAzIcc6x2KdesB5HL9ZWkslARX0DPX236VjRbU280EbffvwOif/mQP0BLC5WfFLTEAAAAASUVORK5CYII=" style="width:21px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+			<td style="border-bottom:1px solid black; width:125px; padding:0in 7px 0in 7px; border-top:none; border-right:1px solid black; border-left:none" valign="top">
+			<div style="margin-left: 40px;"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAIAAACgvKk3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAAThJREFUSEvllbERwjAMRR1mAQqOCZwJgJ6WLi5ZgJIB4hI6WnriCWACLgXxLsZSTJBNgDOh4VDDHVEe+pK+SIwx7HvR+x4KSD+G00qKNKlDqOhW2FGQKDILyIrKmCrnPLefccFoukUALI7gZdNRqMP+xPhoEK2QvFDDsS4SH+hEDhHbXaoxRGxVdpZK1lhfzozPZ/0unbvjNMxhPOxGu+NCqVrelhkWOpX6SdWY1+z7rXcgNSyObOBx2V62los9I0vhcCg1euUsrFzt5qRuh0Op4Ry2U+fdtNW8SljYZuI1oca1SO0vj84+Vc620wegEmtGYFoKbG/jiedehf0ObBK6yIIwA3DujHheJgfFc4vNDX4XHjdfMbhIHE+SjyuyZmDksfcuCnN1OqB3oN5epiLPXt/A5J/+ya69X10ms98wCQAAAABJRU5ErkJggg==" style="width:21px; height:20px"></span></span></span></span></span></span></div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br>
+For each cell (<i>i, j</i>), let <i> u<sub>ijk</sub></i> = number of units (or buildings) authorized by place k in current month and <i> a<sub>ijk</sub></i> = number of units (or buildings) authorized by place<i> k</i> in prior year. Then compute the imputation factor, <i>f<sub>ij</sub></i>, as the ratio:</p>
+<img src="data:image/png;base64,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" style="width:497px; height:35px">
+<p></p>
+
+<p><br>
+For each non-reporting place (<i>r<sub>ijk</sub></i> = 0), the buildings and units (HUs), if applicable, are imputed by multiplying the prior year data for that place by the corresponding imputation factor.</p>
+
+<p style="text-align: center;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAAZCAIAAAB8Rd0AAAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAAytJREFUaEPtWT16ozAQxTmLceHPJ8AncLZJlXY7KO0D5AZpoHS6bbdKs+gE8Qn8uTC6CzsjCZAAwQjzgQtU2LHRz9PTmzcjZ5Xnube0aRl4mXa5ZTVkYCF9Bh0spC+kz8DAw0tylkT7lWwRo0y3KJ3CUkcfFvmvJ+8jy/MsDoKtT5lutVQvFJpsfXiy90+7ND8fXGZZlO7CVr0v+/f34hHlrY+FsEjDAL8JYogR1dLQ/Fw+mPmPAiugC+MU4lnDPC00MBPjCFyQeFkcInBkOUyfm3OxzyBMhTYQsA55VMrRngnHKQBVrJEhvKyP5+Pa4/erdm7i026zfiTyLGNZpPK85W2fcMtInvw+XYL4z/kgcPlb3PCbk5f274dF+yhhfL3ZQV9RlnTVI9ltkLl4njye5xe6ULamKlQZRY1k+RUdszQOwwAmD9DBKsdtTjQYgkyk7PtLywco9OD9F1noUr12jfYLrL+HCD5N2BxTmEswUkHy7H67wlqBt9ttN34HCc4Qql3iAZpHVtdU/bk8cmMMDCGqTlqxvdmmqWX2Fjdt050zSKgpVIoDIKh5SCG2WGkpNjq1Xz0U9qKbi8zKRAoVHhwzIJ+4RL6xwyEYhUqoICmJdGgWhV2jvYjQvd4hg3EWfXrvIEYMXJ5AToFXvOKa3iG/q+68kFBksarSJO0y3O8pWg/Mm5dbpmPEp4ARFxsb5Pr48wPlRVcT5qKX6G0YyglqjKk8Kit1UY6pCrSozVolYsim0AXEI2SgnuzjIm+jb3GbEOGvKsYS4/QgLeZijSWdMVW9dFEB0zem0k28uiaoEnowrw8MnBpkm7m0YSi3pDPW/zMAVDaNiy4aUlk6oLmA+mDWr+/MyTPG6zw1SGEutVtCG4bKX3TGeklX/PIE/L1ouGR5EFhu4gEc3pB1SAIMbhfj0UmaaWqQ7PPU4LyGAdKbltoMxorLkT2wVaVgOEfdXJT7CNeVJdfEbUqQouitkkm5UxNDrVYya2qCpzcINK+vE/NLXW5ekFDh69qrgXEnHUqUQb/yUNkapd9TgWyAcSK9iKAZDIR+FE8Fsh3M8p8jUqYet9N/KnstpOa0WRQAAAAASUVORK5CYII=" style="width:99px; height:20px"></p>
+
+<p>The prior year data for a place may be either reported or imputed. For places that do not report an annual total the previous year’s annual total may be carried forward by the annual imputation procedures. For more information on the annual imputation procedure refer to the <u>annual imputation methodology</u> section below.</p>
+
+<p>Buildings for 1 unit and 2–4 unit structure types are imputed using the same factors used to impute units for the corresponding structure type. Units and buildings for the 5+ structure type are imputed independently.</p>
+
+<p>Buildings are imputed first and then imputes are rounded using a controlled rounding procedure. Controlled rounding is a statistical technique used to reduce rounding error.</p>
+
+<p>Assume that we have a set of real numbers {a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, …a<sub>n</sub>} We want to form a corresponding set of integers {b<sub>1</sub>, b<sub>2</sub>, b<sub>3</sub>, …b<sub>n</sub>} such that</p>
+
+<div style="text-align: center;"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="position:relative"><span style="top:4.5pt"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAAYCAIAAADVmuCKAAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAABAtJREFUaEPtWT2aokAQZfYsuMF8ngBPgJtMNKkZhEwymeFkJhBqZrrRJAMn0BP4GQzcha3+AbqhfxFxdehIpGn6Vb2uelU8lWXpTGOyQGWBX5MpJguwFpgIMfGBswAhRJEsnhZJQe6gC+WoZ96vLe8EI+eXcawtiBButI899PYgBYHBjjwN2F0RqyJ6ZCHm0P0w5YYYs5CctjAbx8O2b8EOz4EBXpw3zkd/iChRIkqQmXkcpzl+0AvQH+hnh0ItRv1Xl7fDiIxoZKqOX4Y2YJ7Ggcd53hETgvhXRAkAwyzAQONvDL3zq6x3I4zmbjaf2bEPRHNyUGUDTSDRg+OmlBBySjBvuG8+0NAojIQNyOExmh+dPoTAhx7CeAABXM6GmNzHR4IjhKLKcKM1kgy7pTTbFd8nJ3jxsRKFn/PfbpEkl6TGgooRkCNhkiWLq4uSG2B0ss8dNlUlvIYSEwVZcfVxftmX5WEb+a5UP7iR9L4sZRByURUpTngsf4ne9AIFK3VRH7O1WoG82CjR6tbV3R8TIw1KQRwHxFT45VKYhhECRX9tUBCaoRshFCnDgBI6W1vcJ3Sok153pxZr2U5VUsJ2Md18cnIqoC3YrYd1hKDpAR8jhVxQCAmblEHijf+OPfU8sy1f7OZnm7ejE6wjNspZvLSq5WT9E3XuGQkjtghKGF6854DamaqZnW2Wb6c5RJrD1nfl+cFqeW2nEnlqKADynSEJUskRLEm+/h5RojXF4m/VB/OgdMA4GDEWBNR7/VMDy89HxwYoZxD/PY3np+UMFFdW0LaiqcVk8zSEyMLlLkjV5rx0C+h5ZBcmIGA+ULlKl79e024sjCKio3jRALXG6PrR9gD14Nr5WCFaJNnltFCISpM8rsty7aSIil+Bhmr6XXUtyLVLdIm59/0RMVYivdXGUeG0sm5OOgvQJzRX9jZlZ5Gs3o5BusVVpXRA/VKaBZAiCRfh5vMEIbI7Zs+eczznwG+onTbOK22RwzOoKGt65ENEI2aNUTHShEFxAtBksdzV2fhyjK7ro3CxXz9/rkjdbhguTt/sREmEkJ4cpkNNGn01w/kPHZXZW+FA2uCmfTPaXSNrNVy/Sl98dIw5tIzitO4Qto6yAKNVhOCjpKZTibZCG5XEU/QDRCkuO+Wm4utmez/ZP1H1Q4buSdwDxgsI0TeJikRlFs6gBoQWZbeImy1BBDXqD7QgL/0GDunVcqC9LGpQk038BIwmdujM6RKiSD7A6UaD95O4FzBEY3aYvjinHR4fo5EHBZP6hpaqCZvi7+Cmq+AOt/IjnGglKlYs1LPpfrTzaIp7aIycEYiG6Dfs/ERm12OcqrIfMOapn4CRM9ITXPUNLtNzD2gBbev6ATFPkBQW+AfJpKSqh4GSbAAAAABJRU5ErkJggg==" style="width:141px; height:19px"></span></span></span></span></span> and <m:omath><i><span style="font-family:&quot;Cambria Math&quot;,serif"><m:r> </m:r></span></i></m:omath><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="position:relative"><span style="top:4.0pt"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAAAXCAIAAACZAcZvAAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAAsJJREFUWEftmL2aqjAQhsO5FjiFj1cAVwDbWG1LB6U0dJR2NlBqR7uVzYErgCvwsRDuJWcm0fWPxATxpyDdriPf5M3Ml0GDUkrGpUngj2b8GI4ERmp96oBTazPHcLK2zwPe8503J/xBtVaGBlth+Z6T0FD9IGruihYBIcHM1cj/WaFtmYWOsP0+iBoYxX5L7In1LBL8uW0ZOqHMjTDAsLxoXU//mt25fBS1Zlfb31+CTB9mycrHMPzNJInnIhEwzOV+ltMmtSWCMmoMOltwOGUmLtiHN8QfUG7WBI73KOsMZXAtf6K/2AEOWq3mrvhgzLn8c56pkBpAt7zttGhgDKYJibxIXLDDUMP+DCb7cEniioLF1WvvUW6IC7oNy6uhVbWS4NLag4Bam/lRbaf5QceaQL0+26ahP8n6h8Rck0lu9z2noUM3WguS5MBLWl5avGS1Vi6jmgTJRfer2vRxgOC9fbtEFxP2J5yT0HF0NlcuvYj1CZbXE3yys9awV85Lq/33U6PjKCUOA4R0Vd1c2P15dhVg5SlrXifmxkU63XoWGHLZ9ixX2WY7qWHGZ6XFoF325+Cz+fXBYOWdNLXlTHe+AnNsErLwkV1WDsru/uTBLO56jIKrhgqKRqkgb4KuDoq3a3ycd/vKme6qqmiTz3YLYIeF1y+76291UkMnrncNSMAltCTfMLGz+TAL8VLDg4dhZNDXVuYJXBI0M8db/1rc43ImwqM0TyYbn09RivDElxHzIJzp7JQNGXwVARvy7ID9E1908A8+hvDwoJDbl9anTRrYaXEQPVcSyd0krC7XgAzfVufCVC4GXLsjmnRTkycBFAeFdmfLHXIPUFPnK46872u3TgCmozqGDGEjL5ZTSbkHNfQgfPHJspf8pPNiORVohHeo1uIvtieX0/qyfvCL5ZQSNCBKDe8YdSLQo0NHfOQ/TBGBn0y/FMMAAAAASUVORK5CYII=" style="width:82px; height:18px"></span></span></span></span></span>for all<span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="position:relative"><span style="top:4.0pt"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAAAXCAIAAAD1B5RqAAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAAeZJREFUWEftWDFWg0AQXTyLWvg8wXKCPBsqW7tNaRo7S7s0S6ld2lQ2gRPICfJShL0LMsOyCWGZJU+QKGwn/oH5f/7OzIuXZRkb8bkaMXegPvEftwHc9Y/nnueH6p/K5OSv9lvG7m+v++Gv4nDuD6pu3v+HOWkkeCGqiNwZpJIzLlM38EyEs/491T30l/tglQGtFkfFy0XSjwsJvcrk2tTnTNlLOH6Cfn9NoiM4eEgLyIXdHaXN0DzmD/MORiceCdaL7c7gD1BrGigMlxFcipyY9SKlEmWB/wophQCwjivuEs3fXR78LnEcd9b9AUjShqqw0BI1OamwkEkF1dA9h77/6S5h/O6G4Dd7pw309dzB5LCkgQ1BvLZ7O8QfwDDRDCmSPyIfHzpg0KLHNUPiz4/TNHAqi2BmgvBBQ6mQhnzRYLVZH7VSin8Vac8PtiPqdDDbbRtIzRH4wF6qExqAPChH8Xe7n7Ff8H+LNFT4VrOIqVc1Hs10uNIE/1J32NF63X+3e+d2nezSnI+K534YA7FZIFiy3mBc/vRpkXC5sjcDi31gnVU5KXiVe/5znBodn3wwlZO7KBRvGuC6/SPmOBOzPkJoc4ans0OvE2WIN/3+8aPe/NeDB9r/L0a2if/FlGKQRMZe/2/SVeCWoYi3uQAAAABJRU5ErkJggg==" style="width:68px; height:18px"></span></span></span></span></span>. </span></span></span></div>
+
+<p><br>
+In other words, the numbers <i>a<sub>i</sub>­ </i> are rounded to <i>b<sub>i</sub> </i>without distorting the overall sum. This can be accomplished by forming a set of differences, <i>d<sub>i</sub></i>, <i>I</i> = 0,1,2,…<i>n</i> where <i>d<sub>0</sub> </i>= 0. The terms <i>b<sub>i</sub> </i>and <i>d<sub>i</sub> </i>may then be defined sequentially for each value of <i>i &gt;0. </i></p>
+
+<div style="margin-left: 320px;"><i>b<sub>i</sub> </i> = <i>a<sub>i</sub> +</i> <i>d<sub>i-1</sub></i><sub> </sub> (rounded to nearest integer)</div>
+
+<div style="margin-left: 320px;"><i>d<sub>i</sub></i><sub> </sub>= <i>a<sub>i</sub> – b<sub>i </sub> </i>+ <i>d<sub>i-1</sub></i></div>
+
+<p><br>
+Consider the following example of controlled rounding implemented on 5 places:</p>
+
+<table class="MsoTableGrid" style="width:623px; margin-left:6px; border-collapse:collapse; border:none" width="623">
+	<tbody>
+		<tr>
+			<td style="border-bottom:1px solid black; width:94px; padding:0in 7px 0in 7px; height:54px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black" valign="top"></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 54px; border-top: 1px solid black; border-right: 1px solid black; border-left: none; text-align: center;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">Number of units imputed (a<sub>i</sub>)</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 54px; border-top: 1px solid black; border-right: 1px solid black; border-left: none; text-align: center;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">Difference<br>
+			(d<sub>i-1</sub>)</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 54px; border-top: 1px solid black; border-right: 1px solid black; border-left: none; text-align: center;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">Adjusted impute</span></span></span><br>
+			<span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">(a<sub>i </sub>+d<sub>i-1</sub>)</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 54px; border-top: 1px solid black; border-right: 1px solid black; border-left: none; text-align: center;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">Rounded number of units imputed (b<sub>i</sub>)</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 54px; border-top: 1px solid black; border-right: 1px solid black; border-left: none; text-align: center;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">Updated difference<br>
+			(d<sub>i</sub>)</span></span></span></td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:94px; padding:0in 7px 0in 7px; height:18px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">Place 1</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 18px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="color:black">10.019</span></span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 18px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">0</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 18px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">10.019</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 18px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">10</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 18px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">0.019</span></span></span></td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:94px; padding:0in 7px 0in 7px; height:17px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">Place 2</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 17px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="color:black">3.694</span></span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 17px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">0.019</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 17px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">3.713</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 17px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">4</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 17px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="color:black">-0.287</span></span></span></span></td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:94px; padding:0in 7px 0in 7px; height:18px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">Place 3</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 18px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="color:black">6.492</span></span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 18px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="color:black">-0.287</span></span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 18px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="color:black">6.205</span></span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 18px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">6</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 18px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="color:black">0.205</span></span></span></span></td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:94px; padding:0in 7px 0in 7px; height:17px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">Place 4</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 17px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="color:black">14.110</span></span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 17px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="color:black">0.205</span></span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 17px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="color:black">14.314</span></span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 17px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">14</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 17px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="color:black">0.314</span></span></span></span></td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:94px; padding:0in 7px 0in 7px; height:18px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">Place 5</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 18px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="color:black">20.642</span></span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 18px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="color:black">0.314</span></span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 18px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="color:black">20.957</span></span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 18px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">21</span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 18px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="color:black">-0.043</span></span></span></span></td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:94px; padding:0in 7px 0in 7px; height:17px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><b>SUM</b></span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 17px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><b><span style="color:black">54.957</span></b></span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 17px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="top"></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 17px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="top"></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 17px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="top"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><b>55</b></span></span></span></td>
+			<td style="border-bottom: 1px solid black; width: 106px; padding: 0in 7px; height: 17px; border-top: none; border-right: 1px solid black; border-left: none; text-align: right;" valign="bottom"></td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br>
+In the table above, place 1 has an impute of 10.019 units and the difference, d is initialized to 0, so the rounded units are 10. This updates the difference to 0.019. Place 2 has an impute of 3.694 which is added to the new difference of 0.019 to get 3.713 which rounds to 4. Since the rounded value is higher than the adjusted unrounded value, the difference is now updated to be -0.287. This continues in the same manner until the last place’s value is rounded. Note that the sum of the initial unrounded values and sum of the rounded values have a difference less than 1 (0.043).</p>
+
+<p>Controlled rounding is implemented within an imputation cell for each structure type independently. The difference is initialized to zero for each cell and structure type.</p>
+
+<p>After buildings are imputed and rounded for all structure types, units are then imputed and the ratio of units per building is checked against established limits and edited as needed. For example:</p>
+
+<ul>
+	<li style="margin-left">if 3 or more units are imputed and the imputed buildings are 0, the imputed buildings are changed to 1.</li>
+	<li style="margin-left">the number of units per building for single units should equal 1</li>
+	<li style="margin-left">the number of units per building for 2 units should equal 2</li>
+	<li style="margin-left">the number of units per building for 3-4 units should be either 3 or 4</li>
+	<li style="margin-left">the number of units per building for 5+ units should be at least 5 and less than 500 (this value may be changed each year)</li>
+</ul>
+
+<p>After editing the controlled rounding procedure is implemented on the imputed units.</p>
+
+<p>Some permit issuing places issue permits for only certain structure types. Any imputed values are set to zero or adjusted for ineligible structure types for these places. For example, a place that only issues permits for the 5+ HU structure type, would have any nonzero imputed values for the other structure types (1, 2, 3-4) zeroed out. In some cases, a place may issue 4-unit permits but not 3-units. In this case the 3-4 unit structure type must have a units per building ratio equal to 4.</p>
+
+<p>After all special processing is completed, the total units or buildings for each nonreporting place are determined. The total units or buildings for a place is imputed by summing the imputed units or buildings for the 4 structure types (1, 2, 3-4, 5+).</p>
+
+<p>The valuation for each structure type (1 ,2, 3-4, or 5+units) is calculated by multiplying the number of HUs of that structure type for that place in the current month times the most recent year’s average valuation per HU of that structure type for that place. The average valuation per HU by structure type (i) for each place(k) is computed as the ratio of the total value of all units authorized and the total units authorized in the most recent year.</p>
+
+<p><u>Annual Imputation Methodology</u></p>
+
+<p>The annual survey attempts to collect an annual total from the places not asked to report monthly or fill in any missing monthly data not received from the places asked to report monthly. Monthly reporting places missing 5 or more months of monthly reported data receive an annual form. Places missing 1-4 months receive a request for the missing monthly data. If no annual form is returned the annual total for these places would be the sum of the monthly reported data and monthly imputes already on hand. An annual reporter is defined based on receiving a report from the annual survey.</p>
+
+<p>The imputation cells and factor calculations used to impute annual buildings, units and value are the same as for the monthly imputation prior to January 2025. During processing for the annual estimate, the annual imputation process runs and uses only the annual data from all places considered to be an annual reporter to determine the ratio of the current year’s permit activity to the prior year’s permit activity for each imputation cell. This ratio is then applied to the prior year’s permit activity to determine the imputed value for any permit place that needs an annual activity imputed. For places asked to report monthly that are also asked to report annually due to missing data, we use the annual data if reported. If no annual data is received, but there were some months reported or obtained from another source, the sum of the monthly data is used rather than the annually imputed data.</p>
+
+<p>So, the annual units/buildings/value for a place will be based on (in order of precedence):</p>
+
+<ol>
+	<li style="margin-left: 80px;">reported annual data</li>
+	<li style="margin-left: 80px;">the sum of the monthly data for all 12 months (for places asked to report monthly only)</li>
+	<li style="margin-left: 80px;">imputed annual data</li>
+</ol>
+
+<p></p>
+
+<h3><strong>Tabulation unit:</strong></h3>
+
+<p>Permit-issuing place</p>
+
+<h3><strong>Estimation:</strong></h3>
+
+<p>Building permits data are available in four basic levels of aggregation: state, metropolitan area (MA), county, and permit-issuing place. The state data are also aggregated to create estimates for the Census Divisions, Census Regions, and the United States. Data are shown for the number of buildings, number of housing units, and permit valuation within four sizes of residential buildings: (1) single family houses (attached and detached combined), (2) two-unit buildings, (3) three- and four-unit buildings, and (4) residential buildings with five or more units.</p>
+
+<p>Monthly data are tabulated for the current month and for the year to date. Year-to-date data include any late reports received or corrections made to reports from prior months in the year. Because the year-to-date estimates include corrections not reflected in the monthly data, summing the published monthly data will not generate the published year-to-date estimate. Cumulative files show all months of the calendar year for each permit office. Prior months of the year are shown with the latest data available (late reports and corrections modify previous data). The annual cumulative file contains the latest monthly data for each permit office at the time final annual estimates are released for the year. Prior to January 2022, monthly and year-to-date estimates for state and higher aggregates were sample-based estimates that represent the entire geographic area. Estimates below the state level were a simple tally of sampled jurisdictions and therefore not necessarily complete if the sample did not include all jurisdictions within the sub-state geography. Beginning in January 2022, all aggregates include data on all places in the current universe. Data on places not included in the monthly survey is imputed.</p>
+
+<p>Annual data are obtained by summing monthly data for places in the monthly sample and using annual data for annual reporters or places in the monthly sample that provided only annual totals. If both monthly and annual data exist, the annual data are used. For places in the monthly sample that are asked to report annually due to missing data, we use the annual data if reported. If no annual data is received, but there were some months reported or obtained from another source, the sum of the monthly data is used rather than the annually imputed data. For places collected only annually, if no data are received, the annual impute is used rather than the sum of monthly imputes. Similar to the monthly data, annual data are tabulated from the entire universe of building permit offices. Monthly data are not revised except for the highest aggregates (U.S. and Census Regions) after annual processing. Monthly estimates of housing units authorized for the U.S. and Census Regions are revised using a benchmark process to sum to the final annual totals.</p>
+
+<h3><strong>Sampling Error:</strong></h3>
+
+<p>The sampling error of an estimate based on a sample survey is the difference between the estimate and the result that would be obtained from a complete census conducted under the same survey conditions. This error occurs because characteristics differ among sampling units in the population and only a subset of the population is measured in a sample survey. Beginning with January 2022, the monthly estimates of building permits are not based on a probability sample and will be tabulated from the entire universe of building permit offices, similar to annual data. Thus, sampling error cannot be quantified. For information on sampling error for estimates prior to January 2022, see the Historical Methodology section below.</p>
+
+<h3><strong>Nonsampling Error:</strong></h3>
+
+<p>Nonsampling error encompasses all factors other than sampling error that contribute to the total error associated with an estimate. This error may also be present in censuses and other nonsurvey programs. Nonsampling error arises from many sources: inability to obtain information on all units in the sample; response errors; differences in the interpretation of the questions; mismatches between sampling units and reporting units, requested data and data available or accessible in respondents' records, or with regard to reference periods; mistakes in coding or keying the data obtained; and other errors of collection, response, coverage, and processing.</p>
+
+<p>Although no direct measurement of nonsampling error was obtained, precautionary steps were taken in all phases of the collection, processing, and tabulation of the data in an effort to minimize its influence. Precise estimation of the magnitude of nonsampling errors would require special experiments or access to independent data and, consequently, the magnitudes are often unavailable.</p>
+
+<p>The Census Bureau recommends that individuals using these estimates factor in this information when assessing their analyses of these data, as nonsampling error could affect the conclusions drawn from the estimates.</p>
+
+<p>The Census Bureau uses many additional methods to improve response rates for this voluntary survey. These include contacting nonrespondents by telephone or email, contacting other government jurisdictions such as counties or states to encourage response from permit offices in their areas or to obtain data for individual jurisdictions, and working with public and private organizations to encourage and facilitate response to the survey.</p>
+
+<p>At the end of the year, a second request for data is mailed to delinquent monthly offices. If an office has not reported for up to 4 months during the year, a form is sent for each missing month; if an office has missed reporting for 5 months or more, an annual form is sent. Each office that is requested to report annually receives a second request if the annual report has not been received by the initial due date.</p>
+
+<p>The unit response rate is the percentage of reports requested that were received. For 2024, the average unit response rate for revised monthly estimates of units authorized was approximately 66%. To combine monthly and annual requests to determine the annual unit response rate, requests for annual data from places not in the monthly sample are counted as 12 monthly requests and annual data received are counted as 12 monthly reports.After the conclusion of the 2024 Annual Survey, the unit response rate for all monthly and annual offices was approximately 81%.</p>
+
+<p>The total quantity response rate is the percentage of an estimate that is based on data reported directly by the respondent or data obtained from another source determined to be of equivalent quality as respondent reported data. For 2024, the average total quantity response rate for revised monthly estimates of the total number of housing units authorized by building permits was approximately 79%. After the conclusion of the 2024 Annual Survey, the total quantity response rate for the 2024 final annual estimate of the total number of housing units authorized by building permits was approximately 90%.</p>
+
+<p>The portion of residential construction measurable from building permits records is inherently limited because such records obviously do not reflect construction activity outside of areas subject to local permits requirements. For the nation as a whole, less than 1 percent of all privately owned housing units are constructed in areas not requiring building permits. However, this proportion varies greatly from state to state and among metropolitan areas.</p>
+
+<p>The reported statistics on building permits are influenced by the following factors:</p>
+
+
+	<ol style="margin-left: 40px;">
+		<li>Some new residential construction work in building permit jurisdictions escapes recording. However, the number of such unrecorded units is likely very small.</li>
+		<li>Detailed evidence is lacking as to how closely the valuation recorded for building permit purposes approximates the dollar amount of construction work involved.</li>
+		<li>Changes in boundaries of localities resulting from annexations, new incorporations, etc., result in some problems of comparability over time, even for statistics for the same places.</li>
+		<li>Some building permit jurisdictions close their books a few days before the end of the month, so that the time reference for permits is not in all cases strictly the calendar month.</li>
+	</ol>
+
+
+<p></p>
+
+<p>To the extent that most of these limiting factors apply rather consistently over an extended period, they may not seriously impair the usefulness of building permit statistics as prompt indicators of trends in residential construction activity. However, the geographic limitations of the data need to be kept in mind. In addition, the dollar volume of residential construction should be used with caution. Because of the nature of the building permit application process, valuations may frequently differ from the true cost of construction. Any attempt to use these figures for inter-area comparisons of construction volume must, at best, be made cautiously and with broad reservations.</p>
+
+<h3><strong>Seasonal adjustment:</strong></h3>
+
+<p>Seasonal adjustment is the process of estimating and removing seasonal effects from a time series in order to better reveal certain nonseasonal features. Examples of seasonal effects include a July drop in automobile production as factories retool for new models and increases in heating oil production during September in anticipation of the winter heating season. When applicable, we also estimate and remove trading day effects and moving holiday effects (e.g., Easter, Labor Day, etc.) during the seasonal adjustment process. Trading day effects are recurring effects related to the weekday composition of the month.</p>
+
+<p>The seasonal adjustment factors were developed using X-13ARIMA-SEATS software.</p>
+
+<p>The X-13ARIMA-SEATS program provides summary statistics to indicate the overall effect of the seasonal adjustment. This <a href="https://www.census.gov/construction/nrc/pdf/summeas_nrc.pdf" style="color:blue; text-decoration:underline">table of descriptive and diagnostic information</a> shows some of these statistics. For more information on X-13ARIMA-SEATS see the reference manuals posted on the <a href="https://www.census.gov/data/software/x13as.html" style="color:blue; text-decoration:underline">Census Bureau's X-13 website. </a></p>
+
+<p>An assumption underlying the seasonal adjustment process is that the original series can be separated into a seasonal component, a trading-day component, a trend-cycle component, and an irregular component. The seasonally adjusted series consists of the trend-cycle and irregular components taken together. The trend-cycle component includes the long-term trend and the business cycle. The irregular component is made up of residual variations, such as the sudden impact of political events and the effects of strikes, unusual weather conditions, reporting and sampling errors, etc. For more information on Seasonal Adjustment, view our Seasonal Adjustment Questions and Answers <a href="https://www.census.gov/construction/pdf/bps_seas_faqs.pdf">here</a>.</p>
+
+<p>Seasonally adjusted estimates are developed concurrently for each month for U.S. and regional estimates of residential building permits authorized by type of structure.</p>
+
+<p>Concurrent seasonal factors result from re-estimating the seasonal adjustment each month or quarter when the new time series values become available.</p>
+
+<p>The seasonally adjusted series are shown as seasonally adjusted annual rates (SAAR). The seasonally adjusted annual rate is the seasonally adjusted monthly value multiplied by 12. The benefit of the annual rate is that not only can one monthly estimate be compared with another, monthly data can also be compared to an annual total. The seasonally adjusted annual rate is neither a forecast nor a projection; rather it is a description of the rate of building permit authorizations in the month for which they are calculated.</p>
+
+<p>Seasonally adjusted annual rates are developed each month for building permits by Census Region and type of structure. Each month, 10 series are run through the X-13ARIMA-SEATS program. The seasonally adjusted U.S. single-family total is the sum of the seasonally adjusted single-family structures in each of the four Census Regions. The seasonally adjusted U.S. total is the sum of the seasonally adjusted U.S. total single-family, U.S. total for two-to-four unit structures, and U.S. total for structures with five units or more. The totals for each of the four Regions are seasonally adjusted and modified so that the seasonally adjusted U.S total derived from the Region totals equals the seasonally adjusted U.S. total derived from the structures.</p>
+
+<h3><strong>Benchmarking:</strong></h3>
+
+<p>Benchmarking adjusts the level of a given series to the levels (referred to as benchmarks) from a less frequent data source that is considered to be of better quality, while attempting to minimize revisions to the period-to-period changes from the more frequent series. In this way, we produce consistent time series and attempt to reduce the effects of sampling and nonsampling errors in the original, more frequent series.</p>
+
+<p>Monthly estimates of building permits authorized are benchmarked annually based on results from the Building Permits Annual Survey.</p>
+
+<h3><strong>Disclosure avoidance:</strong></h3>
+
+<p>Not applicable. Building permits are public record.</p>
+</div><br><br><div class="border richtext"><h2><strong>History of Survey Program </strong></h2>
+
+<p>The first collection of data on building permits by the U.S. federal government was conducted by the U.S. Geological Survey beginning in 1889. The information was used to compare the usage of wood, brick, stone, and concrete to the availability of these raw materials near urban areas. Data were collected from about 200 cities on the kinds of materials used in construction, but not on the number of housing units authorized. </p>
+
+<p>In 1920, the U.S. Congress requested data on new housing to address housing shortages that had developed after World War I. The U.S. Bureau of Labor Statistics (BLS) took over the program and developed a new building permit reporting system. Data on the number and value of new housing units authorized were collected for the first time. BLS agents were sent to cities to compile the data, because only a few cities were compiling their own reports on building construction, and each used a different format. In the 1920s, the BLS collected and published annual data for 257 of the 287 cities that had populations of 25,000 or more. In 1930, the BLS developed a uniform reporting form for cities to use to send in their data by mail. </p>
+
+<p>In 1954, the BLS established a permit-issuing universe for the first time and created a new sample design. By 1959, the BLS was receiving reports from about 7,350 permit-issuing places. In 1959, the work to estimate building permits was moved to the U.S. Census Bureau and a survey was conducted that identified almost 3,000 additional permit-issuing places. The basic survey design still used today was initiated, with monthly estimates published from a sample of places selected to report monthly and the remainder of places reporting annually. Data were collected by mail. The universe of permit-issuing places and monthly sample were updated periodically as needed until 1984, when it was decided that the universe and monthly sample would be updated once a decade going forward. </p>
+
+<p>Data were collected on both residential and nonresidential permits until the nonresidential data were discontinued in 1995. An online reporting option was offered to respondents beginning in 2011. </p>
+</div><br><br><div class="border richtext"><h2><strong>Historical Methodology</strong></h2>
+
+<p>The design of the monthly sample that was used from January 2015 to December 2021 is as follows:</p>
+
+<p>The monthly estimates shown for the United States, Census Regions, Census Divisions, and states are derived from a sample of 9,000 permit-issuing places selected from a universe of 20,000 such places. Selection of the monthly sample was a multiple step process. All permit-issuing places in the 99 metropolitan areas having the greatest number of housing units authorized in 2012 were selected with certainty. All permit-issuing places in states with less than 50 permit-issuing places were selected with certainty. Permit-issuing places having special data reporting arrangements were selected with certainty. The remaining places were stratified by state. Within a state, places were ordered by a weighted average of the numbers of housing units authorized in 2010, 2011, and 2012. Places with a large weighted average, varying by state, were selected with certainty. Other places were selected at the rate of 1 in 10.</p>
+Sample designs prior to January 2015 were similar to the design described above.
+
+<p></p>
+
+<p>Prior to January 2022:</p>
+
+<ul>
+	<li>
+	<p>Tables by MA show all MAs, but most do not include complete counts on a monthly basis because no estimate is made of monthly activity of areas not in the monthly sample. The MAs that are completely covered monthly include the 75 MAs having the greatest number of housing units authorized in 2002. The remaining are simply the sum of monthly reporters with no estimate for annual reporters. To provide a measure of sample coverage, monthly tables by MA show the percentage of housing units authorized in the previous year represented by those places in the monthly survey in each metropolitan area. This is referred to as the "monthly coverage percent." Annual MA tables include estimates for all permit-issuing areas in each MA.</p>
+	</li>
+	<li>
+	<p>Monthly county totals are the sum of the data for places requested to report monthly in a county; for counties not fully covered by monthly reporters, county totals will be incomplete. Annual county totals include estimates for all permit offices.</p>
+	</li>
+	<li>
+	<p>Monthly data by permit-issuing place only includes municipalities that were requested to report monthly. Annual estimates included all permit issuing places.</p>
+	</li>
+</ul>
+
+<p>Prior to January 2022, monthly estimates were based on a probability sample and subject to sampling error. The Census Bureau recommends that individuals using estimates prior to January 2022 incorporate sampling error information into their analyses, as this could affect the conclusions drawn from the estimates.</p>
+
+<p>The sampling error of an estimate based on a sample survey is the difference between the estimate and the result that would be obtained from a complete census conducted under the same survey conditions. This error occurs because characteristics differ among sampling units in the population and only a subset of the population is measured in a sample survey. The particular sample used in this survey is one of a large number of samples of the same size that could have been selected using the same sample design. Because each unit in the sampling frame had a known probability of being selected into the sample, it was possible to estimate the sampling variability of the survey estimates.</p>
+
+<p>Common measures of the variability among these estimates are the sampling variance, the standard error, and the coefficient of variation (CV), which is also referred to as the relative standard error (RSE). The sampling variance is defined as the squared difference, averaged over all possible samples of the same size and design, between the estimator and its average value. The standard error is the square root of the sampling variance. The CV expresses the standard error as a percentage of the estimate to which it refers. For example, an estimate of 200 units that has an estimated standard error of 10 units has an estimated CV of 5 percent. The sampling variance, standard error, and CV of an estimate can be estimated from the selected sample because the sample was selected using probability sampling. Note that measures of sampling variability, such as the standard error and CV, are estimated from the sample and are also subject to sampling variability. It is also important to note that the standard error and CV only measure sampling variability. They do not measure any systematic biases in the estimates.</p>
+
+<p>The sample estimate and an estimate of its standard error allow us to construct interval estimates with prescribed confidence that the interval includes the average result of all possible samples with the same size and design. To illustrate, if all possible samples were surveyed under essentially the same conditions, and estimates calculated from each sample, then:</p>
+
+<ol style="margin-left: 40px;">
+  <li>Approximately 68 percent of the intervals from one standard error below the estimate to one standard error above the estimate would include the average value of all possible samples.</li>
+  <li>Approximately 90 percent of the intervals from 1.645 standard errors below the estimate to 1.645 standard errors above the estimate would include the average value of all possible samples.</li>
+</ol>
+
+<p>Thus, for a particular sample, one can say with specified confidence that the average of all possible samples is included in the constructed interval. For example, suppose that an estimated 100,000 housing units were authorized by building permits in a particular month and that the average relative standard error of this estimate is 1 percent. Multiplying 100,000 by .01, we obtain 1,000 as the standard error. This means that we are confident, with 68% chance of being correct, that the average estimate from all possible samples of housing units authorized during the particular month is between 99,000 and 101,000 homes. To increase the probability to a 90% chance that the interval contains the average value over all possible samples (this is called a 90-percent confidence interval), multiply 1,000 by 1.645, yielding limits of 98,355 and 101,645 (100,000 units plus or minus 1,645 units). The average estimate of housing units authorized during the specified month may or may not be contained in any one f these computed intervals; but for a particular sample, one can say that the average estimate from all possible samples is included in the constructed interval with a specified confidence of 90 percent. It is important to note that the standard error and the relative standard error only measure sampling error. They do not measure any systematic nonsampling errors in the estimates.</p>
+
+<p>Variances for estimates prior to January 2022 are calculated using Successive Difference Replication. Non-self-representing places are sorted within a state based on their order of selection code (descending measure of size). Then each place within a state is assigned to two rows (ai,bi) of a 200x200 hadamard matrix in a connected loop (the last place has a row assignment that connects back to the row assignment of the first place). Replicate factors are calculated for each row as<br>
+<span style="font-size:11pt"><span style="line-height:normal"><span style="font-size:11.0pt"><span style="line-height:115%"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARQAAAAgCAIAAABcjhAhAAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAABXFJREFUeF7tXDt24jAUFVkLUMxhBfYKSJpUadOZkjR0KdOlgRK6tKnSBK8grIBDgb0X5uljbMkSlmUBNjw3M3H0ve9/Jad3OBwIPogAIlAfgYf6XbAHIoAIUATQeFAPEAFHBNB4HIFz6hZPepPYqSd2Ygi0C8Ae1jwX08t0Eb6Sr79p/2Iz3thEbQMQI48HBUvjxSTsiSc0xZb095u8PGWWU+xj7OJhbZ0YoqsAQuTBpxkCyTwg0TyhgyTrCLQ1WmsGhN/k7+26NFtWd3rbodE+AIkGYtCAIBAeK1ozpcDHEgGqBwE3JOmB97rXrA01ONne6CjsMfaxXE73mnUJwJLxMLlxmVEb0ujBNQSSrOcRuHedR/e1HDZF5jNIEDi4DTaEiEFNbIfFsLkxhvnasedx7g9AxXgKpuMZWtfhuNnwp67xmLxYeS0s24LxecjgyVdhvmMkUCoIOQ9joUJrdFLGIc9u8lBsyrobdgW5eb+7BFA2Hq4k7REZTXZAo0GlzbXECcHXMx5p25ky1FQrfc1jtB1qOQa06QLaEvctQCilnvcAoMS2xb/fG7Cd53FbKJr+9O9vOe6fn9sdLw+HpYdt98cz8D/bfVpAMF18bOez8uDxJPwg77A/HdrpfkvIaHj+nXsS9X0CKLxKOTFpT/zJiuraIdE+8mjqe/sQzL2uYNtK2ZYh7MDrPLBABJKLy2PSBqUPT1o7FIV4yVYjh+kqgFLa5pQbVcR0U7lQ9HgWiuG0NFfjqSV5XiMdqQa15tHbjiiqchAUCHjSRukHZpROu7dIts7V5E4ALBpPm0XktDY343GayqCGpxjqE5rLbSsvh3wu6VwGk4/rc7WtBrBQ87A0O/g38JQFX2EYuL6RnfOzfwdvG7J5G0jvwkWxHiktEoZ43ELG6qMAIkS+VGCNCJMEid6zRVxGMip6EmzZ9YnT6MGq7wrAo8PQs9RtIX2cvFndyNMWeljZbPvOD0zRqysAqkcRjtE4jzzJDpi2Er9DWZRGVxn9+DNrp92gYTwZvI18xZwG6yDxz0riPPWSaTLDefp2B8DxkvnVplnW0XiYxOTh4P43PKU8J+W3IOn9R/HfU6kQsM2Vdt3IOv0oAss25kkxW4sXYUWO52dqdRQ1SVNtibVPgejmqVRIn4psqp7InLbVMQDBIQUvT4Tn+RUXc83oFanqEutVvnVFr40Aq0qJ1ihiN1FKNGulrTg04PSNBSsnjW2ftpXYL65AV6Hr1Qw1y5zhrkVGIfBXjIizyJQuIbKOAcg0Q9ykqqhMTqCXsW3amoJOodUfC4k5WIimCz3myC+c8QOPbNPVM1gbj0H0VzGekiQysv9IgkvSLsnIILTziqxbAMoeJ9cSo74bXJQwHrZ5XeDRO3tNRKpW5cu3sDaeyy+twYwy+DQHsLm92xGRNcClRlcJNBtk9G248Rhtx/hpylWccg14brep5BGUeGLObm005HYxU3YmgSF+OFkYGNCjhAFcvlqB+/pSvg+mhSswCPCV34J+dw/0gahLxS+c6krs1BSB/nBENruEkwafO8byUBnR46v+9Asy7SNliiLTgs2P0TjvAjzRKqA3DxXorBT+ARi1wTeZr1XTAUkMRwEcMb7+DKfi7qKQCqVOO3Rnsam2tq3/+HkerB6BI/oks+XzC5PR/kl4PsoiFRlYFFlJfPTkOgi2gCBV/dE6EWSvCh10rELPMlbDVzU2mbXlaNjsTAgUk3kUWS2QleLRBj386zltCyxN1gNZyGD3fpjtF8k0SxeajHdHfV2gw7+ec1MKAvXQ6jH8HD55+DbppoCp3owDdBh5qmHFFoiAFgGMPKgYiIAjAmg8jsBhN0QAjQd1ABFwROA/qON7K1gnBXsAAAAASUVORK5CYII=" style="width:221px; height:26px"></span></span></span></span><br>
+Where<br>
+<span style="font-size:11pt"><span style="line-height:normal"><i><span lang="EN" style="font-size:12.0pt">i</span></i> the unit (or row) number of the 200 x 200 hadamard matrix<br>
+<span style="font-size:11pt"><span style="line-height:normal"><i><span lang="EN" style="font-size:12.0pt">r</span></i> the replicate (or column) number of the 200 x 200 hadamard matrix<br>
+<br>
+The estimator for each replicate total <i>r</i> is <span style="font-size:11.0pt"><span style="line-height:115%"><span style="position:relative"><span style="top:6.0pt"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAeCAIAAABrMIGvAAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAABAdJREFUaEPtWrt52zAQpjKL5MKfJ6AmUAZI644qoyadSw9AlnLnDVJJE8QT6EsRchflcACIA3AgQIoUVRCVCIL3+O8JQKvr9ZotYz4Evs3HeuEsEFgMMLMf8AZoztV+uxJju6/OzcwyOuyNcEK8M3nbEKmp0KH5h9ALagAd9aks8izLi/JUwzw+5lmeF/j4AKMu86woUZj6VACExUlJJZ5QzMT5B1BGFGAiBuiGwDNQS0OUWtexZUckIyOXqFtDYo5TwjDtEvGgXoTmx1ZhKD1qgKE0xvhOmYBBGfwZ0ISg9A1A8L+K32aJeQrNdwoteCJTjLBJYx9qwHmP2R4zfqVTZ1PJGmBNxpz0hve7I5rg6/DaiqCorXfHNzZAzvv3S1kfd4bry9OaFSE0z8sLqm++X358gomEHZ43PNEblLU+1eFLs2kb06IYTOsA1BE7ooDmF/xEQNNmfznhRoB8HZoPRQBmLy7djRHnDA2ZgpCrKWdKRXdmIhEI2bAJnNTvoK9V0CYhiZ+UA6dQsOpwSEyqt6oBHl+A4o5uYFRMMIElGkSCqg0KaezdmILszbOwnhhPnBT/tguyIs9SYFr+PnXdEVkJxrOQSaPGT3S5dhNnaN7mLX2QjoAE3YC0PQPJ3VolzqXbLshYgPYW6ej78vtVKjGmIiZIl6n/Sntn0f/7uiwE8F4hCVcW04aqNdjvT9p4JailTDDIBRPIB5fcin9L2AU87NTmKGL99CLawEP29ufntI1XYgNXnGiLmfjRTcuafxdIX8+bm4jgxxLMv7WiBITz8hdpmAkH4w33bsA6/XCOKOQBsPvY1PiyaEGnQILZJuiloKHZZ6wakOQG/UHB2hhJaaMlIGElQww06mBsF2FXRKgpeoOgfk7smUnwp3qhWickh+FtdFwyCJmtn6xFns5JsCgnseH3CWoDSAe2WQEfKMei7S4KPIA0TXdPDBKXh12QFLEAKGEWNZ4uRnu7cAJy/DcRFknP2zG6cqABdN/HmdvaSSYCOWxZRwawNyZUh1Dm84I+agCWvSDP5o8EWNIIRk9Do4IPQ9v7qiOtg8vR6AyC0ilJTA8mAUnX5JNujBx+y+R+j2DMAAmMRrBArwoeBOUWAwTx5wMgCgtoFLnAUNJG7oRFZzxKY9zVWjfV6+Er2nvrM+Xz74/MnC+TY/P2UF38sK4qo7Sb6v0DXP3T2QAp7eEOtBI3n3Bur87rQ7DACmAM67ev2SeznXIIolzd/hu19Aju34+EKgdwRdfrfi7cXknfh9s+pgGXd0E6k8BKVQ8CsKhA7jjCtwkKzWMpqB8691jt6xDhSlsM4XIDDzjgUnaKI5qVMMIy5kNg+V/QfNgj58UAiwFmRmBm9ksEzGyA/wPFsnENdysuAAAAAElFTkSuQmCC" style="width:102px; height:24px"></span></span></span></span><span lang="EN" style="font-size:12.0pt"> ,where <i>y<sub>i</sub> </i>is the weighted units for row <i>i</i>. The variance is calculated as:</span></span></span><br>
+<span style="font-size:11pt"><span style="line-height:normal"><span style="font-size:11.0pt"><span style="line-height:115%"><img src="data:image/png;base64,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" style="width:226px; height:57px"></span></span></span></span></span></span></p>
+
+<p>Estimates of the RSEs are available at the Building Permits <a href="https://census.gov/construction/bps/historical/variance.html" style="color:blue; text-decoration:underline">variance</a> web site.</p>
+</div>
+        </div>
+    </div>
+</div>
+                <div id="pdfAndExternalLinkDiv" class="hidden-xs hidden-sm hidden-md visible-lg">
+                </div>
+            </div> <!-- wrapper -->	
+        </div> <!-- container-fluid -->
+        <div class="uscb-main-container">
+            <div class="censusfooter universalfooter">
+                <footer class="uscb-footer uscb-print-hide">
+                    <!-- START CB Footer - Last Revised: 10/04/2022 -->
+<!-- Responsive Version -->
+<!DOCTYPE html>
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<link rel="stylesheet" href="https://www.census.gov/main/css/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--  <link rel="stylesheet" type="text/css" href="/main/css/bootstrap-4.3.1.min.css">-->
+<link rel="stylesheet" type="text/css" href="https://www.census.gov/main/css/new_footer.css">
+
+
+<!-- <script src="/main/javascript/jquery-3.0.0/jquery.min.js"></script>
+<script src="/main/javascript/bootstrap-4.3.1/bootstrap.min.js"></script>-->
+
+<style>
+
+@media only screen and (max-width: 700px) {
+    .val {
+    width: 100%;
+    margin: auto 0;    
+}
+
+a{
+font-size: small;
+}
+
+.foot_bottom_links{
+width: 100%;
+
+text-align:left;
+}
+
+}
+
+hr.foot-line {
+margin-bottom: 10px;
+}
+
+
+
+</style>
+
+</head>
+        
+        <footer class="footer container-fluid">
+   <div class="row">
+  
+    <div class="grid_footer_links cf">
+   
+
+        <div class="foot_bottom">
+            <div class="foot_bottom_links">
+            
+                <div class="footerbottom">
+                
+                 
+                <div class="val">
+					<a class="foot_bottom_socialLinks" href="https://www.census.gov/about/contact-us/social_media.html">CONNECT WITH US</a>
+                    <a class="social-icon" href="https://www.facebook.com/uscensusbureau"><i class="fa fa-facebook"></i></a>
+                    <a class="social-icon" href="https://twitter.com/uscensusbureau"><i class="fa fa-twitter"></i></a>
+                    <a class="social-icon" href="https://www.linkedin.com/company/us-census-bureau"><i class="fa fa-linkedin"></i></a>
+                    <a class="social-icon" href="https://www.youtube.com/user/uscensusbureau"><i class="fa fa-youtube"></i></a>
+                    <a class="social-icon" href="https://www.instagram.com/uscensusbureau/"><i class="fa fa-instagram"></i></a>
+                    <!-- <i class="foot_bottom_socialLinks" href="https://public.govdelivery.com/accounts/USCENSUS/subscriber/new" target="_blank"><img src="//www.census.gov/main/img/Mail_White.svg" alt="Email Updates logo" title="Email Updates"/></i> -->
+</div>
+
+<div class="val">
+                    <ul class="legal-menu">
+                    <li><a href="https://www.census.gov/quality/">Information Quality</a></li>
+                    <li><a href="https://www.census.gov/datalinkage/">Data Linkage Infrastructure</a></li>
+                    <li><a href="https://www.census.gov/privacy/">Data Protection and Privacy Policy</a></li>
+                    <li><a href="https://www.census.gov/about/policies/privacy/privacy-policy.html#accessibility">Accessibility</a></li>      
+                    <li><a href="https://www.census.gov/foia/">FOIA</a></li>
+                    <li><a href="https://www.oig.doc.gov/Pages/default.aspx">Inspector General</a></li>
+                    <li><a href="https://www.commerce.gov/cr/reports-and-resources/no-fear-act">No FEAR Act</a></li>
+                    <li><a href="https://www.commerce.gov/">U.S. Department of Commerce</a></li>
+                    <li><a href="https://www.usa.gov/">USA.gov</a></li>
+                        
+                    </ul>
+                   
+                   </div>
+                   <hr class="foot-line">
+                   <p class="foot_bottom_tagline">Measuring America's People, Places, and Economy</p>
+                   </div> 
+                </div> <!-- end class=footerbotom -->
+            </div> <!-- end class=foot_bottom_links -->
+        </div> <!-- end class=grid_footer_links -->
+    </div>
+</footer> <!-- end class=footer -->
+
+</html>
+
+                </footer>
+            </div>
+        </div>
+        <div id="ratingtooljquery"></div>
+        <script id="ratingtooljs" type="text/javascript" src="econ_assets/page/local/ratingtool.js"></script>
+        <link rel="stylesheet" type="text/css" href="econ_assets/page/local/ratingtool.css"/>
+        <div id="thumbs_div" class="ratingtool_div uscb-print-hide">
+            <div id="CloseThumbs" tabindex="0">X</div>
+            <div class="WasThisPageHelpful_div">
+                <span class="WasThisPageHelpfulText" align="top">&nbsp;&nbsp;Is this page helpful?</span>
+                <br/>
+                <center>
+                    <img class="thumbs-valign" id="thumbsup" src="econ_assets/page/local/thumbsup.png" alt="Thumbs Up Image"/>
+                    <span class="YesNoText" id="yes" tabindex="0">Yes</span>&nbsp;&nbsp;&nbsp;
+                    <img class="thumbs-valign" id="thumbsdown" src="econ_assets/page/local/thumbsdown.png" alt="Thumbs Down Image"/>
+                    <span class="YesNoText" id="no" tabindex="0">No</span>
+                </center>
+            </div>
+        </div>
+        <div id="popupRating">
+            <div id="closeX" tabindex="0">X</div>
+            <div id="popupRatingHeadingContainer">
+                <span class="popupRatingHeading"></span>
+            </div>
+            <div id="popupRatingContainer">
+                <form id="rtform" method="post" name="rtform">
+                    <textarea id="RatingTool_textarea" name="message" placeholder="Tell us more." maxlength="255" tabindex="0"></textarea>
+                    <input id="RatingToolSubmit" type="submit" value="SUBMIT" tabindex="0"/>
+                </form>
+                <span class="NoThanks" tabindex="0">No, thanks</span>			
+                <div id="CharCounter">
+                    <span id="rchars">255</span> characters remaining
+                </div>
+            </div>
+        </div>	
+        <div id="thnx_div" class="thankyou_div">
+            <div id="closeXX" tabindex="0">X</div>
+            <div class="thankyouforfeedback_div">
+                <span class="thankyouText">Thank you for your feedback.</span>
+                <br/>
+                <span class="YesNoText" id="linkcomments" tabindex="0">Comments or suggestions?</span>
+            </div>
+        </div	
+        <script type="text/javascript" src="econ_assets/page/local/jquery3.js"></script>
+        <script>
+            function adjustResponsiveIFrame(id, url) {
+                var riObj = $("#" + id);
+                if (riObj) {
+                    var containerWidth = riObj.parent().width();
+                    riObj.width(containerWidth);
+                    riObj.attr("src", url);
+                }
+            }
+        </script>
+        <script type="text/javascript" src="econ_assets/page/local/bootstrap.js"></script>
+        <script type="text/javascript" src="econ_assets/page/local/modernizr.js"></script>
+        <script type="text/javascript" src="econ_assets/page/local/universalheader.js"></script>
+        <script type="text/javascript" src="econ_assets/page/local/underscore-min.js"></script>
+        <script type="text/javascript" src="econ_assets/page/local/clientlibs2.js"></script>
+        <script type="text/javascript" src="econ_assets/page/local/clientlibs.js"></script>
+        <script language="javascript" id="_fed_an_ua_tag" src="econ_assets/page/local/federated-analytics-min.js?agency=DOC&subagency=CEN"></script>
+        <script charset='UTF-8'>
+            window['adrum-start-time'] = new Date().getTime();
+            (function (config) {
+                config.appKey = 'EUM-AAB-AUN';
+                config.adrumExtUrlHttp = 'http://www.census.gov/appdynamics/adrum/';
+                config.adrumExtUrlHttps = 'https://www.census.gov/appdynamics/adrum/';
+                config.beaconUrlHttp = 'http://web-mon.csvd.census.gov:443';
+                config.beaconUrlHttps = 'https://web-mon.csvd.census.gov:443';
+                config.xd = {enable: false};
+            })(window['adrum-config'] || (window['adrum-config'] = {}));
+            if ('https:' === document.location.protocol) {
+                document.write(unescape('%3Cscript')
+                        + " src='econ_assets/page/local/adrum.js' "
+                        + " type='text/javascript' charset='UTF-8'"
+                        + unescape('%3E%3C/script%3E'));
+            } else {
+                document.write(unescape('%3Cscript')
+                        + " src='econ_assets/page/local/adrum.js' "
+                        + " type='text/javascript' charset='UTF-8'"
+                        + unescape('%3E%3C/script%3E'));
+            }
+        </script>
+        <script type="text/javascript">
+            var referrer = document.referrer;
+            if (referrer.indexOf('search-results.html') > 0) {
+                $("body").append("<span record=\"\'searches\', { \'searchpage\':\'SERP\'}\"></span>");
+            }
+        </script>	
+        <div id="popuptext" style="display:none;">
+            <p>By selecting this link you will leave <a href="/">www.census.gov</a>. Please check the Privacy Policy of the site you are visiting.</p>
+        </div>
+        <div class="cloudservices servicecomponents"><script type="text/javascript">_satellite.pageBottom();</script></div>
+    </body>
+</html>
