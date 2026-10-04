@@ -1,0 +1,19 @@
+# Local execution, credentials helpers, and workbook QA
+work/
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.log
+*.inspect.ndjson
+.env
+.env.*
+*.db
+*.sqlite
+*.sqlite3
+

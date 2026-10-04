@@ -1,0 +1,3 @@
+# Analysis and validation use Python's standard library.
+# Required only to regenerate reports/figures/*.png.
+matplotlib==3.10.7
