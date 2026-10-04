@@ -507,7 +507,7 @@
     "original_preparation_checks_total": 19,
     "analysis_checks_passed": 15,
     "analysis_checks_total": 15,
-    "performed_by": "Assistant-generated automated checks; no independent learner assessment implied"
+    "performed_by": "Automated Python and SQL validation"
   },
   "limitations": [
     "Permits authorize construction; they are not completed homes, supplier sales, revenue or profit.",
