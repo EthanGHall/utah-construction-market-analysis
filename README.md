@@ -47,7 +47,6 @@ Use Python 3.10 or newer from the repository root:
 python -m venv .venv
 # Activate .venv for your operating system, then:
 python -m pip install -r requirements.txt
-python scripts/prepare_data.py
 python scripts/analyze.py
 ```
 
