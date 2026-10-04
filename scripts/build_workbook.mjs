@@ -37,6 +37,9 @@ const sourceChecks = wb.worksheets.add('Source comparison');
 const stateChecks = wb.worksheets.add('State reconciliation');
 const log = wb.worksheets.add('Validation log');
 
+// Keep retrieval timestamps numeric while displaying the original UTC dates.
+wb.worksheets.getItem('Sources').getRange('E6:E26').setNumberFormat('yyyy-mm-dd hh:mm:ss');
+
 // The source workbook stores these three derived measures as prepared values.
 // Retain the learner working copy's correct SUM/IF calculations so category
 // changes update analysis. Independent raw controls below still check inputs.
@@ -416,7 +419,7 @@ const previews = [
   ['Source comparison', 'A1:J14', 'source_comparison'], ['Source comparison', 'K5:U14', 'source_comparison_details'],
   ['State reconciliation', 'A1:L15', 'state_reconciliation'],
   ['County annual', 'A1:J13', 'annual'], ['By structure', 'A1:L13', 'structure'],
-  ['Sources', 'A1:D12', 'sources'], ['Dictionary', 'A1:F12', 'dictionary'],
+  ['Sources', 'A1:E26', 'sources'], ['Dictionary', 'A1:F12', 'dictionary'],
 ];
 for (const [sheetName, range, name] of previews) {
   const image = await wb.render({ sheetName, range, scale: 1, format: 'png' });

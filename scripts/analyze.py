@@ -8,7 +8,9 @@ from __future__ import annotations
 
 import argparse
 from collections import defaultdict
+from contextlib import closing
 import csv
+from datetime import datetime, timezone
 import hashlib
 import json
 import math
@@ -16,6 +18,8 @@ from pathlib import Path
 import sqlite3
 import subprocess
 import sys
+import tempfile
+import uuid
 
 BASE = Path(__file__).resolve().parents[1]
 REPORTS = BASE / "reports"
@@ -63,16 +67,33 @@ def read_csv(path, typed=True):
     return rows
 
 
-def write_csv(name, rows):
+def write_csv(name, rows, reports=REPORTS):
     require(bool(rows), f"No rows for {name}")
-    with (REPORTS / name).open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
-        writer.writeheader()
-        writer.writerows(rows)
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", newline="",
+                                         dir=reports, delete=False) as handle:
+            temporary = Path(handle.name)
+            writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
+            writer.writeheader()
+            writer.writerows(rows)
+        temporary.replace(reports / name)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
 
 
-def write_json(name, data):
-    (REPORTS / name).write_text(json.dumps(data, indent=2, allow_nan=False) + "\n", encoding="utf-8")
+def write_json(name, data, reports=REPORTS):
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=reports,
+                                         delete=False) as handle:
+            temporary = Path(handle.name)
+            handle.write(json.dumps(data, indent=2, allow_nan=False) + "\n")
+        temporary.replace(reports / name)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
 
 
 def ratio(numerator, denominator):
@@ -92,7 +113,7 @@ def hashes(manifest):
             for m in manifest}
 
 
-def independent_raw_checks(annual, structures, controls):
+def independent_raw_checks(annual, structures, controls, reports=REPORTS):
     """Reparse raw physical lines independently and compare every prepared measure.
 
     County source positions below are zero-based: 6-17 estimated; 18-29 reported.
@@ -201,9 +222,9 @@ def independent_raw_checks(annual, structures, controls):
           "County names, codes and source references, plus state source references", provenance_count)
     check("Independent raw county-to-state reconciliation", len(independent_reconciliation) == 144,
           "Counts exact; nominal dollars within $500 per rounded state category", len(independent_reconciliation))
-    write_csv("raw_to_prepared_audit.csv", source_audit)
-    write_csv("source_spot_checks.csv", spots)
-    write_csv("independent_state_reconciliation.csv", independent_reconciliation)
+    write_csv("raw_to_prepared_audit.csv", source_audit, reports)
+    write_csv("source_spot_checks.csv", spots, reports)
+    write_csv("independent_state_reconciliation.csv", independent_reconciliation, reports)
     return {"structure_measures_compared": structure_count, "annual_measures_compared": annual_count,
             "state_control_measures_compared": control_count, "provenance_fields_compared": provenance_count,
             "raw_county_rows_checked": len(source_audit), "source_spot_check_measures": len(spots),
@@ -406,7 +427,7 @@ def summary_data(metrics, states, sensitivity, raw_quality, source_count):
     }
 
 
-def plot_charts(metrics, summary):
+def plot_charts(metrics, summary, reports=REPORTS):
     try:
         import matplotlib
     except ImportError as exc:
@@ -414,7 +435,7 @@ def plot_charts(metrics, summary):
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
     from matplotlib.ticker import FuncFormatter, MultipleLocator, PercentFormatter
-    out = REPORTS / "figures"
+    out = reports / "figures"
     out.mkdir(exist_ok=True)
     navy, teal, orange = "#183B56", "#007F86", "#C26B26"
     gray, ink = "#B8C7D0", "#243746"
@@ -497,11 +518,8 @@ def plot_charts(metrics, summary):
            "housing_mix.png", top=0.76)
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--skip-charts", action="store_true", help="Run data, SQL and checks using only the standard library")
-    args = parser.parse_args()
-    REPORTS.mkdir(exist_ok=True)
+def run_analysis(args, reports):
+    """Build and validate a run in a private directory before publication."""
     manifest = json.loads((BASE / "sources/download_manifest.json").read_text(encoding="utf-8"))
     before = hashes(manifest)
     check("Preserved sources match download checksums", all(before[m["relative_path"]] == m["sha256"] for m in manifest),
@@ -530,18 +548,18 @@ def main():
     structure_keys = {(r["year"], r["county_fips5"], r["structure_code"]) for r in structures}
     check("Complete county-year-structure panel", len(structures) == len(structure_keys) == 696
           and structure_keys == {(y, f, t) for y, f in keys for t in TYPES}, "174 county-year keys x 4 types", len(structure_keys))
-    raw_quality = independent_raw_checks(annual, structures, controls)
-    connection = build_database(annual)
-    metrics = query(connection, "SELECT * FROM county_metrics ORDER BY units_2025 DESC, county_fips5")
-    annual_metrics = query(connection, "SELECT * FROM annual_metrics ORDER BY year, county_fips5")
-    states = query(connection, "SELECT * FROM statewide_trends ORDER BY year")
-    sensitivity = query(connection, "SELECT * FROM ranking_sensitivity ORDER BY scenario, metric_rank, county_fips5")
-    write_csv("county_metrics.csv", metrics)
-    write_csv("annual_metrics.csv", annual_metrics)
-    write_csv("statewide_trends.csv", states)
-    write_csv("ranking_sensitivity.csv", sensitivity)
+    raw_quality = independent_raw_checks(annual, structures, controls, reports)
+    with closing(build_database(annual)) as connection:
+        metrics = query(connection, "SELECT * FROM county_metrics ORDER BY units_2025 DESC, county_fips5")
+        annual_metrics = query(connection, "SELECT * FROM annual_metrics ORDER BY year, county_fips5")
+        states = query(connection, "SELECT * FROM statewide_trends ORDER BY year")
+        sensitivity = query(connection, "SELECT * FROM ranking_sensitivity ORDER BY scenario, metric_rank, county_fips5")
+    write_csv("county_metrics.csv", metrics, reports)
+    write_csv("annual_metrics.csv", annual_metrics, reports)
+    write_csv("statewide_trends.csv", states, reports)
+    write_csv("ranking_sensitivity.csv", sensitivity, reports)
     selected = {r["county_fips5"] for r in metrics[:3]}
-    write_csv("shortlist_trends.csv", [r for r in annual_metrics if r["county_fips5"] in selected])
+    write_csv("shortlist_trends.csv", [r for r in annual_metrics if r["county_fips5"] in selected], reports)
     sql_comparisons = independent_sql_checks(annual, annual_metrics, metrics, states, sensitivity)
     raw_quality["sql_python_numeric_comparisons"] = sql_comparisons
     check("Annual market shares reconcile", all(math.isclose(sum(r["state_unit_share"] for r in annual_metrics if r["year"] == y), 1.0) for y in YEARS), "County unit shares sum to 100% in each year", len(YEARS))
@@ -550,16 +568,59 @@ def main():
     summary = summary_data(metrics, states, sensitivity, raw_quality, len(manifest))
     summary["quality"]["original_preparation_checks_passed"] = preparation["checks_passed"]
     summary["quality"]["original_preparation_checks_total"] = preparation["checks_total"]
-    write_json("analysis_summary.json", summary)
-    write_csv("analysis_validation.csv", CHECKS)
-    write_json("validation_summary.json", {"status": "PASS", "quality": summary["quality"], "checks": CHECKS})
-    connection.close()
+    write_json("analysis_summary.json", summary, reports)
+    write_csv("analysis_validation.csv", CHECKS, reports)
     if not args.skip_charts:
-        plot_charts(metrics, summary)
-    print(json.dumps({"status": "PASS", "county_rows": len(annual), "structure_rows": len(structures),
-                      "shortlist": [r["county_name"] for r in metrics[:3]],
-                      "checks_passed": len(CHECKS), "sql_python_comparisons": sql_comparisons,
-                      "charts_generated": not args.skip_charts}, indent=2))
+        plot_charts(metrics, summary, reports)
+    return summary, {"status": "PASS", "county_rows": len(annual), "structure_rows": len(structures),
+                     "shortlist": [r["county_name"] for r in metrics[:3]],
+                     "checks_passed": len(CHECKS), "sql_python_comparisons": sql_comparisons,
+                     "charts_generated": not args.skip_charts}
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--skip-charts", action="store_true", help="Run data, SQL and checks using only the standard library")
+    args = parser.parse_args()
+    REPORTS.mkdir(exist_ok=True)
+    CHECKS.clear()
+    run = {"id": uuid.uuid4().hex, "started_at_utc": datetime.now(timezone.utc).isoformat(),
+           "charts_requested": not args.skip_charts}
+    try:
+        # Invalidate the prior success before any source/preparation work starts.
+        write_json("validation_summary.json", {"status": "RUNNING", "run": run, "checks": []})
+        write_csv("analysis_validation.csv", [{"check": "Analysis run", "status": "RUNNING",
+                  "detail": "Validation is in progress; retained reports belong to the previous successful run.",
+                  "comparisons": None}])
+        work = BASE / "work"
+        work.mkdir(exist_ok=True)
+        with tempfile.TemporaryDirectory(prefix="analysis-", dir=work) as directory:
+            staged = Path(directory)
+            summary, result = run_analysis(args, staged)
+            # Only validated reports reach the public directory. Workbook reports
+            # are separate artifacts and are not part of this publication.
+            for path in sorted(staged.rglob("*")):
+                if path.is_file():
+                    destination = REPORTS / path.relative_to(staged)
+                    destination.parent.mkdir(exist_ok=True, parents=True)
+                    path.replace(destination)
+        run["finished_at_utc"] = datetime.now(timezone.utc).isoformat()
+        # PASS is the final publication step, including requested chart generation.
+        write_json("validation_summary.json", {"status": "PASS", "run": run,
+                   "quality": summary["quality"], "checks": CHECKS})
+    except (Exception, KeyboardInterrupt, SystemExit) as exc:
+        detail = f"{type(exc).__name__}: {exc}"
+        if isinstance(exc, subprocess.CalledProcessError):
+            detail += "\n" + (exc.stderr or exc.stdout or "").strip()
+        if not any(item["status"] == "FAIL" for item in CHECKS):
+            CHECKS.append({"check": "Analysis run completed", "status": "FAIL",
+                           "detail": detail, "comparisons": None})
+        run["finished_at_utc"] = datetime.now(timezone.utc).isoformat()
+        write_json("validation_summary.json", {"status": "FAIL", "run": run,
+                   "error": detail, "checks": CHECKS})
+        write_csv("analysis_validation.csv", CHECKS)
+        raise
+    print(json.dumps(result, indent=2))
 
 
 if __name__ == "__main__":

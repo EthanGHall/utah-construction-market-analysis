@@ -7,6 +7,7 @@ It does not modify the workbook or claim native Excel recalculation was tested.
 from __future__ import annotations
 
 import csv
+from datetime import datetime
 import hashlib
 import json
 import math
@@ -14,6 +15,7 @@ from pathlib import Path
 from zipfile import ZipFile
 
 import openpyxl
+from openpyxl.utils.datetime import from_excel
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "outputs/Utah_Construction_Analysis.xlsx"
@@ -37,8 +39,20 @@ def main():
                 if cell.value is None:
                     continue
                 actual = result[name][cell.coordinate].value
-                assert equal(actual, cell.value), (name, cell.coordinate, actual, cell.value)
+                expected = cell.value
+                # Applying a date format makes openpyxl decode the same numeric
+                # Excel timestamp as datetime (rounded to milliseconds).
+                if name == "Sources" and cell.column == 5 and cell.row >= 6:
+                    expected = from_excel(expected, reference.epoch)
+                assert equal(actual, expected), (name, cell.coordinate, actual, expected)
                 source_cells += 1
+
+    timestamp_cells = 0
+    for row in range(6, 27):
+        cell = formulas["Sources"].cell(row, 5)
+        assert isinstance(cell.value, datetime), ("Retrieval timestamp is not a date", cell.coordinate)
+        assert cell.number_format == "yyyy-mm-dd hh:mm:ss", (cell.coordinate, cell.number_format)
+        timestamp_cells += 1
 
     with (ROOT / "reports/county_metrics.csv").open(encoding="utf-8-sig", newline="") as file:
         metrics = {row["county_fips5"]: row for row in csv.DictReader(file)}
@@ -87,6 +101,8 @@ def main():
         "workbook": "outputs/Utah_Construction_Analysis.xlsx",
         "sha256": hashlib.sha256(OUTPUT.read_bytes()).hexdigest(),
         "reference_value_cells_preserved": source_cells,
+        "source_timestamp_cells_checked": timestamp_cells,
+        "source_timestamp_number_format": "yyyy-mm-dd hh:mm:ss",
         "intentional_derived_formula_columns": ["County annual H (total units)", "County annual I (multifamily units)", "County annual L (imputed share)"],
         "county_comparison_metrics_checked": metrics_checked,
         "county_year_source_matches": 174,
