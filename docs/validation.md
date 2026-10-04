@@ -45,6 +45,14 @@ python scripts/analyze.py --skip-charts
 
 This command uses the Python standard library, rebuilds prepared data, runs the SQL, and performs the source and analytical checks. It exits with an error on a failed check. Omit `--skip-charts` after installing `requirements.txt` to regenerate the figures as well.
 
+`reports/validation_summary.json` records the latest run's identifier, UTC timestamps, and status: `RUNNING`, `FAIL`, or `PASS`. A run marks itself `RUNNING` before checking sources or preparing data. Analytical reports and requested figures are built in a temporary directory and published only after validation and chart generation succeed; `PASS` is written last. A source, preparation, SQL, or chart failure records `FAIL` and its error in the validation files while retaining the previous analytical reports and figures. Prepared files under `data/` are rebuilt by the preparation step and are not covered by this report-publication safeguard. Use `scripts/analyze.py` as the entry point for a validated rebuild.
+
+The failure-and-recovery regression checks run in disposable repository copies:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
 The final Excel workbook includes its own visible validation evidence. Source audits and pipeline results are retained separately, so a displayed workbook status can be traced to actual calculations and source records.
 
 ## Saved Excel workbook
