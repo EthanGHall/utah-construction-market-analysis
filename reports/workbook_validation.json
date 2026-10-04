@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "workbook": "outputs/Utah_Construction_Analysis.xlsx",
+  "sha256": "06fc0a7ff5390311971a0d4e73e8765ae1c0093945a41689d68867d82793fa51",
+  "reference_value_cells_preserved": 11682,
+  "intentional_derived_formula_columns": [
+    "County annual H (total units)",
+    "County annual I (multifamily units)",
+    "County annual L (imputed share)"
+  ],
+  "county_comparison_metrics_checked": 609,
+  "county_year_source_matches": 174,
+  "state_reconciliations": 144,
+  "coverage_cells": 174,
+  "validation_log_checks": 12,
+  "saved_formula_errors": 0,
+  "native_charts": 1,
+  "range_linked_chart_series": 3,
+  "recalculation": "Input-change, blank-input and duplicate/missing-key tests passed in the artifact calculation engine. Native Microsoft Excel recalculation was not exercised.",
+  "visual_review": "All 10 worksheets reviewed through 13 rendered principal/detail views."
+}
