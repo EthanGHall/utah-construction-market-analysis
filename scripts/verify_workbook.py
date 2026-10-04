@@ -81,7 +81,7 @@ def main():
         for col in ("C", "D", "E"):
             assert f"${col}$56:${col}$61" in chart_xml, f"Chart series not linked: {col}"
         xml = "\n".join(archive.read(name).decode(errors="replace") for name in archive.namelist() if name.endswith(".xml"))
-        assert "C:\\Users\\" not in xml and "liqui" not in xml.lower(), "Private local path in workbook XML"
+        assert "C:\\Users\\" not in xml and "/Users/" not in xml, "Private local path in workbook XML"
     report = {
         "status": "passed",
         "workbook": "outputs/Utah_Construction_Analysis.xlsx",
