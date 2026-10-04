@@ -2,8 +2,9 @@
 *.py text eol=lf
 *.sql text eol=lf
 *.md text eol=lf
-*.csv text eol=lf
-*.json text eol=lf
+# Preserve the published data and validation snapshots byte for byte.
+*.csv -text
+*.json -text
 *.yml text eol=lf
 # Source fingerprints depend on the exact downloaded bytes.
 raw/** -text
