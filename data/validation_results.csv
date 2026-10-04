@@ -1,0 +1,20 @@
+check,status,detail
+2020: 29 distinct Utah counties,PASS,29 rows; 29 distinct county codes
+2021: 29 distinct Utah counties,PASS,29 rows; 29 distinct county codes
+2022: 29 distinct Utah counties,PASS,29 rows; 29 distinct county codes
+2023: 29 distinct Utah counties,PASS,29 rows; 29 distinct county codes
+2024: 29 distinct Utah counties,PASS,29 rows; 29 distinct county codes
+2025: 29 distinct Utah counties,PASS,29 rows; 29 distinct county codes
+County-year primary key and count,PASS,Expected 29 counties x 6 years = 174 rows
+Structure primary key and count,PASS,Expected 29 counties x 6 years x 4 types = 696 rows
+Five-year analysis row count,PASS,"145 analysis rows, with 29 additional 2020 baseline rows"
+County identifiers and names stable,PASS,All six years match the county lookup
+No missing or negative source measures,PASS,Blank or nonnumeric source values cause parsing to stop; zero is retained as zero
+Reported measures do not exceed estimates,PASS,Estimates include reported values and imputation
+1-unit: units consistent with buildings,PASS,Both estimated and reported fields satisfy structure type bounds
+2-unit: units consistent with buildings,PASS,Both estimated and reported fields satisfy structure type bounds
+3-4-unit: units consistent with buildings,PASS,Both estimated and reported fields satisfy structure type bounds
+5-plus-unit: units consistent with buildings,PASS,Both estimated and reported fields satisfy structure type bounds
+County-to-state reconciliation,PASS,"144 comparisons; counts exact, dollar valuations within $500 per rounded state category"
+Source IDs resolve to manifest,PASS,Each data record links to an original downloaded source
+Original download checksums unchanged,PASS,21 downloaded sources verified with SHA-256

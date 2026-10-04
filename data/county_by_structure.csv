@@ -1,0 +1,697 @@
+year,state_fips,county_fips,county_fips5,county_name,structure_code,structure_type,housing_group,estimated_buildings,estimated_units,estimated_valuation_usd,reported_buildings,reported_units,reported_valuation_usd,period_role,coverage_basis,source_id,source_file,source_line
+2020,49,001,49001,Beaver County,101,1-unit,single_family,38,38,11007562,38,38,11007562,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2675
+2020,49,001,49001,Beaver County,103,2-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2675
+2020,49,001,49001,Beaver County,104,3-4-unit,multifamily,1,4,806985,1,4,806985,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2675
+2020,49,001,49001,Beaver County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2675
+2020,49,003,49003,Box Elder County,101,1-unit,single_family,381,381,81497548,236,236,46344986,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2676
+2020,49,003,49003,Box Elder County,103,2-unit,multifamily,2,4,318718,2,4,318718,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2676
+2020,49,003,49003,Box Elder County,104,3-4-unit,multifamily,15,60,2534906,14,56,2072393,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2676
+2020,49,003,49003,Box Elder County,105,5-plus-unit,multifamily,14,88,8363088,14,88,8363088,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2676
+2020,49,005,49005,Cache County,101,1-unit,single_family,987,987,259620189,987,987,259620189,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2677
+2020,49,005,49005,Cache County,103,2-unit,multifamily,3,6,1382564,3,6,1382564,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2677
+2020,49,005,49005,Cache County,104,3-4-unit,multifamily,10,31,5254435,10,31,5254435,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2677
+2020,49,005,49005,Cache County,105,5-plus-unit,multifamily,30,586,55271118,30,586,55271118,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2677
+2020,49,007,49007,Carbon County,101,1-unit,single_family,21,21,6682438,21,21,6682438,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2678
+2020,49,007,49007,Carbon County,103,2-unit,multifamily,1,2,135000,1,2,135000,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2678
+2020,49,007,49007,Carbon County,104,3-4-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2678
+2020,49,007,49007,Carbon County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2678
+2020,49,009,49009,Daggett County,101,1-unit,single_family,9,9,2258152,4,4,764369,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2679
+2020,49,009,49009,Daggett County,103,2-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2679
+2020,49,009,49009,Daggett County,104,3-4-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2679
+2020,49,009,49009,Daggett County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2679
+2020,49,011,49011,Davis County,101,1-unit,single_family,1946,1946,551229504,1946,1946,551229504,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2680
+2020,49,011,49011,Davis County,103,2-unit,multifamily,6,12,2966474,6,12,2966474,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2680
+2020,49,011,49011,Davis County,104,3-4-unit,multifamily,8,25,4539029,8,25,4539029,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2680
+2020,49,011,49011,Davis County,105,5-plus-unit,multifamily,14,434,44501920,14,434,44501920,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2680
+2020,49,013,49013,Duchesne County,101,1-unit,single_family,101,101,23819750,54,54,13654909,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2681
+2020,49,013,49013,Duchesne County,103,2-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2681
+2020,49,013,49013,Duchesne County,104,3-4-unit,multifamily,1,4,285524,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2681
+2020,49,013,49013,Duchesne County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2681
+2020,49,015,49015,Emery County,101,1-unit,single_family,7,7,1628900,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2682
+2020,49,015,49015,Emery County,103,2-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2682
+2020,49,015,49015,Emery County,104,3-4-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2682
+2020,49,015,49015,Emery County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2682
+2020,49,017,49017,Garfield County,101,1-unit,single_family,58,58,12107805,58,58,12107805,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2683
+2020,49,017,49017,Garfield County,103,2-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2683
+2020,49,017,49017,Garfield County,104,3-4-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2683
+2020,49,017,49017,Garfield County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2683
+2020,49,019,49019,Grand County,101,1-unit,single_family,71,71,16820464,71,71,16820464,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2684
+2020,49,019,49019,Grand County,103,2-unit,multifamily,6,12,1843945,6,12,1843945,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2684
+2020,49,019,49019,Grand County,104,3-4-unit,multifamily,6,24,4131971,6,24,4131971,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2684
+2020,49,019,49019,Grand County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2684
+2020,49,021,49021,Iron County,101,1-unit,single_family,473,473,102854176,203,203,43339166,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2685
+2020,49,021,49021,Iron County,103,2-unit,multifamily,1,2,222769,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2685
+2020,49,021,49021,Iron County,104,3-4-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2685
+2020,49,021,49021,Iron County,105,5-plus-unit,multifamily,1,39,6301541,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2685
+2020,49,023,49023,Juab County,101,1-unit,single_family,69,69,22027544,53,53,16188959,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2686
+2020,49,023,49023,Juab County,103,2-unit,multifamily,5,10,1779658,5,10,1779658,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2686
+2020,49,023,49023,Juab County,104,3-4-unit,multifamily,1,4,677699,1,4,677699,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2686
+2020,49,023,49023,Juab County,105,5-plus-unit,multifamily,5,25,4226966,5,25,4226966,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2686
+2020,49,025,49025,Kane County,101,1-unit,single_family,231,231,59248201,230,230,58965366,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2687
+2020,49,025,49025,Kane County,103,2-unit,multifamily,1,2,298000,1,2,298000,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2687
+2020,49,025,49025,Kane County,104,3-4-unit,multifamily,1,3,840000,1,3,840000,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2687
+2020,49,025,49025,Kane County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2687
+2020,49,027,49027,Millard County,101,1-unit,single_family,55,55,10040841,54,54,9764690,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2688
+2020,49,027,49027,Millard County,103,2-unit,multifamily,2,4,319665,2,4,319665,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2688
+2020,49,027,49027,Millard County,104,3-4-unit,multifamily,1,4,351360,1,4,351360,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2688
+2020,49,027,49027,Millard County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2688
+2020,49,029,49029,Morgan County,101,1-unit,single_family,80,80,39896970,80,80,39896970,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2689
+2020,49,029,49029,Morgan County,103,2-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2689
+2020,49,029,49029,Morgan County,104,3-4-unit,multifamily,7,25,4987728,7,25,4987728,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2689
+2020,49,029,49029,Morgan County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2689
+2020,49,031,49031,Piute County,101,1-unit,single_family,26,26,4155930,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2690
+2020,49,031,49031,Piute County,103,2-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2690
+2020,49,031,49031,Piute County,104,3-4-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2690
+2020,49,031,49031,Piute County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2690
+2020,49,033,49033,Rich County,101,1-unit,single_family,53,53,17192563,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2691
+2020,49,033,49033,Rich County,103,2-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2691
+2020,49,033,49033,Rich County,104,3-4-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2691
+2020,49,033,49033,Rich County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2691
+2020,49,035,49035,Salt Lake County,101,1-unit,single_family,4322,4322,1142261913,3590,3590,967812472,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2692
+2020,49,035,49035,Salt Lake County,103,2-unit,multifamily,137,274,33555896,135,270,32889229,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2692
+2020,49,035,49035,Salt Lake County,104,3-4-unit,multifamily,70,249,50976958,56,205,43354100,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2692
+2020,49,035,49035,Salt Lake County,105,5-plus-unit,multifamily,109,5256,787238613,98,4827,722430978,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2692
+2020,49,037,49037,San Juan County,101,1-unit,single_family,46,46,7171344,8,8,1371912,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2693
+2020,49,037,49037,San Juan County,103,2-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2693
+2020,49,037,49037,San Juan County,104,3-4-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2693
+2020,49,037,49037,San Juan County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2693
+2020,49,039,49039,Sanpete County,101,1-unit,single_family,73,73,14797439,73,73,14797439,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2694
+2020,49,039,49039,Sanpete County,103,2-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2694
+2020,49,039,49039,Sanpete County,104,3-4-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2694
+2020,49,039,49039,Sanpete County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2694
+2020,49,041,49041,Sevier County,101,1-unit,single_family,101,101,24589061,101,101,24589061,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2695
+2020,49,041,49041,Sevier County,103,2-unit,multifamily,2,4,526000,2,4,526000,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2695
+2020,49,041,49041,Sevier County,104,3-4-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2695
+2020,49,041,49041,Sevier County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2695
+2020,49,043,49043,Summit County,101,1-unit,single_family,199,199,141399173,93,93,86940944,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2696
+2020,49,043,49043,Summit County,103,2-unit,multifamily,2,4,691450,2,4,691450,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2696
+2020,49,043,49043,Summit County,104,3-4-unit,multifamily,12,40,7478123,5,19,1587413,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2696
+2020,49,043,49043,Summit County,105,5-plus-unit,multifamily,13,72,12301690,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2696
+2020,49,045,49045,Tooele County,101,1-unit,single_family,881,881,206503680,881,881,206503680,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2697
+2020,49,045,49045,Tooele County,103,2-unit,multifamily,3,6,1194810,3,6,1194810,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2697
+2020,49,045,49045,Tooele County,104,3-4-unit,multifamily,3,11,2118308,3,11,2118308,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2697
+2020,49,045,49045,Tooele County,105,5-plus-unit,multifamily,3,34,4043059,3,34,4043059,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2697
+2020,49,047,49047,Uintah County,101,1-unit,single_family,59,59,16891102,59,59,16891102,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2698
+2020,49,047,49047,Uintah County,103,2-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2698
+2020,49,047,49047,Uintah County,104,3-4-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2698
+2020,49,047,49047,Uintah County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2698
+2020,49,049,49049,Utah County,101,1-unit,single_family,6731,6731,1909827180,6612,6612,1862889224,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2699
+2020,49,049,49049,Utah County,103,2-unit,multifamily,19,38,7337426,19,38,7337426,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2699
+2020,49,049,49049,Utah County,104,3-4-unit,multifamily,105,391,54039911,105,391,54039911,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2699
+2020,49,049,49049,Utah County,105,5-plus-unit,multifamily,71,699,96985999,71,699,96985999,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2699
+2020,49,051,49051,Wasatch County,101,1-unit,single_family,496,496,265381247,491,491,263204997,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2700
+2020,49,051,49051,Wasatch County,103,2-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2700
+2020,49,051,49051,Wasatch County,104,3-4-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2700
+2020,49,051,49051,Wasatch County,105,5-plus-unit,multifamily,2,21,5183919,2,21,5183919,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2700
+2020,49,053,49053,Washington County,101,1-unit,single_family,2939,2939,588176094,2484,2484,506090868,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2701
+2020,49,053,49053,Washington County,103,2-unit,multifamily,7,14,2690126,5,10,1936890,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2701
+2020,49,053,49053,Washington County,104,3-4-unit,multifamily,13,51,9451946,12,47,8649946,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2701
+2020,49,053,49053,Washington County,105,5-plus-unit,multifamily,18,310,41390914,16,293,39329114,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2701
+2020,49,055,49055,Wayne County,101,1-unit,single_family,31,31,7760000,31,31,7760000,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2702
+2020,49,055,49055,Wayne County,103,2-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2702
+2020,49,055,49055,Wayne County,104,3-4-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2702
+2020,49,055,49055,Wayne County,105,5-plus-unit,multifamily,0,0,0,0,0,0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2702
+2020,49,057,49057,Weber County,101,1-unit,single_family,1817,1817,396175941,1796,1796,390072925,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2703
+2020,49,057,49057,Weber County,103,2-unit,multifamily,5,10,1641946,5,10,1641946,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2703
+2020,49,057,49057,Weber County,104,3-4-unit,multifamily,32,122,22106617,29,110,19757104,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2703
+2020,49,057,49057,Weber County,105,5-plus-unit,multifamily,23,458,51123315,16,421,47837027,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2703
+2021,49,001,49001,Beaver County,101,1-unit,single_family,56,56,18177394,56,56,18177394,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2675
+2021,49,001,49001,Beaver County,103,2-unit,multifamily,1,2,273259,1,2,273259,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2675
+2021,49,001,49001,Beaver County,104,3-4-unit,multifamily,1,4,451143,1,4,451143,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2675
+2021,49,001,49001,Beaver County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2675
+2021,49,003,49003,Box Elder County,101,1-unit,single_family,468,468,116108126,370,370,92245732,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2676
+2021,49,003,49003,Box Elder County,103,2-unit,multifamily,1,2,322000,1,2,322000,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2676
+2021,49,003,49003,Box Elder County,104,3-4-unit,multifamily,11,43,4730000,11,43,4730000,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2676
+2021,49,003,49003,Box Elder County,105,5-plus-unit,multifamily,25,368,29750000,25,368,29750000,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2676
+2021,49,005,49005,Cache County,101,1-unit,single_family,902,902,286464637,902,902,286464637,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2677
+2021,49,005,49005,Cache County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2677
+2021,49,005,49005,Cache County,104,3-4-unit,multifamily,9,35,8365514,9,35,8365514,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2677
+2021,49,005,49005,Cache County,105,5-plus-unit,multifamily,24,200,27730316,24,200,27730316,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2677
+2021,49,007,49007,Carbon County,101,1-unit,single_family,42,42,12847746,42,42,12847746,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2678
+2021,49,007,49007,Carbon County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2678
+2021,49,007,49007,Carbon County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2678
+2021,49,007,49007,Carbon County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2678
+2021,49,009,49009,Daggett County,101,1-unit,single_family,17,17,5072265,11,11,3307886,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2679
+2021,49,009,49009,Daggett County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2679
+2021,49,009,49009,Daggett County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2679
+2021,49,009,49009,Daggett County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2679
+2021,49,011,49011,Davis County,101,1-unit,single_family,2004,2004,556622561,2004,2004,556622561,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2680
+2021,49,011,49011,Davis County,103,2-unit,multifamily,1,2,494625,1,2,494625,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2680
+2021,49,011,49011,Davis County,104,3-4-unit,multifamily,1,4,380000,1,4,380000,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2680
+2021,49,011,49011,Davis County,105,5-plus-unit,multifamily,45,1802,261002511,45,1802,261002511,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2680
+2021,49,013,49013,Duchesne County,101,1-unit,single_family,130,130,33379488,70,70,20403095,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2681
+2021,49,013,49013,Duchesne County,103,2-unit,multifamily,1,2,415110,1,2,415110,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2681
+2021,49,013,49013,Duchesne County,104,3-4-unit,multifamily,1,4,285524,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2681
+2021,49,013,49013,Duchesne County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2681
+2021,49,015,49015,Emery County,101,1-unit,single_family,14,14,2746330,14,14,2746330,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2682
+2021,49,015,49015,Emery County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2682
+2021,49,015,49015,Emery County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2682
+2021,49,015,49015,Emery County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2682
+2021,49,017,49017,Garfield County,101,1-unit,single_family,76,76,17370698,76,76,17370698,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2683
+2021,49,017,49017,Garfield County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2683
+2021,49,017,49017,Garfield County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2683
+2021,49,017,49017,Garfield County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2683
+2021,49,019,49019,Grand County,101,1-unit,single_family,81,81,21846924,81,81,21846924,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2684
+2021,49,019,49019,Grand County,103,2-unit,multifamily,3,6,1532052,3,6,1532052,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2684
+2021,49,019,49019,Grand County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2684
+2021,49,019,49019,Grand County,105,5-plus-unit,multifamily,1,6,1385234,1,6,1385234,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2684
+2021,49,021,49021,Iron County,101,1-unit,single_family,552,552,150680400,552,552,150680400,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2685
+2021,49,021,49021,Iron County,103,2-unit,multifamily,55,110,9291606,55,110,9291606,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2685
+2021,49,021,49021,Iron County,104,3-4-unit,multifamily,38,114,20884943,38,114,20884943,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2685
+2021,49,021,49021,Iron County,105,5-plus-unit,multifamily,19,115,20896953,19,115,20896953,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2685
+2021,49,023,49023,Juab County,101,1-unit,single_family,112,112,33499210,95,95,27262273,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2686
+2021,49,023,49023,Juab County,103,2-unit,multifamily,2,4,848000,2,4,848000,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2686
+2021,49,023,49023,Juab County,104,3-4-unit,multifamily,4,14,2590688,4,14,2590688,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2686
+2021,49,023,49023,Juab County,105,5-plus-unit,multifamily,1,5,917435,1,5,917435,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2686
+2021,49,025,49025,Kane County,101,1-unit,single_family,327,327,63463688,112,112,14125512,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2687
+2021,49,025,49025,Kane County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2687
+2021,49,025,49025,Kane County,104,3-4-unit,multifamily,3,11,1690000,2,8,850000,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2687
+2021,49,025,49025,Kane County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2687
+2021,49,027,49027,Millard County,101,1-unit,single_family,49,49,10512485,45,45,9345832,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2688
+2021,49,027,49027,Millard County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2688
+2021,49,027,49027,Millard County,104,3-4-unit,multifamily,1,4,351360,1,4,351360,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2688
+2021,49,027,49027,Millard County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2688
+2021,49,029,49029,Morgan County,101,1-unit,single_family,98,98,47435580,98,98,47435580,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2689
+2021,49,029,49029,Morgan County,103,2-unit,multifamily,2,4,763642,2,4,763642,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2689
+2021,49,029,49029,Morgan County,104,3-4-unit,multifamily,10,36,7149178,10,36,7149178,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2689
+2021,49,029,49029,Morgan County,105,5-plus-unit,multifamily,3,15,2769655,3,15,2769655,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2689
+2021,49,031,49031,Piute County,101,1-unit,single_family,33,33,5258556,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2690
+2021,49,031,49031,Piute County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2690
+2021,49,031,49031,Piute County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2690
+2021,49,031,49031,Piute County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2690
+2021,49,033,49033,Rich County,101,1-unit,single_family,68,68,22067697,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2691
+2021,49,033,49033,Rich County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2691
+2021,49,033,49033,Rich County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2691
+2021,49,033,49033,Rich County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2691
+2021,49,035,49035,Salt Lake County,101,1-unit,single_family,4350,4350,1160717215,4019,4019,1069817946,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2692
+2021,49,035,49035,Salt Lake County,103,2-unit,multifamily,94,188,24394915,72,144,20881027,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2692
+2021,49,035,49035,Salt Lake County,104,3-4-unit,multifamily,74,260,45270202,53,192,32936226,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2692
+2021,49,035,49035,Salt Lake County,105,5-plus-unit,multifamily,124,5851,894908953,73,2320,416851950,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2692
+2021,49,037,49037,San Juan County,101,1-unit,single_family,161,161,48658403,161,161,48658403,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2693
+2021,49,037,49037,San Juan County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2693
+2021,49,037,49037,San Juan County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2693
+2021,49,037,49037,San Juan County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2693
+2021,49,039,49039,Sanpete County,101,1-unit,single_family,227,227,40905899,227,227,40905899,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2694
+2021,49,039,49039,Sanpete County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2694
+2021,49,039,49039,Sanpete County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2694
+2021,49,039,49039,Sanpete County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2694
+2021,49,041,49041,Sevier County,101,1-unit,single_family,66,66,18290709,66,66,18290709,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2695
+2021,49,041,49041,Sevier County,103,2-unit,multifamily,1,2,290000,1,2,290000,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2695
+2021,49,041,49041,Sevier County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2695
+2021,49,041,49041,Sevier County,105,5-plus-unit,multifamily,1,120,22000000,1,120,22000000,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2695
+2021,49,043,49043,Summit County,101,1-unit,single_family,286,286,190879582,139,139,115357322,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2696
+2021,49,043,49043,Summit County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2696
+2021,49,043,49043,Summit County,104,3-4-unit,multifamily,10,30,8415300,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2696
+2021,49,043,49043,Summit County,105,5-plus-unit,multifamily,22,123,22956462,1,11,3820500,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2696
+2021,49,045,49045,Tooele County,101,1-unit,single_family,988,988,259138696,988,988,259138696,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2697
+2021,49,045,49045,Tooele County,103,2-unit,multifamily,1,2,264303,1,2,264303,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2697
+2021,49,045,49045,Tooele County,104,3-4-unit,multifamily,1,3,394636,1,3,394636,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2697
+2021,49,045,49045,Tooele County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2697
+2021,49,047,49047,Uintah County,101,1-unit,single_family,86,86,25614985,86,86,25614985,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2698
+2021,49,047,49047,Uintah County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2698
+2021,49,047,49047,Uintah County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2698
+2021,49,047,49047,Uintah County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2698
+2021,49,049,49049,Utah County,101,1-unit,single_family,7450,7450,2229217666,7436,7436,2223138334,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2699
+2021,49,049,49049,Utah County,103,2-unit,multifamily,49,98,18793655,49,98,18793655,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2699
+2021,49,049,49049,Utah County,104,3-4-unit,multifamily,62,232,37031021,62,232,37031021,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2699
+2021,49,049,49049,Utah County,105,5-plus-unit,multifamily,233,3260,448318047,233,3260,448318047,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2699
+2021,49,051,49051,Wasatch County,101,1-unit,single_family,894,894,580140193,888,888,577528693,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2700
+2021,49,051,49051,Wasatch County,103,2-unit,multifamily,4,8,1973680,4,8,1973680,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2700
+2021,49,051,49051,Wasatch County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2700
+2021,49,051,49051,Wasatch County,105,5-plus-unit,multifamily,14,277,43145829,14,277,43145829,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2700
+2021,49,053,49053,Washington County,101,1-unit,single_family,3218,3218,681326708,2764,2764,609027066,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2701
+2021,49,053,49053,Washington County,103,2-unit,multifamily,22,44,7945465,22,44,7945465,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2701
+2021,49,053,49053,Washington County,104,3-4-unit,multifamily,8,28,4924104,8,28,4924104,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2701
+2021,49,053,49053,Washington County,105,5-plus-unit,multifamily,25,194,27086970,25,194,27086970,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2701
+2021,49,055,49055,Wayne County,101,1-unit,single_family,33,33,7142861,33,33,7142861,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2702
+2021,49,055,49055,Wayne County,103,2-unit,multifamily,1,2,400000,1,2,400000,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2702
+2021,49,055,49055,Wayne County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2702
+2021,49,055,49055,Wayne County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2702
+2021,49,057,49057,Weber County,101,1-unit,single_family,1635,1635,399437776,1497,1497,362954054,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2703
+2021,49,057,49057,Weber County,103,2-unit,multifamily,2,4,1415544,2,4,1415544,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2703
+2021,49,057,49057,Weber County,104,3-4-unit,multifamily,17,57,10764276,0,0,0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2703
+2021,49,057,49057,Weber County,105,5-plus-unit,multifamily,36,940,117037684,25,884,110947218,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2703
+2022,49,001,49001,Beaver County,101,1-unit,single_family,63,63,15183118,63,63,15183118,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2674
+2022,49,001,49001,Beaver County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2674
+2022,49,001,49001,Beaver County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2674
+2022,49,001,49001,Beaver County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2674
+2022,49,003,49003,Box Elder County,101,1-unit,single_family,327,327,108537983,260,260,91268725,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2675
+2022,49,003,49003,Box Elder County,103,2-unit,multifamily,1,2,220000,1,2,220000,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2675
+2022,49,003,49003,Box Elder County,104,3-4-unit,multifamily,6,24,4042000,6,24,4042000,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2675
+2022,49,003,49003,Box Elder County,105,5-plus-unit,multifamily,12,125,13292000,12,125,13292000,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2675
+2022,49,005,49005,Cache County,101,1-unit,single_family,724,724,247442573,716,716,245171123,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2676
+2022,49,005,49005,Cache County,103,2-unit,multifamily,2,4,891374,2,4,891374,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2676
+2022,49,005,49005,Cache County,104,3-4-unit,multifamily,1,4,1013156,1,4,1013156,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2676
+2022,49,005,49005,Cache County,105,5-plus-unit,multifamily,26,313,46960823,26,313,46960823,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2676
+2022,49,007,49007,Carbon County,101,1-unit,single_family,64,64,21067804,64,64,21067804,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2677
+2022,49,007,49007,Carbon County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2677
+2022,49,007,49007,Carbon County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2677
+2022,49,007,49007,Carbon County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2677
+2022,49,009,49009,Daggett County,101,1-unit,single_family,20,20,5297285,20,20,5297285,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2678
+2022,49,009,49009,Daggett County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2678
+2022,49,009,49009,Daggett County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2678
+2022,49,009,49009,Daggett County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2678
+2022,49,011,49011,Davis County,101,1-unit,single_family,1346,1346,410935355,1346,1346,410935355,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2679
+2022,49,011,49011,Davis County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2679
+2022,49,011,49011,Davis County,104,3-4-unit,multifamily,7,27,4807440,7,27,4807440,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2679
+2022,49,011,49011,Davis County,105,5-plus-unit,multifamily,40,802,125423357,40,802,125423357,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2679
+2022,49,013,49013,Duchesne County,101,1-unit,single_family,176,176,44631971,117,117,31871852,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2680
+2022,49,013,49013,Duchesne County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2680
+2022,49,013,49013,Duchesne County,104,3-4-unit,multifamily,2,7,789752,1,4,575609,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2680
+2022,49,013,49013,Duchesne County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2680
+2022,49,015,49015,Emery County,101,1-unit,single_family,40,40,4824176,40,40,4824176,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2681
+2022,49,015,49015,Emery County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2681
+2022,49,015,49015,Emery County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2681
+2022,49,015,49015,Emery County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2681
+2022,49,017,49017,Garfield County,101,1-unit,single_family,66,66,14530930,66,66,14530930,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2682
+2022,49,017,49017,Garfield County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2682
+2022,49,017,49017,Garfield County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2682
+2022,49,017,49017,Garfield County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2682
+2022,49,019,49019,Grand County,101,1-unit,single_family,64,64,17413772,64,64,17413772,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2683
+2022,49,019,49019,Grand County,103,2-unit,multifamily,9,18,3137043,9,18,3137043,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2683
+2022,49,019,49019,Grand County,104,3-4-unit,multifamily,5,19,2020255,5,19,2020255,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2683
+2022,49,019,49019,Grand County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2683
+2022,49,021,49021,Iron County,101,1-unit,single_family,989,989,197979492,989,989,197979492,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2684
+2022,49,021,49021,Iron County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2684
+2022,49,021,49021,Iron County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2684
+2022,49,021,49021,Iron County,105,5-plus-unit,multifamily,7,43,14336161,7,43,14336161,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2684
+2022,49,023,49023,Juab County,101,1-unit,single_family,73,73,21298934,73,73,21298934,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2685
+2022,49,023,49023,Juab County,103,2-unit,multifamily,7,14,2874992,7,14,2874992,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2685
+2022,49,023,49023,Juab County,104,3-4-unit,multifamily,6,18,3436667,6,18,3436667,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2685
+2022,49,023,49023,Juab County,105,5-plus-unit,multifamily,3,17,3133000,3,17,3133000,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2685
+2022,49,025,49025,Kane County,101,1-unit,single_family,203,203,58099680,184,184,54204680,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2686
+2022,49,025,49025,Kane County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2686
+2022,49,025,49025,Kane County,104,3-4-unit,multifamily,1,4,425000,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2686
+2022,49,025,49025,Kane County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2686
+2022,49,027,49027,Millard County,101,1-unit,single_family,58,58,11514723,54,54,10348070,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2687
+2022,49,027,49027,Millard County,103,2-unit,multifamily,1,2,163200,1,2,163200,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2687
+2022,49,027,49027,Millard County,104,3-4-unit,multifamily,1,4,450000,1,4,450000,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2687
+2022,49,027,49027,Millard County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2687
+2022,49,029,49029,Morgan County,101,1-unit,single_family,47,47,33122470,47,47,33122470,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2688
+2022,49,029,49029,Morgan County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2688
+2022,49,029,49029,Morgan County,104,3-4-unit,multifamily,5,16,2985894,5,16,2985894,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2688
+2022,49,029,49029,Morgan County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2688
+2022,49,031,49031,Piute County,101,1-unit,single_family,36,36,5944980,9,9,1873380,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2689
+2022,49,031,49031,Piute County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2689
+2022,49,031,49031,Piute County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2689
+2022,49,031,49031,Piute County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2689
+2022,49,033,49033,Rich County,101,1-unit,single_family,71,71,23127537,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2690
+2022,49,033,49033,Rich County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2690
+2022,49,033,49033,Rich County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2690
+2022,49,033,49033,Rich County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2690
+2022,49,035,49035,Salt Lake County,101,1-unit,single_family,3339,3339,950033147,3171,3171,909558176,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2691
+2022,49,035,49035,Salt Lake County,103,2-unit,multifamily,42,84,12810544,21,42,8959706,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2691
+2022,49,035,49035,Salt Lake County,104,3-4-unit,multifamily,18,63,14816718,11,42,10973206,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2691
+2022,49,035,49035,Salt Lake County,105,5-plus-unit,multifamily,120,5889,859816707,70,2215,364582232,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2691
+2022,49,037,49037,San Juan County,101,1-unit,single_family,92,92,30578627,90,90,30313395,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2692
+2022,49,037,49037,San Juan County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2692
+2022,49,037,49037,San Juan County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2692
+2022,49,037,49037,San Juan County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2692
+2022,49,039,49039,Sanpete County,101,1-unit,single_family,186,186,34655877,186,186,34655877,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2693
+2022,49,039,49039,Sanpete County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2693
+2022,49,039,49039,Sanpete County,104,3-4-unit,multifamily,4,16,1650520,4,16,1650520,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2693
+2022,49,039,49039,Sanpete County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2693
+2022,49,041,49041,Sevier County,101,1-unit,single_family,105,105,24783500,97,97,22851000,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2694
+2022,49,041,49041,Sevier County,103,2-unit,multifamily,11,22,3315000,8,16,2526000,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2694
+2022,49,041,49041,Sevier County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2694
+2022,49,041,49041,Sevier County,105,5-plus-unit,multifamily,3,36,6000000,3,36,6000000,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2694
+2022,49,043,49043,Summit County,101,1-unit,single_family,470,470,294773953,470,470,294773953,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2695
+2022,49,043,49043,Summit County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2695
+2022,49,043,49043,Summit County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2695
+2022,49,043,49043,Summit County,105,5-plus-unit,multifamily,2,90,48799866,2,90,48799866,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2695
+2022,49,045,49045,Tooele County,101,1-unit,single_family,653,653,184826950,653,653,184826950,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2696
+2022,49,045,49045,Tooele County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2696
+2022,49,045,49045,Tooele County,104,3-4-unit,multifamily,8,31,7124706,8,31,7124706,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2696
+2022,49,045,49045,Tooele County,105,5-plus-unit,multifamily,7,43,10489312,7,43,10489312,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2696
+2022,49,047,49047,Uintah County,101,1-unit,single_family,86,86,34054448,86,86,34054448,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2697
+2022,49,047,49047,Uintah County,103,2-unit,multifamily,2,4,717635,2,4,717635,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2697
+2022,49,047,49047,Uintah County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2697
+2022,49,047,49047,Uintah County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2697
+2022,49,049,49049,Utah County,101,1-unit,single_family,5080,5080,1694452771,5069,5069,1689833701,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2698
+2022,49,049,49049,Utah County,103,2-unit,multifamily,69,138,27213853,69,138,27213853,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2698
+2022,49,049,49049,Utah County,104,3-4-unit,multifamily,37,140,25005314,37,140,25005314,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2698
+2022,49,049,49049,Utah County,105,5-plus-unit,multifamily,142,2807,466722175,142,2807,466722175,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2698
+2022,49,051,49051,Wasatch County,101,1-unit,single_family,991,991,623850968,985,985,621239468,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2699
+2022,49,051,49051,Wasatch County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2699
+2022,49,051,49051,Wasatch County,104,3-4-unit,multifamily,2,6,2604249,2,6,2604249,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2699
+2022,49,051,49051,Wasatch County,105,5-plus-unit,multifamily,1,12,3980115,1,12,3980115,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2699
+2022,49,053,49053,Washington County,101,1-unit,single_family,2486,2486,520893854,2470,2470,516440724,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2700
+2022,49,053,49053,Washington County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2700
+2022,49,053,49053,Washington County,104,3-4-unit,multifamily,11,40,7430750,11,40,7430750,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2700
+2022,49,053,49053,Washington County,105,5-plus-unit,multifamily,51,670,80299950,51,670,80299950,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2700
+2022,49,055,49055,Wayne County,101,1-unit,single_family,25,25,7568251,25,25,7568251,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2701
+2022,49,055,49055,Wayne County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2701
+2022,49,055,49055,Wayne County,104,3-4-unit,multifamily,1,4,590000,1,4,590000,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2701
+2022,49,055,49055,Wayne County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2701
+2022,49,057,49057,Weber County,101,1-unit,single_family,1252,1252,378083692,938,938,280540230,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2702
+2022,49,057,49057,Weber County,103,2-unit,multifamily,3,6,1150477,3,6,1150477,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2702
+2022,49,057,49057,Weber County,104,3-4-unit,multifamily,24,89,13984918,10,39,4562500,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2702
+2022,49,057,49057,Weber County,105,5-plus-unit,multifamily,49,964,148111765,35,892,140276870,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2702
+2023,49,001,49001,Beaver County,101,1-unit,single_family,37,37,13156727,37,37,13156727,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2670
+2023,49,001,49001,Beaver County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2670
+2023,49,001,49001,Beaver County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2670
+2023,49,001,49001,Beaver County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2670
+2023,49,003,49003,Box Elder County,101,1-unit,single_family,238,238,70478792,180,180,55845040,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2671
+2023,49,003,49003,Box Elder County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2671
+2023,49,003,49003,Box Elder County,104,3-4-unit,multifamily,1,4,686000,1,4,686000,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2671
+2023,49,003,49003,Box Elder County,105,5-plus-unit,multifamily,4,28,4015690,4,28,4015690,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2671
+2023,49,005,49005,Cache County,101,1-unit,single_family,610,610,249265902,603,603,247278385,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2672
+2023,49,005,49005,Cache County,103,2-unit,multifamily,2,4,975760,2,4,975760,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2672
+2023,49,005,49005,Cache County,104,3-4-unit,multifamily,1,4,856006,1,4,856006,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2672
+2023,49,005,49005,Cache County,105,5-plus-unit,multifamily,16,339,50221950,16,339,50221950,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2672
+2023,49,007,49007,Carbon County,101,1-unit,single_family,41,41,17619642,41,41,17619642,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2673
+2023,49,007,49007,Carbon County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2673
+2023,49,007,49007,Carbon County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2673
+2023,49,007,49007,Carbon County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2673
+2023,49,009,49009,Daggett County,101,1-unit,single_family,20,20,6428722,11,11,4157006,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2674
+2023,49,009,49009,Daggett County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2674
+2023,49,009,49009,Daggett County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2674
+2023,49,009,49009,Daggett County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2674
+2023,49,011,49011,Davis County,101,1-unit,single_family,684,684,230901338,683,683,230502297,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2675
+2023,49,011,49011,Davis County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2675
+2023,49,011,49011,Davis County,104,3-4-unit,multifamily,9,35,8367438,9,35,8367438,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2675
+2023,49,011,49011,Davis County,105,5-plus-unit,multifamily,59,828,135197135,59,828,135197135,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2675
+2023,49,013,49013,Duchesne County,101,1-unit,single_family,107,107,33485287,58,58,22887898,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2676
+2023,49,013,49013,Duchesne County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2676
+2023,49,013,49013,Duchesne County,104,3-4-unit,multifamily,2,6,428286,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2676
+2023,49,013,49013,Duchesne County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2676
+2023,49,015,49015,Emery County,101,1-unit,single_family,43,43,5246385,43,43,5246385,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2677
+2023,49,015,49015,Emery County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2677
+2023,49,015,49015,Emery County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2677
+2023,49,015,49015,Emery County,105,5-plus-unit,multifamily,2,12,5908120,2,12,5908120,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2677
+2023,49,017,49017,Garfield County,101,1-unit,single_family,45,45,16304082,45,45,16304082,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2678
+2023,49,017,49017,Garfield County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2678
+2023,49,017,49017,Garfield County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2678
+2023,49,017,49017,Garfield County,105,5-plus-unit,multifamily,1,8,729390,1,8,729390,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2678
+2023,49,019,49019,Grand County,101,1-unit,single_family,55,55,18337013,55,55,18337013,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2679
+2023,49,019,49019,Grand County,103,2-unit,multifamily,5,10,1283234,5,10,1283234,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2679
+2023,49,019,49019,Grand County,104,3-4-unit,multifamily,2,8,593894,2,8,593894,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2679
+2023,49,019,49019,Grand County,105,5-plus-unit,multifamily,1,9,1649236,1,9,1649236,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2679
+2023,49,021,49021,Iron County,101,1-unit,single_family,460,460,129784356,460,460,129784356,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2680
+2023,49,021,49021,Iron County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2680
+2023,49,021,49021,Iron County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2680
+2023,49,021,49021,Iron County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2680
+2023,49,023,49023,Juab County,101,1-unit,single_family,88,88,26764621,88,88,26764621,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2681
+2023,49,023,49023,Juab County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2681
+2023,49,023,49023,Juab County,104,3-4-unit,multifamily,8,26,4105560,8,26,4105560,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2681
+2023,49,023,49023,Juab County,105,5-plus-unit,multifamily,5,31,5471471,5,31,5471471,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2681
+2023,49,025,49025,Kane County,101,1-unit,single_family,153,153,35948218,129,129,30645973,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2682
+2023,49,025,49025,Kane County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2682
+2023,49,025,49025,Kane County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2682
+2023,49,025,49025,Kane County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2682
+2023,49,027,49027,Millard County,101,1-unit,single_family,57,57,10935395,56,56,10638561,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2683
+2023,49,027,49027,Millard County,103,2-unit,multifamily,6,12,2800000,6,12,2800000,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2683
+2023,49,027,49027,Millard County,104,3-4-unit,multifamily,5,19,2262652,5,19,2262652,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2683
+2023,49,027,49027,Millard County,105,5-plus-unit,multifamily,1,6,1334550,1,6,1334550,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2683
+2023,49,029,49029,Morgan County,101,1-unit,single_family,73,73,22044801,73,73,22044801,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2684
+2023,49,029,49029,Morgan County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2684
+2023,49,029,49029,Morgan County,104,3-4-unit,multifamily,10,37,7174631,10,37,7174631,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2684
+2023,49,029,49029,Morgan County,105,5-plus-unit,multifamily,6,33,5559792,6,33,5559792,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2684
+2023,49,031,49031,Piute County,101,1-unit,single_family,25,25,3956100,1,1,336900,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2685
+2023,49,031,49031,Piute County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2685
+2023,49,031,49031,Piute County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2685
+2023,49,031,49031,Piute County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2685
+2023,49,033,49033,Rich County,101,1-unit,single_family,53,53,22822120,15,15,9394000,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2686
+2023,49,033,49033,Rich County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2686
+2023,49,033,49033,Rich County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2686
+2023,49,033,49033,Rich County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2686
+2023,49,035,49035,Salt Lake County,101,1-unit,single_family,2572,2572,893907933,2367,2367,835469704,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2687
+2023,49,035,49035,Salt Lake County,103,2-unit,multifamily,35,70,10848916,11,22,5572476,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2687
+2023,49,035,49035,Salt Lake County,104,3-4-unit,multifamily,65,236,52347624,53,200,45378957,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2687
+2023,49,035,49035,Salt Lake County,105,5-plus-unit,multifamily,141,5437,1012470207,91,2769,647168237,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2687
+2023,49,037,49037,San Juan County,101,1-unit,single_family,65,65,22079241,25,25,8876843,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2688
+2023,49,037,49037,San Juan County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2688
+2023,49,037,49037,San Juan County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2688
+2023,49,037,49037,San Juan County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2688
+2023,49,039,49039,Sanpete County,101,1-unit,single_family,200,200,32333712,200,200,32333712,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2689
+2023,49,039,49039,Sanpete County,103,2-unit,multifamily,13,26,2658009,13,26,2658009,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2689
+2023,49,039,49039,Sanpete County,104,3-4-unit,multifamily,3,12,1233585,3,12,1233585,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2689
+2023,49,039,49039,Sanpete County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2689
+2023,49,041,49041,Sevier County,101,1-unit,single_family,82,82,24938000,82,82,24938000,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2690
+2023,49,041,49041,Sevier County,103,2-unit,multifamily,5,10,1677000,5,10,1677000,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2690
+2023,49,041,49041,Sevier County,104,3-4-unit,multifamily,1,4,561000,1,4,561000,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2690
+2023,49,041,49041,Sevier County,105,5-plus-unit,multifamily,4,44,5619469,4,44,5619469,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2690
+2023,49,043,49043,Summit County,101,1-unit,single_family,270,270,244990644,270,270,244990644,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2691
+2023,49,043,49043,Summit County,103,2-unit,multifamily,1,2,413052,1,2,413052,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2691
+2023,49,043,49043,Summit County,104,3-4-unit,multifamily,1,4,1288059,1,4,1288059,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2691
+2023,49,043,49043,Summit County,105,5-plus-unit,multifamily,4,57,61810700,4,57,61810700,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2691
+2023,49,045,49045,Tooele County,101,1-unit,single_family,591,591,172912706,591,591,172912706,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2692
+2023,49,045,49045,Tooele County,103,2-unit,multifamily,13,26,5244038,13,26,5244038,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2692
+2023,49,045,49045,Tooele County,104,3-4-unit,multifamily,15,58,10302915,15,58,10302915,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2692
+2023,49,045,49045,Tooele County,105,5-plus-unit,multifamily,35,245,37591343,35,245,37591343,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2692
+2023,49,047,49047,Uintah County,101,1-unit,single_family,70,70,27263252,70,70,27263252,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2693
+2023,49,047,49047,Uintah County,103,2-unit,multifamily,4,8,1603297,4,8,1603297,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2693
+2023,49,047,49047,Uintah County,104,3-4-unit,multifamily,2,8,1609677,2,8,1609677,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2693
+2023,49,047,49047,Uintah County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2693
+2023,49,049,49049,Utah County,101,1-unit,single_family,4575,4575,1465872140,4529,4529,1420266871,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2694
+2023,49,049,49049,Utah County,103,2-unit,multifamily,19,38,9516518,18,36,8847185,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2694
+2023,49,049,49049,Utah County,104,3-4-unit,multifamily,28,108,23002575,28,108,23002575,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2694
+2023,49,049,49049,Utah County,105,5-plus-unit,multifamily,73,1315,273166044,73,1315,273166044,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2694
+2023,49,051,49051,Wasatch County,101,1-unit,single_family,669,669,516087391,669,669,516087391,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2695
+2023,49,051,49051,Wasatch County,103,2-unit,multifamily,3,6,2316956,3,6,2316956,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2695
+2023,49,051,49051,Wasatch County,104,3-4-unit,multifamily,7,25,7233778,7,25,7233778,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2695
+2023,49,051,49051,Wasatch County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2695
+2023,49,053,49053,Washington County,101,1-unit,single_family,2134,2134,435832861,2105,2105,428777438,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2696
+2023,49,053,49053,Washington County,103,2-unit,multifamily,5,10,1364859,5,10,1364859,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2696
+2023,49,053,49053,Washington County,104,3-4-unit,multifamily,11,38,8514401,11,38,8514401,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2696
+2023,49,053,49053,Washington County,105,5-plus-unit,multifamily,32,638,96532127,32,638,96532127,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2696
+2023,49,055,49055,Wayne County,101,1-unit,single_family,20,20,6920969,20,20,6920969,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2697
+2023,49,055,49055,Wayne County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2697
+2023,49,055,49055,Wayne County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2697
+2023,49,055,49055,Wayne County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2697
+2023,49,057,49057,Weber County,101,1-unit,single_family,876,876,276041572,466,466,160964120,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2698
+2023,49,057,49057,Weber County,103,2-unit,multifamily,1,2,300000,1,2,300000,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2698
+2023,49,057,49057,Weber County,104,3-4-unit,multifamily,23,80,13890156,8,30,4879099,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2698
+2023,49,057,49057,Weber County,105,5-plus-unit,multifamily,28,482,71743636,3,15,3343885,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2698
+2024,49,001,49001,Beaver County,101,1-unit,single_family,39,39,14086117,39,39,14086117,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2669
+2024,49,001,49001,Beaver County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2669
+2024,49,001,49001,Beaver County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2669
+2024,49,001,49001,Beaver County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2669
+2024,49,003,49003,Box Elder County,101,1-unit,single_family,397,397,124708271,347,347,112081551,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2670
+2024,49,003,49003,Box Elder County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2670
+2024,49,003,49003,Box Elder County,104,3-4-unit,multifamily,2,8,1859301,2,8,1859301,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2670
+2024,49,003,49003,Box Elder County,105,5-plus-unit,multifamily,8,74,14024560,8,74,14024560,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2670
+2024,49,005,49005,Cache County,101,1-unit,single_family,871,871,328743992,871,871,328743992,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2671
+2024,49,005,49005,Cache County,103,2-unit,multifamily,2,4,812500,2,4,812500,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2671
+2024,49,005,49005,Cache County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2671
+2024,49,005,49005,Cache County,105,5-plus-unit,multifamily,9,146,14598000,9,146,14598000,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2671
+2024,49,007,49007,Carbon County,101,1-unit,single_family,28,28,13269748,28,28,13269748,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2672
+2024,49,007,49007,Carbon County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2672
+2024,49,007,49007,Carbon County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2672
+2024,49,007,49007,Carbon County,105,5-plus-unit,multifamily,7,168,26472156,7,168,26472156,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2672
+2024,49,009,49009,Daggett County,101,1-unit,single_family,10,10,3566205,10,10,3566205,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2673
+2024,49,009,49009,Daggett County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2673
+2024,49,009,49009,Daggett County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2673
+2024,49,009,49009,Daggett County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2673
+2024,49,011,49011,Davis County,101,1-unit,single_family,920,920,312353818,920,920,312353818,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2674
+2024,49,011,49011,Davis County,103,2-unit,multifamily,1,2,586000,1,2,586000,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2674
+2024,49,011,49011,Davis County,104,3-4-unit,multifamily,10,38,9432788,10,38,9432788,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2674
+2024,49,011,49011,Davis County,105,5-plus-unit,multifamily,29,508,100906556,29,508,100906556,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2674
+2024,49,013,49013,Duchesne County,101,1-unit,single_family,123,123,41080142,70,70,29617661,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2675
+2024,49,013,49013,Duchesne County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2675
+2024,49,013,49013,Duchesne County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2675
+2024,49,013,49013,Duchesne County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2675
+2024,49,015,49015,Emery County,101,1-unit,single_family,55,55,6092325,55,55,6092325,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2676
+2024,49,015,49015,Emery County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2676
+2024,49,015,49015,Emery County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2676
+2024,49,015,49015,Emery County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2676
+2024,49,017,49017,Garfield County,101,1-unit,single_family,57,57,17217025,57,57,17217025,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2677
+2024,49,017,49017,Garfield County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2677
+2024,49,017,49017,Garfield County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2677
+2024,49,017,49017,Garfield County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2677
+2024,49,019,49019,Grand County,101,1-unit,single_family,120,120,34810024,120,120,34810024,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2678
+2024,49,019,49019,Grand County,103,2-unit,multifamily,9,18,2708132,9,18,2708132,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2678
+2024,49,019,49019,Grand County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2678
+2024,49,019,49019,Grand County,105,5-plus-unit,multifamily,6,100,4266330,6,100,4266330,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2678
+2024,49,021,49021,Iron County,101,1-unit,single_family,655,655,202538802,655,655,202538802,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2679
+2024,49,021,49021,Iron County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2679
+2024,49,021,49021,Iron County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2679
+2024,49,021,49021,Iron County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2679
+2024,49,023,49023,Juab County,101,1-unit,single_family,72,72,28396331,72,72,28396331,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2680
+2024,49,023,49023,Juab County,103,2-unit,multifamily,3,6,1148512,3,6,1148512,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2680
+2024,49,023,49023,Juab County,104,3-4-unit,multifamily,7,22,4424877,7,22,4424877,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2680
+2024,49,023,49023,Juab County,105,5-plus-unit,multifamily,1,7,1467905,1,7,1467905,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2680
+2024,49,025,49025,Kane County,101,1-unit,single_family,196,196,69581717,165,165,62438003,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2681
+2024,49,025,49025,Kane County,103,2-unit,multifamily,1,2,549000,1,2,549000,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2681
+2024,49,025,49025,Kane County,104,3-4-unit,multifamily,1,4,875000,1,4,875000,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2681
+2024,49,025,49025,Kane County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2681
+2024,49,027,49027,Millard County,101,1-unit,single_family,76,76,16431077,74,74,15837409,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2682
+2024,49,027,49027,Millard County,103,2-unit,multifamily,1,2,254000,1,2,254000,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2682
+2024,49,027,49027,Millard County,104,3-4-unit,multifamily,4,15,1752435,4,15,1752435,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2682
+2024,49,027,49027,Millard County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2682
+2024,49,029,49029,Morgan County,101,1-unit,single_family,132,132,60565445,132,132,60565445,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2683
+2024,49,029,49029,Morgan County,103,2-unit,multifamily,8,16,3084473,8,16,3084473,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2683
+2024,49,029,49029,Morgan County,104,3-4-unit,multifamily,5,19,3733035,5,19,3733035,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2683
+2024,49,029,49029,Morgan County,105,5-plus-unit,multifamily,4,29,4399366,4,29,4399366,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2683
+2024,49,031,49031,Piute County,101,1-unit,single_family,25,25,3847375,1,1,228175,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2684
+2024,49,031,49031,Piute County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2684
+2024,49,031,49031,Piute County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2684
+2024,49,031,49031,Piute County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2684
+2024,49,033,49033,Rich County,101,1-unit,single_family,72,72,41168316,29,29,25973339,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2685
+2024,49,033,49033,Rich County,103,2-unit,multifamily,1,2,500000,1,2,500000,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2685
+2024,49,033,49033,Rich County,104,3-4-unit,multifamily,1,4,1200000,1,4,1200000,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2685
+2024,49,033,49033,Rich County,105,5-plus-unit,multifamily,2,19,5250000,2,19,5250000,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2685
+2024,49,035,49035,Salt Lake County,101,1-unit,single_family,2848,2848,934075043,2836,2836,926993566,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2686
+2024,49,035,49035,Salt Lake County,103,2-unit,multifamily,15,30,5299462,10,20,3326056,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2686
+2024,49,035,49035,Salt Lake County,104,3-4-unit,multifamily,27,93,26047545,25,87,24845841,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2686
+2024,49,035,49035,Salt Lake County,105,5-plus-unit,multifamily,54,1579,319785089,54,1579,319785089,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2686
+2024,49,037,49037,San Juan County,101,1-unit,single_family,48,48,18931162,48,48,18931162,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2687
+2024,49,037,49037,San Juan County,103,2-unit,multifamily,2,4,838025,2,4,838025,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2687
+2024,49,037,49037,San Juan County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2687
+2024,49,037,49037,San Juan County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2687
+2024,49,039,49039,Sanpete County,101,1-unit,single_family,210,210,85875329,210,210,85875329,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2688
+2024,49,039,49039,Sanpete County,103,2-unit,multifamily,4,8,2111832,4,8,2111832,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2688
+2024,49,039,49039,Sanpete County,104,3-4-unit,multifamily,1,4,719929,1,4,719929,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2688
+2024,49,039,49039,Sanpete County,105,5-plus-unit,multifamily,5,44,8479901,5,44,8479901,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2688
+2024,49,041,49041,Sevier County,101,1-unit,single_family,91,91,33285210,91,91,33285210,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2689
+2024,49,041,49041,Sevier County,103,2-unit,multifamily,7,14,2274000,7,14,2274000,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2689
+2024,49,041,49041,Sevier County,104,3-4-unit,multifamily,1,4,1300000,1,4,1300000,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2689
+2024,49,041,49041,Sevier County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2689
+2024,49,043,49043,Summit County,101,1-unit,single_family,388,388,311038030,388,388,311038030,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2690
+2024,49,043,49043,Summit County,103,2-unit,multifamily,1,2,413052,1,2,413052,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2690
+2024,49,043,49043,Summit County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2690
+2024,49,043,49043,Summit County,105,5-plus-unit,multifamily,3,529,169159418,3,529,169159418,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2690
+2024,49,045,49045,Tooele County,101,1-unit,single_family,677,677,277819548,677,677,277819548,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2691
+2024,49,045,49045,Tooele County,103,2-unit,multifamily,25,50,10960098,25,50,10960098,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2691
+2024,49,045,49045,Tooele County,104,3-4-unit,multifamily,22,83,26159730,22,83,26159730,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2691
+2024,49,045,49045,Tooele County,105,5-plus-unit,multifamily,14,87,24118749,14,87,24118749,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2691
+2024,49,047,49047,Uintah County,101,1-unit,single_family,74,74,27813857,74,74,27813857,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2692
+2024,49,047,49047,Uintah County,103,2-unit,multifamily,2,4,632420,2,4,632420,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2692
+2024,49,047,49047,Uintah County,104,3-4-unit,multifamily,2,8,1320000,2,8,1320000,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2692
+2024,49,047,49047,Uintah County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2692
+2024,49,049,49049,Utah County,101,1-unit,single_family,5174,5174,1729118498,5013,5013,1680645954,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2693
+2024,49,049,49049,Utah County,103,2-unit,multifamily,5,10,4226208,5,10,4226208,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2693
+2024,49,049,49049,Utah County,104,3-4-unit,multifamily,26,97,23576229,26,97,23576229,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2693
+2024,49,049,49049,Utah County,105,5-plus-unit,multifamily,112,1040,176049902,112,1040,176049902,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2693
+2024,49,051,49051,Wasatch County,101,1-unit,single_family,784,784,549041999,783,783,548606749,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2694
+2024,49,051,49051,Wasatch County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2694
+2024,49,051,49051,Wasatch County,104,3-4-unit,multifamily,8,29,11535032,8,29,11535032,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2694
+2024,49,051,49051,Wasatch County,105,5-plus-unit,multifamily,4,22,7688117,4,22,7688117,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2694
+2024,49,053,49053,Washington County,101,1-unit,single_family,2467,2467,514755174,2380,2380,488322557,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2695
+2024,49,053,49053,Washington County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2695
+2024,49,053,49053,Washington County,104,3-4-unit,multifamily,9,35,6647685,9,35,6647685,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2695
+2024,49,053,49053,Washington County,105,5-plus-unit,multifamily,34,650,92474976,34,650,92474976,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2695
+2024,49,055,49055,Wayne County,101,1-unit,single_family,21,21,6958057,21,21,6958057,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2696
+2024,49,055,49055,Wayne County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2696
+2024,49,055,49055,Wayne County,104,3-4-unit,multifamily,1,3,715000,1,3,715000,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2696
+2024,49,055,49055,Wayne County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2696
+2024,49,057,49057,Weber County,101,1-unit,single_family,1044,1044,387469917,684,684,291457790,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2697
+2024,49,057,49057,Weber County,103,2-unit,multifamily,5,10,1868353,5,10,1868353,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2697
+2024,49,057,49057,Weber County,104,3-4-unit,multifamily,16,55,11002865,2,8,2142655,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2697
+2024,49,057,49057,Weber County,105,5-plus-unit,multifamily,39,521,86666780,15,182,36997399,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2697
+2025,49,001,49001,Beaver County,101,1-unit,single_family,38,38,15757330,38,38,15757330,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2670
+2025,49,001,49001,Beaver County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2670
+2025,49,001,49001,Beaver County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2670
+2025,49,001,49001,Beaver County,105,5-plus-unit,multifamily,2,10,1943622,2,10,1943622,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2670
+2025,49,003,49003,Box Elder County,101,1-unit,single_family,369,369,133963042,345,345,127176789,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2671
+2025,49,003,49003,Box Elder County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2671
+2025,49,003,49003,Box Elder County,104,3-4-unit,multifamily,9,35,6947830,9,35,6947830,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2671
+2025,49,003,49003,Box Elder County,105,5-plus-unit,multifamily,8,52,14473418,8,52,14473418,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2671
+2025,49,005,49005,Cache County,101,1-unit,single_family,850,850,330143028,850,850,330143028,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2672
+2025,49,005,49005,Cache County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2672
+2025,49,005,49005,Cache County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2672
+2025,49,005,49005,Cache County,105,5-plus-unit,multifamily,14,262,25804400,14,262,25804400,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2672
+2025,49,007,49007,Carbon County,101,1-unit,single_family,45,45,19900132,45,45,19900132,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2673
+2025,49,007,49007,Carbon County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2673
+2025,49,007,49007,Carbon County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2673
+2025,49,007,49007,Carbon County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2673
+2025,49,009,49009,Daggett County,101,1-unit,single_family,17,17,6678405,17,17,6678405,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2674
+2025,49,009,49009,Daggett County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2674
+2025,49,009,49009,Daggett County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2674
+2025,49,009,49009,Daggett County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2674
+2025,49,011,49011,Davis County,101,1-unit,single_family,841,841,340323749,841,841,340323749,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2675
+2025,49,011,49011,Davis County,103,2-unit,multifamily,4,8,1288614,4,8,1288614,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2675
+2025,49,011,49011,Davis County,104,3-4-unit,multifamily,18,72,12969165,18,72,12969165,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2675
+2025,49,011,49011,Davis County,105,5-plus-unit,multifamily,25,996,135044234,25,996,135044234,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2675
+2025,49,013,49013,Duchesne County,101,1-unit,single_family,123,123,38389117,62,62,23284707,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2676
+2025,49,013,49013,Duchesne County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2676
+2025,49,013,49013,Duchesne County,104,3-4-unit,multifamily,1,4,728059,1,4,728059,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2676
+2025,49,013,49013,Duchesne County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2676
+2025,49,015,49015,Emery County,101,1-unit,single_family,77,77,7299770,77,77,7299770,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2677
+2025,49,015,49015,Emery County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2677
+2025,49,015,49015,Emery County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2677
+2025,49,015,49015,Emery County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2677
+2025,49,017,49017,Garfield County,101,1-unit,single_family,27,27,10535601,27,27,10535601,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2678
+2025,49,017,49017,Garfield County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2678
+2025,49,017,49017,Garfield County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2678
+2025,49,017,49017,Garfield County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2678
+2025,49,019,49019,Grand County,101,1-unit,single_family,42,42,15960382,42,42,15960382,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2679
+2025,49,019,49019,Grand County,103,2-unit,multifamily,3,6,933525,3,6,933525,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2679
+2025,49,019,49019,Grand County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2679
+2025,49,019,49019,Grand County,105,5-plus-unit,multifamily,4,76,12675781,4,76,12675781,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2679
+2025,49,021,49021,Iron County,101,1-unit,single_family,678,678,190390382,678,678,190390382,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2680
+2025,49,021,49021,Iron County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2680
+2025,49,021,49021,Iron County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2680
+2025,49,021,49021,Iron County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2680
+2025,49,023,49023,Juab County,101,1-unit,single_family,71,71,30829823,64,64,26897720,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2681
+2025,49,023,49023,Juab County,103,2-unit,multifamily,6,12,2575217,5,10,2191090,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2681
+2025,49,023,49023,Juab County,104,3-4-unit,multifamily,3,11,1201634,3,11,1201634,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2681
+2025,49,023,49023,Juab County,105,5-plus-unit,multifamily,1,8,1396589,1,8,1396589,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2681
+2025,49,025,49025,Kane County,101,1-unit,single_family,122,122,47048917,104,104,40990128,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2682
+2025,49,025,49025,Kane County,103,2-unit,multifamily,2,4,639952,2,4,639952,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2682
+2025,49,025,49025,Kane County,104,3-4-unit,multifamily,1,4,875000,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2682
+2025,49,025,49025,Kane County,105,5-plus-unit,multifamily,2,16,2038620,2,16,2038620,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2682
+2025,49,027,49027,Millard County,101,1-unit,single_family,67,67,17848507,67,67,17848507,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2683
+2025,49,027,49027,Millard County,103,2-unit,multifamily,3,6,1535646,3,6,1535646,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2683
+2025,49,027,49027,Millard County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2683
+2025,49,027,49027,Millard County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2683
+2025,49,029,49029,Morgan County,101,1-unit,single_family,92,92,29875373,92,92,29875373,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2684
+2025,49,029,49029,Morgan County,103,2-unit,multifamily,6,12,2202287,6,12,2202287,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2684
+2025,49,029,49029,Morgan County,104,3-4-unit,multifamily,11,42,8738371,11,42,8738371,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2684
+2025,49,029,49029,Morgan County,105,5-plus-unit,multifamily,8,46,7681723,8,46,7681723,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2684
+2025,49,031,49031,Piute County,101,1-unit,single_family,21,21,3166800,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2685
+2025,49,031,49031,Piute County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2685
+2025,49,031,49031,Piute County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2685
+2025,49,031,49031,Piute County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2685
+2025,49,033,49033,Rich County,101,1-unit,single_family,62,62,34335352,22,22,20200489,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2686
+2025,49,033,49033,Rich County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2686
+2025,49,033,49033,Rich County,104,3-4-unit,multifamily,1,4,1400000,1,4,1400000,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2686
+2025,49,033,49033,Rich County,105,5-plus-unit,multifamily,2,16,6000000,2,16,6000000,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2686
+2025,49,035,49035,Salt Lake County,101,1-unit,single_family,2576,2576,917035696,2566,2566,911132492,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2687
+2025,49,035,49035,Salt Lake County,103,2-unit,multifamily,34,68,16011506,27,54,13321491,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2687
+2025,49,035,49035,Salt Lake County,104,3-4-unit,multifamily,29,101,30508274,29,101,30508274,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2687
+2025,49,035,49035,Salt Lake County,105,5-plus-unit,multifamily,82,4434,1023835457,82,4434,1023835457,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2687
+2025,49,037,49037,San Juan County,101,1-unit,single_family,49,49,18881061,4,4,1146423,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2688
+2025,49,037,49037,San Juan County,103,2-unit,multifamily,3,6,896537,2,4,477524,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2688
+2025,49,037,49037,San Juan County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2688
+2025,49,037,49037,San Juan County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2688
+2025,49,039,49039,Sanpete County,101,1-unit,single_family,190,190,78638443,190,190,78638443,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2689
+2025,49,039,49039,Sanpete County,103,2-unit,multifamily,16,32,8572342,16,32,8572342,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2689
+2025,49,039,49039,Sanpete County,104,3-4-unit,multifamily,1,4,970458,1,4,970458,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2689
+2025,49,039,49039,Sanpete County,105,5-plus-unit,multifamily,2,12,3231184,2,12,3231184,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2689
+2025,49,041,49041,Sevier County,101,1-unit,single_family,97,97,43574509,97,97,43574509,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2690
+2025,49,041,49041,Sevier County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2690
+2025,49,041,49041,Sevier County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2690
+2025,49,041,49041,Sevier County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2690
+2025,49,043,49043,Summit County,101,1-unit,single_family,334,334,316214651,334,334,316214651,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2691
+2025,49,043,49043,Summit County,103,2-unit,multifamily,1,2,3135968,1,2,3135968,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2691
+2025,49,043,49043,Summit County,104,3-4-unit,multifamily,2,8,3483242,2,8,3483242,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2691
+2025,49,043,49043,Summit County,105,5-plus-unit,multifamily,8,219,80340026,8,219,80340026,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2691
+2025,49,045,49045,Tooele County,101,1-unit,single_family,439,439,166219520,432,432,163677645,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2692
+2025,49,045,49045,Tooele County,103,2-unit,multifamily,4,8,2638011,4,8,2638011,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2692
+2025,49,045,49045,Tooele County,104,3-4-unit,multifamily,10,39,11220741,10,39,11220741,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2692
+2025,49,045,49045,Tooele County,105,5-plus-unit,multifamily,7,37,11379178,7,37,11379178,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2692
+2025,49,047,49047,Uintah County,101,1-unit,single_family,98,98,37938843,98,98,37938843,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2693
+2025,49,047,49047,Uintah County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2693
+2025,49,047,49047,Uintah County,104,3-4-unit,multifamily,1,4,1227008,1,4,1227008,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2693
+2025,49,047,49047,Uintah County,105,5-plus-unit,multifamily,3,68,9000000,3,68,9000000,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2693
+2025,49,049,49049,Utah County,101,1-unit,single_family,5324,5324,1782326563,5294,5294,1754018661,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2694
+2025,49,049,49049,Utah County,103,2-unit,multifamily,11,22,5426800,11,22,5426800,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2694
+2025,49,049,49049,Utah County,104,3-4-unit,multifamily,45,169,35810197,45,169,35810197,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2694
+2025,49,049,49049,Utah County,105,5-plus-unit,multifamily,145,1687,278948299,145,1687,278948299,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2694
+2025,49,051,49051,Wasatch County,101,1-unit,single_family,786,786,728972938,758,758,701960751,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2695
+2025,49,051,49051,Wasatch County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2695
+2025,49,051,49051,Wasatch County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2695
+2025,49,051,49051,Wasatch County,105,5-plus-unit,multifamily,8,342,62026492,8,342,62026492,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2695
+2025,49,053,49053,Washington County,101,1-unit,single_family,2497,2497,607103625,2475,2475,603310585,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2696
+2025,49,053,49053,Washington County,103,2-unit,multifamily,5,10,2320946,5,10,2320946,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2696
+2025,49,053,49053,Washington County,104,3-4-unit,multifamily,6,24,7181263,6,24,7181263,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2696
+2025,49,053,49053,Washington County,105,5-plus-unit,multifamily,20,326,39412227,20,326,39412227,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2696
+2025,49,055,49055,Wayne County,101,1-unit,single_family,29,29,10893780,29,29,10893780,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2697
+2025,49,055,49055,Wayne County,103,2-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2697
+2025,49,055,49055,Wayne County,104,3-4-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2697
+2025,49,055,49055,Wayne County,105,5-plus-unit,multifamily,0,0,0,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2697
+2025,49,057,49057,Weber County,101,1-unit,single_family,813,813,313976308,516,516,223407972,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2698
+2025,49,057,49057,Weber County,103,2-unit,multifamily,3,6,1138764,0,0,0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2698
+2025,49,057,49057,Weber County,104,3-4-unit,multifamily,16,57,12534421,16,57,12534421,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2698
+2025,49,057,49057,Weber County,105,5-plus-unit,multifamily,57,614,114896883,42,272,62117279,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2698

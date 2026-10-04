@@ -1,0 +1,63 @@
+dataset,field,data_type,unit,definition,source_or_derivation
+county_annual,year,integer,calendar year,Annual period; 2020 is only the growth baseline.,County field 1; state field 1 uses YYYY99.
+county_annual,state_fips,text,code,Two-character state identifier; Utah is 49.,County/state field 2.
+county_annual,county_fips,text,code,Three-character county identifier; preserve leading zeros.,County field 3.
+county_annual,county_fips5,text,code,Five-character unique county identifier.,state_fips + county_fips; primary-key component.
+county_annual,county_name,text,name,"Census county name, with leading/trailing spaces removed.",County field 6.
+county_annual,single_family_units,integer,count,"Units in 1-unit buildings, including qualifying attached homes.",county_by_structure estimated_units for 101.
+county_annual,two_unit_units,integer,count,Units in 2-unit buildings.,county_by_structure estimated_units for 103.
+county_annual,three_four_unit_units,integer,count,Units in 3-4-unit buildings.,county_by_structure estimated_units for 104.
+county_annual,five_plus_unit_units,integer,count,Units in buildings containing at least 5 units.,county_by_structure estimated_units for 105.
+county_annual,total_buildings,integer,count,Total estimated residential buildings authorized.,Sum estimated_buildings across all four structure types.
+county_annual,total_units,integer,count,Total estimated housing units authorized; includes imputation.,Sum estimated_units across all four structure types.
+county_annual,multifamily_units,integer,count,Estimated units in structures containing two or more units.,two_unit_units + three_four_unit_units + five_plus_unit_units.
+county_annual,total_valuation_usd,integer,USD,Total estimated nominal permit valuation.,Sum estimated_valuation_usd across all four structure types.
+county_annual,reported_buildings,integer,count,Reported-only residential buildings authorized.,Sum reported_buildings across all four structure types.
+county_annual,reported_units,integer,count,Reported-only housing units authorized.,Sum reported_units across all four structure types.
+county_annual,reported_valuation_usd,integer,USD,Reported-only nominal permit valuation.,Sum reported_valuation_usd across all four structure types.
+county_annual,imputed_units,integer,count,Units added through Census imputation.,total_units - reported_units.
+county_annual,imputed_unit_share,decimal / nullable,proportion 0-1,Share of estimated units contributed by imputation; not an office response rate or confidence score.,imputed_units / total_units; blank if total_units is zero.
+county_annual,period_role,text,category,baseline for 2020; analysis for 2021-2025.,Assigned from year; exclude baseline from five-year averages/rankings.
+county_annual,coverage_basis,text,method,Survey permit-office universe used for the annual estimate.,2014 fixed universe through 2022; annually updated from 2023. See DOC-2023-FAQ.
+county_annual,source_id,text,key,Join to sources/download_manifest.csv to find URL and retrieval metadata.,Annual county BPS-CO-YYYY or state BPS-ST-YYYY.
+county_annual,source_file,text,relative path,Location of unchanged original file inside this package.,raw/county/coYYYYa.txt or raw/state/stYYYYa.txt.
+county_annual,source_line,integer,line number,One-based physical source line including header rows.,Recorded while parsing original text file.
+county_by_structure,year,integer,calendar year,Annual period; 2020 is only the growth baseline.,County field 1; state field 1 uses YYYY99.
+county_by_structure,state_fips,text,code,Two-character state identifier; Utah is 49.,County/state field 2.
+county_by_structure,county_fips,text,code,Three-character county identifier; preserve leading zeros.,County field 3.
+county_by_structure,county_fips5,text,code,Five-character unique county identifier.,state_fips + county_fips; primary-key component.
+county_by_structure,county_name,text,name,"Census county name, with leading/trailing spaces removed.",County field 6.
+county_by_structure,structure_code,text,code,101 = 1 unit; 103 = 2 units; 104 = 3-4 units; 105 = 5+ units.,C-404 item codes assigned from source column groups.
+county_by_structure,structure_type,text,category,Number of housing units per residential building.,Mapped from structure_code.
+county_by_structure,housing_group,text,category,single_family = code 101; multifamily = codes 103/104/105.,Mapped from structure_code; single family includes qualifying attached homes.
+county_by_structure,estimated_buildings,integer,count,Residential buildings authorized; not individual permit-document counts. Includes reported data and Census imputation.,"County fields 7, 10, 13, 16, respectively for codes 101/103/104/105."
+county_by_structure,estimated_units,integer,count,Housing units authorized within residential buildings. Includes reported data and Census imputation.,"County fields 8, 11, 14, 17, respectively for codes 101/103/104/105."
+county_by_structure,estimated_valuation_usd,integer,USD,"Permit valuation in whole nominal U.S. dollars; not sales, profit, or inflation-adjusted cost. Includes reported data and Census imputation.","County fields 9, 12, 15, 18, respectively for codes 101/103/104/105."
+county_by_structure,reported_buildings,integer,count,Residential buildings authorized; not individual permit-document counts. Reported-only data; excludes Census imputation.,"County fields 19, 22, 25, 28, respectively for codes 101/103/104/105."
+county_by_structure,reported_units,integer,count,Housing units authorized within residential buildings. Reported-only data; excludes Census imputation.,"County fields 20, 23, 26, 29, respectively for codes 101/103/104/105."
+county_by_structure,reported_valuation_usd,integer,USD,"Permit valuation in whole nominal U.S. dollars; not sales, profit, or inflation-adjusted cost. Reported-only data; excludes Census imputation.","County fields 21, 24, 27, 30, respectively for codes 101/103/104/105."
+county_by_structure,period_role,text,category,baseline for 2020; analysis for 2021-2025.,Assigned from year; exclude baseline from five-year averages/rankings.
+county_by_structure,coverage_basis,text,method,Survey permit-office universe used for the annual estimate.,2014 fixed universe through 2022; annually updated from 2023. See DOC-2023-FAQ.
+county_by_structure,source_id,text,key,Join to sources/download_manifest.csv to find URL and retrieval metadata.,Annual county BPS-CO-YYYY or state BPS-ST-YYYY.
+county_by_structure,source_file,text,relative path,Location of unchanged original file inside this package.,raw/county/coYYYYa.txt or raw/state/stYYYYa.txt.
+county_by_structure,source_line,integer,line number,One-based physical source line including header rows.,Recorded while parsing original text file.
+counties,state_fips,text,code,Two-character state identifier; Utah is 49.,County/state field 2.
+counties,county_fips,text,code,Three-character county identifier; preserve leading zeros.,County field 3.
+counties,county_fips5,text,code,Five-character unique county identifier.,state_fips + county_fips; primary-key component.
+counties,county_name,text,name,"Census county name, with leading/trailing spaces removed.",County field 6.
+utah_state_controls,year,integer,calendar year,Annual period; 2020 is only the growth baseline.,County field 1; state field 1 uses YYYY99.
+utah_state_controls,state_fips,text,code,Two-character state identifier; Utah is 49.,County/state field 2.
+utah_state_controls,state_name,text,name,State name.,State field 5.
+utah_state_controls,structure_code,text,code,101 = 1 unit; 103 = 2 units; 104 = 3-4 units; 105 = 5+ units.,C-404 item codes assigned from source column groups.
+utah_state_controls,structure_type,text,category,Number of housing units per residential building.,Mapped from structure_code.
+utah_state_controls,estimated_buildings,integer,count,Estimated state buildings; separate state-file control.,"State fields 6, 9, 12, 15, respectively for codes 101/103/104/105."
+utah_state_controls,estimated_units,integer,count,Estimated state units; separate state-file control.,"State fields 7, 10, 13, 16, respectively for codes 101/103/104/105."
+utah_state_controls,estimated_valuation_thousand_usd,integer,thousand USD,Estimated state valuation thousand usd; separate state-file control.,"State fields 8, 11, 14, 17, respectively for codes 101/103/104/105."
+utah_state_controls,estimated_valuation_usd,integer,USD,Estimated state valuation converted from rounded thousands; a reconciliation control.,estimated_valuation_thousand_usd * 1000.
+utah_state_controls,reported_buildings,integer,count,Reported state buildings; separate state-file control.,"State fields 18, 21, 24, 27, respectively for codes 101/103/104/105."
+utah_state_controls,reported_units,integer,count,Reported state units; separate state-file control.,"State fields 19, 22, 25, 28, respectively for codes 101/103/104/105."
+utah_state_controls,reported_valuation_thousand_usd,integer,thousand USD,Reported state valuation thousand usd; separate state-file control.,"State fields 20, 23, 26, 29, respectively for codes 101/103/104/105."
+utah_state_controls,reported_valuation_usd,integer,USD,Reported state valuation converted from rounded thousands; a reconciliation control.,reported_valuation_thousand_usd * 1000.
+utah_state_controls,source_id,text,key,Join to sources/download_manifest.csv to find URL and retrieval metadata.,Annual county BPS-CO-YYYY or state BPS-ST-YYYY.
+utah_state_controls,source_file,text,relative path,Location of unchanged original file inside this package.,raw/county/coYYYYa.txt or raw/state/stYYYYa.txt.
+utah_state_controls,source_line,integer,line number,One-based physical source line including header rows.,Recorded while parsing original text file.

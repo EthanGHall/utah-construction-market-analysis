@@ -1,0 +1,175 @@
+year,state_fips,county_fips,county_fips5,county_name,single_family_units,two_unit_units,three_four_unit_units,five_plus_unit_units,total_buildings,total_units,multifamily_units,total_valuation_usd,reported_buildings,reported_units,reported_valuation_usd,imputed_units,imputed_unit_share,period_role,coverage_basis,source_id,source_file,source_line
+2020,49,001,49001,Beaver County,38,0,4,0,39,42,4,11814547,39,42,11814547,0,0.0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2675
+2020,49,003,49003,Box Elder County,381,4,60,88,412,533,152,92714260,266,384,57099185,149,0.2795497185741088,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2676
+2020,49,005,49005,Cache County,987,6,31,586,1030,1610,623,321528306,1030,1610,321528306,0,0.0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2677
+2020,49,007,49007,Carbon County,21,2,0,0,22,23,2,6817438,22,23,6817438,0,0.0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2678
+2020,49,009,49009,Daggett County,9,0,0,0,9,9,0,2258152,4,4,764369,5,0.5555555555555556,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2679
+2020,49,011,49011,Davis County,1946,12,25,434,1974,2417,471,603236927,1974,2417,603236927,0,0.0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2680
+2020,49,013,49013,Duchesne County,101,0,4,0,102,105,4,24105274,54,54,13654909,51,0.4857142857142857,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2681
+2020,49,015,49015,Emery County,7,0,0,0,7,7,0,1628900,0,0,0,7,1.0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2682
+2020,49,017,49017,Garfield County,58,0,0,0,58,58,0,12107805,58,58,12107805,0,0.0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2683
+2020,49,019,49019,Grand County,71,12,24,0,83,107,36,22796380,83,107,22796380,0,0.0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2684
+2020,49,021,49021,Iron County,473,2,0,39,475,514,41,109378486,203,203,43339166,311,0.6050583657587548,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2685
+2020,49,023,49023,Juab County,69,10,4,25,80,108,39,28711867,64,92,22873282,16,0.14814814814814814,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2686
+2020,49,025,49025,Kane County,231,2,3,0,233,236,5,60386201,232,235,60103366,1,0.00423728813559322,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2687
+2020,49,027,49027,Millard County,55,4,4,0,58,63,8,10711866,57,62,10435715,1,0.015873015873015872,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2688
+2020,49,029,49029,Morgan County,80,0,25,0,87,105,25,44884698,87,105,44884698,0,0.0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2689
+2020,49,031,49031,Piute County,26,0,0,0,26,26,0,4155930,0,0,0,26,1.0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2690
+2020,49,033,49033,Rich County,53,0,0,0,53,53,0,17192563,0,0,0,53,1.0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2691
+2020,49,035,49035,Salt Lake County,4322,274,249,5256,4638,10101,5779,2014033380,3879,8892,1766486779,1209,0.11969111969111969,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2692
+2020,49,037,49037,San Juan County,46,0,0,0,46,46,0,7171344,8,8,1371912,38,0.8260869565217391,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2693
+2020,49,039,49039,Sanpete County,73,0,0,0,73,73,0,14797439,73,73,14797439,0,0.0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2694
+2020,49,041,49041,Sevier County,101,4,0,0,103,105,4,25115061,103,105,25115061,0,0.0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2695
+2020,49,043,49043,Summit County,199,4,40,72,226,315,116,161870436,100,116,89219807,199,0.6317460317460317,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2696
+2020,49,045,49045,Tooele County,881,6,11,34,890,932,51,213859857,890,932,213859857,0,0.0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2697
+2020,49,047,49047,Uintah County,59,0,0,0,59,59,0,16891102,59,59,16891102,0,0.0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2698
+2020,49,049,49049,Utah County,6731,38,391,699,6926,7859,1128,2068190516,6807,7740,2021252560,119,0.015141875556686602,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2699
+2020,49,051,49051,Wasatch County,496,0,0,21,498,517,21,270565166,493,512,268388916,5,0.009671179883945842,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2700
+2020,49,053,49053,Washington County,2939,14,51,310,2977,3314,375,641709080,2517,2834,556006818,480,0.14484007242003621,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2701
+2020,49,055,49055,Wayne County,31,0,0,0,31,31,0,7760000,31,31,7760000,0,0.0,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2702
+2020,49,057,49057,Weber County,1817,10,122,458,1877,2407,590,471047819,1846,2337,459309002,70,0.029081844619858747,baseline,2014 fixed universe,BPS-CO-2020,raw/county/co2020a.txt,2703
+2021,49,001,49001,Beaver County,56,2,4,0,58,62,6,18901796,58,62,18901796,0,0.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2675
+2021,49,003,49003,Box Elder County,468,2,43,368,505,881,413,150910126,407,783,127047732,98,0.1112372304199773,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2676
+2021,49,005,49005,Cache County,902,0,35,200,935,1137,235,322560467,935,1137,322560467,0,0.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2677
+2021,49,007,49007,Carbon County,42,0,0,0,42,42,0,12847746,42,42,12847746,0,0.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2678
+2021,49,009,49009,Daggett County,17,0,0,0,17,17,0,5072265,11,11,3307886,6,0.35294117647058826,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2679
+2021,49,011,49011,Davis County,2004,2,4,1802,2051,3812,1808,818499697,2051,3812,818499697,0,0.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2680
+2021,49,013,49013,Duchesne County,130,2,4,0,132,136,6,34080122,71,72,20818205,64,0.47058823529411764,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2681
+2021,49,015,49015,Emery County,14,0,0,0,14,14,0,2746330,14,14,2746330,0,0.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2682
+2021,49,017,49017,Garfield County,76,0,0,0,76,76,0,17370698,76,76,17370698,0,0.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2683
+2021,49,019,49019,Grand County,81,6,0,6,85,93,12,24764210,85,93,24764210,0,0.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2684
+2021,49,021,49021,Iron County,552,110,114,115,664,891,339,201753902,664,891,201753902,0,0.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2685
+2021,49,023,49023,Juab County,112,4,14,5,119,135,23,37855333,102,118,31618396,17,0.1259259259259259,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2686
+2021,49,025,49025,Kane County,327,0,11,0,330,338,11,65153688,114,120,14975512,218,0.6449704142011834,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2687
+2021,49,027,49027,Millard County,49,0,4,0,50,53,4,10863845,46,49,9697192,4,0.07547169811320754,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2688
+2021,49,029,49029,Morgan County,98,4,36,15,113,153,55,58118055,113,153,58118055,0,0.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2689
+2021,49,031,49031,Piute County,33,0,0,0,33,33,0,5258556,0,0,0,33,1.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2690
+2021,49,033,49033,Rich County,68,0,0,0,68,68,0,22067697,0,0,0,68,1.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2691
+2021,49,035,49035,Salt Lake County,4350,188,260,5851,4642,10649,6299,2125291285,4217,6675,1540487149,3974,0.3731805803361818,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2692
+2021,49,037,49037,San Juan County,161,0,0,0,161,161,0,48658403,161,161,48658403,0,0.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2693
+2021,49,039,49039,Sanpete County,227,0,0,0,227,227,0,40905899,227,227,40905899,0,0.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2694
+2021,49,041,49041,Sevier County,66,2,0,120,68,188,122,40580709,68,188,40580709,0,0.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2695
+2021,49,043,49043,Summit County,286,0,30,123,318,439,153,222251344,140,150,119177822,289,0.6583143507972665,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2696
+2021,49,045,49045,Tooele County,988,2,3,0,990,993,5,259797635,990,993,259797635,0,0.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2697
+2021,49,047,49047,Uintah County,86,0,0,0,86,86,0,25614985,86,86,25614985,0,0.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2698
+2021,49,049,49049,Utah County,7450,98,232,3260,7794,11040,3590,2733360389,7780,11026,2727281057,14,0.0012681159420289854,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2699
+2021,49,051,49051,Wasatch County,894,8,0,277,912,1179,285,625259702,906,1173,622648202,6,0.005089058524173028,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2700
+2021,49,053,49053,Washington County,3218,44,28,194,3273,3484,266,721283247,2819,3030,648983605,454,0.13030998851894374,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2701
+2021,49,055,49055,Wayne County,33,2,0,0,34,35,2,7542861,34,35,7542861,0,0.0,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2702
+2021,49,057,49057,Weber County,1635,4,57,940,1690,2636,1001,528655280,1524,2385,475316816,251,0.09522003034901366,analysis,2014 fixed universe,BPS-CO-2021,raw/county/co2021a.txt,2703
+2022,49,001,49001,Beaver County,63,0,0,0,63,63,0,15183118,63,63,15183118,0,0.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2674
+2022,49,003,49003,Box Elder County,327,2,24,125,346,478,151,126091983,279,411,108822725,67,0.1401673640167364,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2675
+2022,49,005,49005,Cache County,724,4,4,313,753,1045,321,296307926,745,1037,294036476,8,0.007655502392344498,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2676
+2022,49,007,49007,Carbon County,64,0,0,0,64,64,0,21067804,64,64,21067804,0,0.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2677
+2022,49,009,49009,Daggett County,20,0,0,0,20,20,0,5297285,20,20,5297285,0,0.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2678
+2022,49,011,49011,Davis County,1346,0,27,802,1393,2175,829,541166152,1393,2175,541166152,0,0.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2679
+2022,49,013,49013,Duchesne County,176,0,7,0,178,183,7,45421723,118,121,32447461,62,0.33879781420765026,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2680
+2022,49,015,49015,Emery County,40,0,0,0,40,40,0,4824176,40,40,4824176,0,0.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2681
+2022,49,017,49017,Garfield County,66,0,0,0,66,66,0,14530930,66,66,14530930,0,0.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2682
+2022,49,019,49019,Grand County,64,18,19,0,78,101,37,22571070,78,101,22571070,0,0.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2683
+2022,49,021,49021,Iron County,989,0,0,43,996,1032,43,212315653,996,1032,212315653,0,0.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2684
+2022,49,023,49023,Juab County,73,14,18,17,89,122,49,30743593,89,122,30743593,0,0.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2685
+2022,49,025,49025,Kane County,203,0,4,0,204,207,4,58524680,184,184,54204680,23,0.1111111111111111,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2686
+2022,49,027,49027,Millard County,58,2,4,0,60,64,6,12127923,56,60,10961270,4,0.0625,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2687
+2022,49,029,49029,Morgan County,47,0,16,0,52,63,16,36108364,52,63,36108364,0,0.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2688
+2022,49,031,49031,Piute County,36,0,0,0,36,36,0,5944980,9,9,1873380,27,0.75,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2689
+2022,49,033,49033,Rich County,71,0,0,0,71,71,0,23127537,0,0,0,71,1.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2690
+2022,49,035,49035,Salt Lake County,3339,84,63,5889,3519,9375,6036,1837477116,3273,5470,1294073320,3905,0.4165333333333333,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2691
+2022,49,037,49037,San Juan County,92,0,0,0,92,92,0,30578627,90,90,30313395,2,0.021739130434782608,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2692
+2022,49,039,49039,Sanpete County,186,0,16,0,190,202,16,36306397,190,202,36306397,0,0.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2693
+2022,49,041,49041,Sevier County,105,22,0,36,119,163,58,34098500,108,149,31377000,14,0.08588957055214724,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2694
+2022,49,043,49043,Summit County,470,0,0,90,472,560,90,343573819,472,560,343573819,0,0.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2695
+2022,49,045,49045,Tooele County,653,0,31,43,668,727,74,202440968,668,727,202440968,0,0.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2696
+2022,49,047,49047,Uintah County,86,4,0,0,88,90,4,34772083,88,90,34772083,0,0.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2697
+2022,49,049,49049,Utah County,5080,138,140,2807,5328,8165,3085,2213394113,5317,8154,2208775043,11,0.0013472137170851195,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2698
+2022,49,051,49051,Wasatch County,991,0,6,12,994,1009,18,630435332,988,1003,627823832,6,0.005946481665014866,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2699
+2022,49,053,49053,Washington County,2486,0,40,670,2548,3196,710,608624554,2532,3180,604171424,16,0.0050062578222778474,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2700
+2022,49,055,49055,Wayne County,25,0,4,0,26,29,4,8158251,26,29,8158251,0,0.0,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2701
+2022,49,057,49057,Weber County,1252,6,89,964,1328,2311,1059,541330852,986,1875,426530077,436,0.18866291648636954,analysis,2014 fixed universe,BPS-CO-2022,raw/county/co2022a.txt,2702
+2023,49,001,49001,Beaver County,37,0,0,0,37,37,0,13156727,37,37,13156727,0,0.0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2670
+2023,49,003,49003,Box Elder County,238,0,4,28,243,270,32,75180482,185,212,60546730,58,0.21481481481481482,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2671
+2023,49,005,49005,Cache County,610,4,4,339,629,957,347,301319618,622,950,299332101,7,0.0073145245559038665,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2672
+2023,49,007,49007,Carbon County,41,0,0,0,41,41,0,17619642,41,41,17619642,0,0.0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2673
+2023,49,009,49009,Daggett County,20,0,0,0,20,20,0,6428722,11,11,4157006,9,0.45,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2674
+2023,49,011,49011,Davis County,684,0,35,828,752,1547,863,374465911,751,1546,374066870,1,0.0006464124111182935,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2675
+2023,49,013,49013,Duchesne County,107,0,6,0,109,113,6,33913573,58,58,22887898,55,0.48672566371681414,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2676
+2023,49,015,49015,Emery County,43,0,0,12,45,55,12,11154505,45,55,11154505,0,0.0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2677
+2023,49,017,49017,Garfield County,45,0,0,8,46,53,8,17033472,46,53,17033472,0,0.0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2678
+2023,49,019,49019,Grand County,55,10,8,9,63,82,27,21863377,63,82,21863377,0,0.0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2679
+2023,49,021,49021,Iron County,460,0,0,0,460,460,0,129784356,460,460,129784356,0,0.0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2680
+2023,49,023,49023,Juab County,88,0,26,31,101,145,57,36341652,101,145,36341652,0,0.0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2681
+2023,49,025,49025,Kane County,153,0,0,0,153,153,0,35948218,129,129,30645973,24,0.1568627450980392,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2682
+2023,49,027,49027,Millard County,57,12,19,6,69,94,37,17332597,68,93,17035763,1,0.010638297872340425,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2683
+2023,49,029,49029,Morgan County,73,0,37,33,89,143,70,34779224,89,143,34779224,0,0.0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2684
+2023,49,031,49031,Piute County,25,0,0,0,25,25,0,3956100,1,1,336900,24,0.96,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2685
+2023,49,033,49033,Rich County,53,0,0,0,53,53,0,22822120,15,15,9394000,38,0.7169811320754716,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2686
+2023,49,035,49035,Salt Lake County,2572,70,236,5437,2813,8315,5743,1969574680,2522,5358,1533589374,2957,0.355622369212267,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2687
+2023,49,037,49037,San Juan County,65,0,0,0,65,65,0,22079241,25,25,8876843,40,0.6153846153846154,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2688
+2023,49,039,49039,Sanpete County,200,26,12,0,216,238,38,36225306,216,238,36225306,0,0.0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2689
+2023,49,041,49041,Sevier County,82,10,4,44,92,140,58,32795469,92,140,32795469,0,0.0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2690
+2023,49,043,49043,Summit County,270,2,4,57,276,333,63,308502455,276,333,308502455,0,0.0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2691
+2023,49,045,49045,Tooele County,591,26,58,245,654,920,329,226051002,654,920,226051002,0,0.0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2692
+2023,49,047,49047,Uintah County,70,8,8,0,76,86,16,30476226,76,86,30476226,0,0.0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2693
+2023,49,049,49049,Utah County,4575,38,108,1315,4695,6036,1461,1771557277,4648,5988,1725282675,48,0.007952286282306162,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2694
+2023,49,051,49051,Wasatch County,669,6,25,0,679,700,31,525638125,679,700,525638125,0,0.0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2695
+2023,49,053,49053,Washington County,2134,10,38,638,2182,2820,686,542244248,2153,2791,535188825,29,0.01028368794326241,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2696
+2023,49,055,49055,Wayne County,20,0,0,0,20,20,0,6920969,20,20,6920969,0,0.0,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2697
+2023,49,057,49057,Weber County,876,2,80,482,928,1440,564,361975364,478,513,169487104,927,0.64375,analysis,annually updated universe,BPS-CO-2023,raw/county/co2023a.txt,2698
+2024,49,001,49001,Beaver County,39,0,0,0,39,39,0,14086117,39,39,14086117,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2669
+2024,49,003,49003,Box Elder County,397,0,8,74,407,479,82,140592132,357,429,127965412,50,0.10438413361169102,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2670
+2024,49,005,49005,Cache County,871,4,0,146,882,1021,150,344154492,882,1021,344154492,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2671
+2024,49,007,49007,Carbon County,28,0,0,168,35,196,168,39741904,35,196,39741904,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2672
+2024,49,009,49009,Daggett County,10,0,0,0,10,10,0,3566205,10,10,3566205,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2673
+2024,49,011,49011,Davis County,920,2,38,508,960,1468,548,423279162,960,1468,423279162,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2674
+2024,49,013,49013,Duchesne County,123,0,0,0,123,123,0,41080142,70,70,29617661,53,0.43089430894308944,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2675
+2024,49,015,49015,Emery County,55,0,0,0,55,55,0,6092325,55,55,6092325,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2676
+2024,49,017,49017,Garfield County,57,0,0,0,57,57,0,17217025,57,57,17217025,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2677
+2024,49,019,49019,Grand County,120,18,0,100,135,238,118,41784486,135,238,41784486,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2678
+2024,49,021,49021,Iron County,655,0,0,0,655,655,0,202538802,655,655,202538802,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2679
+2024,49,023,49023,Juab County,72,6,22,7,83,107,35,35437625,83,107,35437625,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2680
+2024,49,025,49025,Kane County,196,2,4,0,198,202,6,71005717,167,171,63862003,31,0.15346534653465346,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2681
+2024,49,027,49027,Millard County,76,2,15,0,81,93,17,18437512,79,91,17843844,2,0.021505376344086023,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2682
+2024,49,029,49029,Morgan County,132,16,19,29,149,196,64,71782319,149,196,71782319,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2683
+2024,49,031,49031,Piute County,25,0,0,0,25,25,0,3847375,1,1,228175,24,0.96,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2684
+2024,49,033,49033,Rich County,72,2,4,19,76,97,25,48118316,33,54,32923339,43,0.44329896907216493,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2685
+2024,49,035,49035,Salt Lake County,2848,30,93,1579,2944,4550,1702,1285207139,2925,4522,1274950552,28,0.006153846153846154,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2686
+2024,49,037,49037,San Juan County,48,4,0,0,50,52,4,19769187,50,52,19769187,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2687
+2024,49,039,49039,Sanpete County,210,8,4,44,220,266,56,97186991,220,266,97186991,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2688
+2024,49,041,49041,Sevier County,91,14,4,0,99,109,18,36859210,99,109,36859210,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2689
+2024,49,043,49043,Summit County,388,2,0,529,392,919,531,480610500,392,919,480610500,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2690
+2024,49,045,49045,Tooele County,677,50,83,87,738,897,220,339058125,738,897,339058125,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2691
+2024,49,047,49047,Uintah County,74,4,8,0,78,86,12,29766277,78,86,29766277,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2692
+2024,49,049,49049,Utah County,5174,10,97,1040,5317,6321,1147,1932970837,5156,6160,1884498293,161,0.02547065337763012,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2693
+2024,49,051,49051,Wasatch County,784,0,29,22,796,835,51,568265148,795,834,567829898,1,0.0011976047904191617,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2694
+2024,49,053,49053,Washington County,2467,0,35,650,2510,3152,685,613877835,2423,3065,587445218,87,0.027601522842639593,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2695
+2024,49,055,49055,Wayne County,21,0,3,0,22,24,3,7673057,22,24,7673057,0,0.0,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2696
+2024,49,057,49057,Weber County,1044,10,55,521,1104,1630,586,487007915,706,884,332466197,746,0.45766871165644174,analysis,annually updated universe,BPS-CO-2024,raw/county/co2024a.txt,2697
+2025,49,001,49001,Beaver County,38,0,0,10,40,48,10,17700952,40,48,17700952,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2670
+2025,49,003,49003,Box Elder County,369,0,35,52,386,456,87,155384290,362,432,148598037,24,0.05263157894736842,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2671
+2025,49,005,49005,Cache County,850,0,0,262,864,1112,262,355947428,864,1112,355947428,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2672
+2025,49,007,49007,Carbon County,45,0,0,0,45,45,0,19900132,45,45,19900132,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2673
+2025,49,009,49009,Daggett County,17,0,0,0,17,17,0,6678405,17,17,6678405,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2674
+2025,49,011,49011,Davis County,841,8,72,996,888,1917,1076,489625762,888,1917,489625762,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2675
+2025,49,013,49013,Duchesne County,123,0,4,0,124,127,4,39117176,63,66,24012766,61,0.48031496062992124,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2676
+2025,49,015,49015,Emery County,77,0,0,0,77,77,0,7299770,77,77,7299770,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2677
+2025,49,017,49017,Garfield County,27,0,0,0,27,27,0,10535601,27,27,10535601,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2678
+2025,49,019,49019,Grand County,42,6,0,76,49,124,82,29569688,49,124,29569688,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2679
+2025,49,021,49021,Iron County,678,0,0,0,678,678,0,190390382,678,678,190390382,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2680
+2025,49,023,49023,Juab County,71,12,11,8,81,102,31,36003263,73,93,31687033,9,0.08823529411764706,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2681
+2025,49,025,49025,Kane County,122,4,4,16,127,146,24,50602489,108,124,43668700,22,0.1506849315068493,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2682
+2025,49,027,49027,Millard County,67,6,0,0,70,73,6,19384153,70,73,19384153,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2683
+2025,49,029,49029,Morgan County,92,12,42,46,117,192,100,48497754,117,192,48497754,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2684
+2025,49,031,49031,Piute County,21,0,0,0,21,21,0,3166800,0,0,0,21,1.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2685
+2025,49,033,49033,Rich County,62,0,4,16,65,82,20,41735352,25,42,27600489,40,0.4878048780487805,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2686
+2025,49,035,49035,Salt Lake County,2576,68,101,4434,2721,7179,4603,1987390933,2704,7155,1978797714,24,0.003343083994985374,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2687
+2025,49,037,49037,San Juan County,49,6,0,0,52,55,6,19777598,6,8,1623947,47,0.8545454545454545,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2688
+2025,49,039,49039,Sanpete County,190,32,4,12,209,238,48,91412427,209,238,91412427,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2689
+2025,49,041,49041,Sevier County,97,0,0,0,97,97,0,43574509,97,97,43574509,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2690
+2025,49,043,49043,Summit County,334,2,8,219,345,563,229,403173887,345,563,403173887,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2691
+2025,49,045,49045,Tooele County,439,8,39,37,460,523,84,191457450,453,516,188915575,7,0.01338432122370937,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2692
+2025,49,047,49047,Uintah County,98,0,4,68,102,170,72,48165851,102,170,48165851,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2693
+2025,49,049,49049,Utah County,5324,22,169,1687,5525,7202,1878,2102511859,5495,7172,2074203957,30,0.004165509580672035,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2694
+2025,49,051,49051,Wasatch County,786,0,0,342,794,1128,342,790999430,766,1100,763987243,28,0.024822695035460994,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2695
+2025,49,053,49053,Washington County,2497,10,24,326,2528,2857,360,656018061,2506,2835,652225021,22,0.0077003850192509625,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2696
+2025,49,055,49055,Wayne County,29,0,0,0,29,29,0,10893780,29,29,10893780,0,0.0,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2697
+2025,49,057,49057,Weber County,813,6,57,614,889,1490,677,442546376,574,845,298059672,645,0.43288590604026844,analysis,annually updated universe,BPS-CO-2025,raw/county/co2025a.txt,2698

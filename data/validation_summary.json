@@ -1,0 +1,41 @@
+{
+  "county_rows": 174,
+  "structure_rows": 696,
+  "counties": 29,
+  "source_files": 21,
+  "checks_passed": 19,
+  "checks_total": 19,
+  "reconciliation_comparisons": 144,
+  "annual_totals": [
+    {
+      "year": 2020,
+      "units": 31775,
+      "valuation_usd": 7287440800
+    },
+    {
+      "year": 2021,
+      "units": 39058,
+      "valuation_usd": 9188026272
+    },
+    {
+      "year": 2022,
+      "units": 31749,
+      "valuation_usd": 7992545509
+    },
+    {
+      "year": 2023,
+      "units": 25361,
+      "valuation_usd": 6987140658
+    },
+    {
+      "year": 2024,
+      "units": 23902,
+      "valuation_usd": 7421013877
+    },
+    {
+      "year": 2025,
+      "units": 26775,
+      "valuation_usd": 8309461558
+    }
+  ]
+}
