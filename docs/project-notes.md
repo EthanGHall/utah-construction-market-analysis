@@ -21,9 +21,9 @@ Which Utah counties merit further investigation by a residential construction su
 - The yearly validation summary originally counted six passing years. The final check explicitly compares that count with the six expected years to produce a meaningful pass/fail result.
 - Source comparison checks use preserved original Census values. Repeating the same workbook sum is treated as an arithmetic check rather than independent evidence that the source values were imported correctly.
 
-## Authorship and assistance
+## Project context
 
-This is Ethan Hall's independent portfolio case study using public Census data and a hypothetical business scenario. Initial Excel validation work was completed with guided assistance. AI assistance was used for source preparation, remaining validation, analysis code, workbook formatting, charts, and documentation. The repository provides the underlying code and evidence so the work can be inspected and reproduced. No real supplier engagement or measured business outcome is claimed.
+This portfolio case study uses public Census data and a hypothetical business scenario. The repository provides the code and evidence for inspection and reproduction. No real supplier engagement or measured business outcome is claimed.
 
 ## Review prompts
 
