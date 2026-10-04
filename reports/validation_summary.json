@@ -1,5 +1,11 @@
 {
   "status": "PASS",
+  "run": {
+    "id": "3d67d96f983b4230a1381d0398d07727",
+    "started_at_utc": "2026-10-04T20:00:46.757000+00:00",
+    "charts_requested": true,
+    "finished_at_utc": "2026-10-04T20:00:47.416816+00:00"
+  },
   "quality": {
     "structure_measures_compared": 4176,
     "annual_measures_compared": 2262,

@@ -1,8 +1,10 @@
 {
   "status": "passed",
   "workbook": "outputs/Utah_Construction_Analysis.xlsx",
-  "sha256": "06fc0a7ff5390311971a0d4e73e8765ae1c0093945a41689d68867d82793fa51",
+  "sha256": "57e538385c243ec879231a416deab70d9eaa2f26b3eae63d566f970eb469d51a",
   "reference_value_cells_preserved": 11682,
+  "source_timestamp_cells_checked": 21,
+  "source_timestamp_number_format": "yyyy-mm-dd hh:mm:ss",
   "intentional_derived_formula_columns": [
     "County annual H (total units)",
     "County annual I (multifamily units)",
