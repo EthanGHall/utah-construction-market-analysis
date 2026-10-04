@@ -47,3 +47,24 @@ This command uses the Python standard library, rebuilds prepared data, runs the 
 
 The final Excel workbook includes its own visible validation evidence. Source audits and pipeline results are retained separately, so a displayed workbook status can be traced to actual calculations and source records.
 
+## Saved Excel workbook
+
+The [workbook verification results](../reports/workbook_validation.json) record its SHA-256 and confirm that all 11,682 reference value cells were preserved, 609 county comparison metrics match the independent analysis, and all 12 visible validation checks pass. The saved file contains no formula errors. Input-change, blank-input, and duplicate-key tests passed in the artifact calculation engine; native Microsoft Excel recalculation was not exercised.
+
+To inspect the saved workbook independently of the builder, install the optional verification dependency and run:
+
+```bash
+python -m pip install openpyxl
+python scripts/verify_workbook.py
+```
+
+To rebuild the workbook in an environment that provides Codex's `@oai/artifact-tool` package, first run the analysis workflow, then:
+
+```bash
+python scripts/prepare_workbook_inputs.py
+node scripts/build_workbook.mjs
+python scripts/verify_workbook.py
+```
+
+The builder imports the preserved reference workbook, restores live formulas for derived annual measures, and creates the presentation and validation sheets. The three derived columns retain their original numeric results. The original learner workbook is preserved outside this repository.
+
