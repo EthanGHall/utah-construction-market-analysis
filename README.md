@@ -67,5 +67,5 @@ Permit valuations are nominal dollar amounts. Estimated totals already include r
 
 ## Project owner
 
-**Ethan Hall**. Developed with AI assistance.
+**Ethan Hall**.
 
